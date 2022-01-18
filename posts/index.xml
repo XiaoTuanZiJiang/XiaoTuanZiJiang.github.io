@@ -9,14 +9,15 @@
       <link>https://xiaotuanzijiang.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Jan 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://xiaotuanzijiang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaotuanzijiang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>HELLO</title>
-      <link>https://xiaotuanzijiang.github.io/posts/hello/</link>
-      <pubDate>Mon, 18 Jan 2021 11:30:03 +0000</pubDate>
+      <title>LeetCode-219.存在重复元素II</title>
+      <link>https://xiaotuanzijiang.github.io/posts/219/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://xiaotuanzijiang.github.io/posts/hello/</guid>
-      <description>HELLO WORLD! </description>
+      <guid>https://xiaotuanzijiang.github.io/posts/219/</guid>
+      <description>https://leetcode-cn.com/problems/contains-duplicate-ii/
+class Solution { public boolean containsNearbyDuplicate(int[] nums, int k) { HashMap&amp;lt;Integer, Integer&amp;gt; hashMap = new HashMap&amp;lt;&amp;gt;(); for(int i = 0; i &amp;lt; nums.length; i++) { int num = nums[i]; if(hashMap.containsKey(num)) { return true; } hashMap.put(num, null); if(hashMap.size() &amp;gt; k) { hashMap.remove(nums[i - k]); } } return false; } } </description>
     </item>
     
   </channel>
