@@ -19,5 +19,14 @@
       <description>Hello Word! </description>
     </item>
     
+    <item>
+      <title>WORLD</title>
+      <link>https://xiaotuanzijiang.github.io/posts/world/</link>
+      <pubDate>Mon, 17 Jan 2022 20:16:20 +0800</pubDate>
+      
+      <guid>https://xiaotuanzijiang.github.io/posts/world/</guid>
+      <description>Word! </description>
+    </item>
+    
   </channel>
 </rss>
