@@ -9,23 +9,14 @@
       <link>https://xiaotuanzijiang.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 17 Jan 2022 20:16:20 +0800</lastBuildDate><atom:link href="https://xiaotuanzijiang.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>WORLD</title>
-      <link>https://xiaotuanzijiang.github.io/posts/world/</link>
-      <pubDate>Mon, 17 Jan 2022 20:16:20 +0800</pubDate>
-      
-      <guid>https://xiaotuanzijiang.github.io/posts/world/</guid>
-      <description>Word! </description>
-    </item>
-    
+    <lastBuildDate>Mon, 18 Jan 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://xiaotuanzijiang.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HELLO</title>
       <link>https://xiaotuanzijiang.github.io/posts/hello/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <pubDate>Mon, 18 Jan 2021 11:30:03 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/hello/</guid>
-      <description>Desc Text.</description>
+      <description>HELLO WORLD! </description>
     </item>
     
   </channel>

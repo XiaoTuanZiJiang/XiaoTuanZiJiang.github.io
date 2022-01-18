@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xiaotuanzijiang.github.io/posts/</loc>
-    <lastmod>2022-01-17T20:16:20+08:00</lastmod>
+    <loc>https://xiaotuanzijiang.github.io/posts/hello/</loc>
+    <lastmod>2021-01-18T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://xiaotuanzijiang.github.io/posts/world/</loc>
-    <lastmod>2022-01-17T20:16:20+08:00</lastmod>
+    <loc>https://xiaotuanzijiang.github.io/posts/</loc>
+    <lastmod>2021-01-18T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://xiaotuanzijiang.github.io/</loc>
-    <lastmod>2022-01-17T20:16:20+08:00</lastmod>
+    <lastmod>2021-01-18T11:30:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -24,30 +24,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://xiaotuanzijiang.github.io/"
-                />
-  </url><url>
-    <loc>https://xiaotuanzijiang.github.io/tags/first/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://xiaotuanzijiang.github.io/posts/hello/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://xiaotuanzijiang.github.io/tags/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://xiaotuanzijiang.github.io/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="https://xiaotuanzijiang.github.io/fa/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://xiaotuanzijiang.github.io/tags/"
                 />
   </url><url>
     <loc>https://xiaotuanzijiang.github.io/categories/</loc>
@@ -82,6 +58,23 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://xiaotuanzijiang.github.io/series/"
+                />
+  </url><url>
+    <loc>https://xiaotuanzijiang.github.io/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://xiaotuanzijiang.github.io/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://xiaotuanzijiang.github.io/fa/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://xiaotuanzijiang.github.io/tags/"
                 />
   </url>
 </urlset>
