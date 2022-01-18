@@ -12,10 +12,10 @@
     <lastBuildDate>Tue, 19 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaotuanzijiang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-219.存在重复元素II</title>
-      <link>https://xiaotuanzijiang.github.io/posts/219/</link>
+      <link>https://xiaotuanzijiang.github.io/posts/20220119/</link>
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://xiaotuanzijiang.github.io/posts/219/</guid>
+      <guid>https://xiaotuanzijiang.github.io/posts/20220119/</guid>
       <description>https://leetcode-cn.com/problems/contains-duplicate-ii/
 class Solution { public boolean containsNearbyDuplicate(int[] nums, int k) { HashMap&amp;lt;Integer, Integer&amp;gt; hashMap = new HashMap&amp;lt;&amp;gt;(); for(int i = 0; i &amp;lt; nums.length; i++) { int num = nums[i]; if(hashMap.containsKey(num)) { return true; } hashMap.put(num, null); if(hashMap.size() &amp;gt; k) { hashMap.remove(nums[i - k]); } } return false; } } </description>
     </item>
