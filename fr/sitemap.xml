@@ -19,20 +19,33 @@
                 href="https://xiaotuanzijiang.github.io/fr/categories/"
                 />
   </url><url>
+<<<<<<< HEAD
     <loc>https://xiaotuanzijiang.github.io/fr/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="https://xiaotuanzijiang.github.io/series/"
+=======
+    <loc>https://xiaotuanzijiang.github.io/fr/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://xiaotuanzijiang.github.io/"
+>>>>>>> 0e44713ea10293cf39d72866c57026a001e009ba
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
+<<<<<<< HEAD
                 href="https://xiaotuanzijiang.github.io/fa/series/"
+=======
+                href="https://xiaotuanzijiang.github.io/fa/"
+>>>>>>> 0e44713ea10293cf39d72866c57026a001e009ba
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
+<<<<<<< HEAD
                 href="https://xiaotuanzijiang.github.io/fr/series/"
                 />
   </url><url>
@@ -41,15 +54,30 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://xiaotuanzijiang.github.io/tags/"
+=======
+                href="https://xiaotuanzijiang.github.io/fr/"
+                />
+  </url><url>
+    <loc>https://xiaotuanzijiang.github.io/fr/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://xiaotuanzijiang.github.io/series/"
+>>>>>>> 0e44713ea10293cf39d72866c57026a001e009ba
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
+<<<<<<< HEAD
                 href="https://xiaotuanzijiang.github.io/fa/tags/"
+=======
+                href="https://xiaotuanzijiang.github.io/fa/series/"
+>>>>>>> 0e44713ea10293cf39d72866c57026a001e009ba
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
+<<<<<<< HEAD
                 href="https://xiaotuanzijiang.github.io/fr/tags/"
                 />
   </url><url>
@@ -58,16 +86,34 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://xiaotuanzijiang.github.io/"
+=======
+                href="https://xiaotuanzijiang.github.io/fr/series/"
+                />
+  </url><url>
+    <loc>https://xiaotuanzijiang.github.io/fr/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://xiaotuanzijiang.github.io/tags/"
+>>>>>>> 0e44713ea10293cf39d72866c57026a001e009ba
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
+<<<<<<< HEAD
                 href="https://xiaotuanzijiang.github.io/fa/"
+=======
+                href="https://xiaotuanzijiang.github.io/fa/tags/"
+>>>>>>> 0e44713ea10293cf39d72866c57026a001e009ba
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
+<<<<<<< HEAD
                 href="https://xiaotuanzijiang.github.io/fr/"
+=======
+                href="https://xiaotuanzijiang.github.io/fr/tags/"
+>>>>>>> 0e44713ea10293cf39d72866c57026a001e009ba
                 />
   </url>
 </urlset>

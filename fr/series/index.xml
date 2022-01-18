@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
+<<<<<<< HEAD
     <title>Series on XiaoTuanZiJiang</title>
     <link>https://xiaotuanzijiang.github.io/fr/series/</link>
     <description>Recent content in Series on XiaoTuanZiJiang</description>
+=======
+    <title>Series on PaperModL2</title>
+    <link>https://xiaotuanzijiang.github.io/fr/series/</link>
+    <description>Recent content in Series on PaperModL2</description>
+>>>>>>> 0e44713ea10293cf39d72866c57026a001e009ba
     <image>
       <url>https://xiaotuanzijiang.github.io/papermod-cover.png</url>
       <link>https://xiaotuanzijiang.github.io/papermod-cover.png</link>
