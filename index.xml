@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>PaperMod</title>
+    <link>http://xiaotuanzijiang.github.io/</link>
+    <description>Recent content on PaperMod</description>
+    <image>
+      <url>http://xiaotuanzijiang.github.io/papermod-cover.png</url>
+      <link>http://xiaotuanzijiang.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 18 Jan 2022 20:16:20 +0800</lastBuildDate><atom:link href="http://xiaotuanzijiang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello</title>
+      <link>http://xiaotuanzijiang.github.io/posts/hello/</link>
+      <pubDate>Tue, 18 Jan 2022 20:16:20 +0800</pubDate>
+      
+      <guid>http://xiaotuanzijiang.github.io/posts/hello/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://xiaotuanzijiang.github.io/sitemap.xml
