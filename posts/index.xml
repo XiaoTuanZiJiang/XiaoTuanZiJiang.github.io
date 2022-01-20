@@ -17,7 +17,7 @@
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode_%E5%91%A8%E8%B5%9B/</guid>
       <description>第 276 场周赛 2138. 将字符串拆分为若干长度为 k 的组 难度：简单
-class Solution {public String[] divideString(String s, int k, char fill) {int num = s.length() % k;if(num != 0) {num = k - num;while(num-- &amp;gt; 0) {s += fill;}}int len = s.length() / k;String[] ans = new String[len];for(int i = 0; i &amp;lt; len; i++) {ans[i] = s.substring(i*k, (i + 1) * k);}return ans;}} </description>
+class Solution {public String[] divideString(String s, int k, char fill) {int num = s.length() % k;if(num != 0) {num = k - num;while(num-- &amp;gt; 0) {s += fill;}}int len = s.length() / k;String[] ans = new String[len];for(int i = 0; i &amp;lt; len; i++) {ans[i] = s.substring(i*k, (i + 1) * k);}return ans;}} 2139.</description>
     </item>
     
     <item>
@@ -26,7 +26,8 @@ class Solution {public String[] divideString(String s, int k, char fill) {int 
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode_%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/</guid>
-      <description>1.19_LeetCode-219.存在重复元素II class Solution {public boolean containsNearbyDuplicate(int[] nums, int k) {HashMap&amp;lt;Integer, Integer&amp;gt; hashMap = new HashMap&amp;lt;&amp;gt;();for(int i = 0; i &amp;lt; nums.length; i++) {int num = nums[i];if(hashMap.containsKey(num)) {return true;}hashMap.put(num, null);if(hashMap.size() &amp;gt; k) {hashMap.remove(nums[i - k]);}}return false;}} </description>
+      <description>1.19_LeetCode-219.存在重复元素II 难度：简单
+class Solution {public boolean containsNearbyDuplicate(int[] nums, int k) {HashMap&amp;lt;Integer, Integer&amp;gt; hashMap = new HashMap&amp;lt;&amp;gt;();for(int i = 0; i &amp;lt; nums.length; i++) {int num = nums[i];if(hashMap.containsKey(num)) {return true;}hashMap.put(num, null);if(hashMap.size() &amp;gt; k) {hashMap.remove(nums[i - k]);}}return false;}} </description>
     </item>
     
   </channel>
