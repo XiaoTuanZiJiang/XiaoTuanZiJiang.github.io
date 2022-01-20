@@ -16,8 +16,7 @@
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode_%E5%91%A8%E8%B5%9B/</guid>
-      <description>第 276 场周赛 2138. 将字符串拆分为若干长度为 k 的组 难度：简单
-补全分割
+      <description>第 276 场周赛 2138. 将字符串拆分为若干长度为 k 的组 难度：简单	补全分割
 class Solution {public String[] divideString(String s, int k, char fill) {int num = s.length() % k;if(num != 0) {num = k - num;while(num-- &amp;gt; 0) {s += fill;}}int len = s.length() / k;String[] ans = new String[len];for(int i = 0; i &amp;lt; len; i++) {ans[i] = s.substring(i*k, (i + 1) * k);}return ans;}} 2139.</description>
     </item>
     

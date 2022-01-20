@@ -5,8 +5,7 @@
 <meta name=robots content="index, follow">
 <title>LeetCode_周赛 | XiaoTuanZiJiang</title>
 <meta name=keywords content>
-<meta name=description content="第 276 场周赛 2138. 将字符串拆分为若干长度为 k 的组 难度：简单
-补全分割
+<meta name=description content="第 276 场周赛 2138. 将字符串拆分为若干长度为 k 的组 难度：简单	补全分割
 class Solution {public String[] divideString(String s, int k, char fill) {int num = s.length() % k;if(num != 0) {num = k - num;while(num-- > 0) {s += fill;}}int len = s.length() / k;String[] ans = new String[len];for(int i = 0; i < len; i++) {ans[i] = s.substring(i*k, (i + 1) * k);}return ans;}} 2139.">
 <meta name=author content="Me">
 <link rel=canonical href=https://xiaotuanzijiang.github.io/posts/leetcode_%E5%91%A8%E8%B5%9B/>
@@ -26,8 +25,7 @@ class Solution {public String[] divideString(String s, int k, char fill) {int 
 <style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
 </noscript>
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-123-45','auto'),ga('send','pageview'))</script><meta property="og:title" content="LeetCode_周赛">
-<meta property="og:description" content="第 276 场周赛 2138. 将字符串拆分为若干长度为 k 的组 难度：简单
-补全分割
+<meta property="og:description" content="第 276 场周赛 2138. 将字符串拆分为若干长度为 k 的组 难度：简单	补全分割
 class Solution {public String[] divideString(String s, int k, char fill) {int num = s.length() % k;if(num != 0) {num = k - num;while(num-- > 0) {s += fill;}}int len = s.length() / k;String[] ans = new String[len];for(int i = 0; i < len; i++) {ans[i] = s.substring(i*k, (i + 1) * k);}return ans;}} 2139.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://xiaotuanzijiang.github.io/posts/leetcode_%E5%91%A8%E8%B5%9B/"><meta property="og:image" content="https://xiaotuanzijiang.github.io/papermod-cover.png"><meta property="article:section" content="posts">
@@ -36,11 +34,10 @@ class Solution {public String[] divideString(String s, int k, char fill) {int 
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://xiaotuanzijiang.github.io/papermod-cover.png">
 <meta name=twitter:title content="LeetCode_周赛">
-<meta name=twitter:description content="第 276 场周赛 2138. 将字符串拆分为若干长度为 k 的组 难度：简单
-补全分割
+<meta name=twitter:description content="第 276 场周赛 2138. 将字符串拆分为若干长度为 k 的组 难度：简单	补全分割
 class Solution {public String[] divideString(String s, int k, char fill) {int num = s.length() % k;if(num != 0) {num = k - num;while(num-- > 0) {s += fill;}}int len = s.length() / k;String[] ans = new String[len];for(int i = 0; i < len; i++) {ans[i] = s.substring(i*k, (i + 1) * k);}return ans;}} 2139.">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://xiaotuanzijiang.github.io/posts/"},{"@type":"ListItem","position":2,"name":"LeetCode_周赛","item":"https://xiaotuanzijiang.github.io/posts/leetcode_%E5%91%A8%E8%B5%9B/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"LeetCode_周赛","name":"LeetCode_周赛","description":"第 276 场周赛 2138. 将字符串拆分为若干长度为 k 的组 难度：简单\n补全分割\nclass Solution {\rpublic String[] divideString(String s, int k, char fill) {\rint num = s.length() % k;\rif(num != 0) {\rnum = k - num;\rwhile(num-- \u0026gt; 0) {\rs += fill;\r}\r}\rint len = s.length() / k;\rString[] ans = new String[len];\rfor(int i = 0; i \u0026lt; len; i++) {\rans[i] = s.substring(i*k, (i + 1) * k);\r}\rreturn ans;\r}\r}\r 2139.","keywords":[],"articleBody":"第 276 场周赛 2138. 将字符串拆分为若干长度为 k 的组 难度：简单\n补全分割\nclass Solution {\rpublic String[] divideString(String s, int k, char fill) {\rint num = s.length() % k;\rif(num != 0) {\rnum = k - num;\rwhile(num--  0) {\rs += fill;\r}\r}\rint len = s.length() / k;\rString[] ans = new String[len];\rfor(int i = 0; i  2139. 得到目标值的最少行动次数 难度：中等\n贪心\nclass Solution {\rpublic int minMoves(int target, int maxDoubles) {\rint cnt = 0;\rwhile(target  1) {\rif(maxDoubles  0) {\rif((target \u0026 1) == 1) target--;\relse {\rtarget = 1;\rmaxDoubles--;\r}\rcnt++;\r}else {\rreturn target + cnt - 1;\r}\r}\rreturn cnt;\r}\r}\r 2140. 解决智力问题 难度：中等\n逆序dp\nclass Solution {\rpublic long mostPoints(int[][] questions) {\rint n = questions.length;\rlong[] dp = new long[n + 1];\rfor(int i = n -1; i = 0; i--) {\rif(questions[i][1] + i + 1  第 275 场周赛 2133. 检查是否每一行每一列都包含全部整数 难度：简单\nHashSet\nclass Solution {\rpublic boolean checkValid(int[][] matrix) {\rint len = matrix.length;\rHashSet h1 = new HashSet();\rHashSet h2 = new HashSet();\rfor(int i = 0; i  第 69 场双周赛 2129. 将标题首字母大写 难度：简单\nApi+Ascii\nclass Solution {\rpublic String capitalizeTitle(String title) {\rString[] str = title.split(\" \");\rfor(int i = 0; i  2130. 链表最大孪生和 难度：中等\n链表转数组+双指针\nclass Solution {\rpublic int pairSum(ListNode head) {\rif(head.next == null) return 0;\rList list = new ArrayList();\rwhile(head != null) {\rlist.add(head.val);\rhead = head.next;\r}\rInteger[] num = list.toArray(new Integer[0]);\rint mid = num.length  1;\rint max = 0;\rfor(int i = mid - 1; i = 0; i--){\rmax = Math.max(max, num[i] + num[mid++]);\r}\rreturn max;\r}\r}\r 第 274 场周赛 2124. 检查是否所有 A 都在 B 之前 难度：简单\n标记\nclass Solution {\rpublic boolean checkString(String s) {\rchar[] cs = s.toCharArray();\rboolean na = false;\rfor(char c : cs) {\rif(c == 'a' \u0026\u0026 na) return false;\rif(c != 'a') na = true;\r}\rreturn true;\r}\r}\r 2125. 银行中的激光束数量 难度：中等cnt * pre\nclass Solution {\rpublic int numberOfBeams(String[] bank) {\rint ans = 0;\rint pre = 0;\rfor(String s : bank) {\rint cnt = 0;\rchar[] cs = s.toCharArray();\rfor(int i = 0; i  2126. 摧毁小行星 难度：中等\n排序+贪心\nclass Solution {\rpublic boolean asteroidsDestroyed(int mass, int[] asteroids) {\rlong mas = mass;\rArrays.sort(asteroids);\rfor(int i : asteroids) {\rif(mas  第 273 场周赛 2119. 反转两次的数字 难度：简单\n末尾不为0\nclass Solution {\rpublic boolean isSameAfterReversals(int num) {\rreturn !(num != 0 \u0026\u0026 num % 10 == 0);\r}\r} ","wordCount":"576","inLanguage":"en","datePublished":"2021-01-20T00:00:00Z","dateModified":"2021-01-20T00:00:00Z","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://xiaotuanzijiang.github.io/posts/leetcode_%E5%91%A8%E8%B5%9B/"},"publisher":{"@type":"Organization","name":"XiaoTuanZiJiang","logo":{"@type":"ImageObject","url":"https://xiaotuanzijiang.github.io/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"LeetCode_周赛","name":"LeetCode_周赛","description":"第 276 场周赛 2138. 将字符串拆分为若干长度为 k 的组 难度：简单\t补全分割\nclass Solution {\rpublic String[] divideString(String s, int k, char fill) {\rint num = s.length() % k;\rif(num != 0) {\rnum = k - num;\rwhile(num-- \u0026gt; 0) {\rs += fill;\r}\r}\rint len = s.length() / k;\rString[] ans = new String[len];\rfor(int i = 0; i \u0026lt; len; i++) {\rans[i] = s.substring(i*k, (i + 1) * k);\r}\rreturn ans;\r}\r}\r 2139.","keywords":[],"articleBody":"第 276 场周赛 2138. 将字符串拆分为若干长度为 k 的组 难度：简单\t补全分割\nclass Solution {\rpublic String[] divideString(String s, int k, char fill) {\rint num = s.length() % k;\rif(num != 0) {\rnum = k - num;\rwhile(num--  0) {\rs += fill;\r}\r}\rint len = s.length() / k;\rString[] ans = new String[len];\rfor(int i = 0; i  2139. 得到目标值的最少行动次数 难度：中等\t贪心\nclass Solution {\rpublic int minMoves(int target, int maxDoubles) {\rint cnt = 0;\rwhile(target  1) {\rif(maxDoubles  0) {\rif((target \u0026 1) == 1) target--;\relse {\rtarget = 1;\rmaxDoubles--;\r}\rcnt++;\r}else {\rreturn target + cnt - 1;\r}\r}\rreturn cnt;\r}\r}\r 2140. 解决智力问题 难度：中等\t逆序dp\nclass Solution {\rpublic long mostPoints(int[][] questions) {\rint n = questions.length;\rlong[] dp = new long[n + 1];\rfor(int i = n -1; i = 0; i--) {\rif(questions[i][1] + i + 1  第 275 场周赛 2133. 检查是否每一行每一列都包含全部整数 难度：简单\tHashSet\nclass Solution {\rpublic boolean checkValid(int[][] matrix) {\rint len = matrix.length;\rHashSet h1 = new HashSet();\rHashSet h2 = new HashSet();\rfor(int i = 0; i  第 69 场双周赛 2129. 将标题首字母大写 难度：简单\tApi+Ascii\nclass Solution {\rpublic String capitalizeTitle(String title) {\rString[] str = title.split(\" \");\rfor(int i = 0; i  2130. 链表最大孪生和 难度：中等\t链表转数组+双指针\nclass Solution {\rpublic int pairSum(ListNode head) {\rif(head.next == null) return 0;\rList list = new ArrayList();\rwhile(head != null) {\rlist.add(head.val);\rhead = head.next;\r}\rInteger[] num = list.toArray(new Integer[0]);\rint mid = num.length  1;\rint max = 0;\rfor(int i = mid - 1; i = 0; i--){\rmax = Math.max(max, num[i] + num[mid++]);\r}\rreturn max;\r}\r}\r 第 274 场周赛 2124. 检查是否所有 A 都在 B 之前 难度：简单\t标记\nclass Solution {\rpublic boolean checkString(String s) {\rchar[] cs = s.toCharArray();\rboolean na = false;\rfor(char c : cs) {\rif(c == 'a' \u0026\u0026 na) return false;\rif(c != 'a') na = true;\r}\rreturn true;\r}\r}\r 2125. 银行中的激光束数量 难度：中等\tcnt * pre\nclass Solution {\rpublic int numberOfBeams(String[] bank) {\rint ans = 0;\rint pre = 0;\rfor(String s : bank) {\rint cnt = 0;\rchar[] cs = s.toCharArray();\rfor(int i = 0; i  2126. 摧毁小行星 难度：中等\t排序+贪心\nclass Solution {\rpublic boolean asteroidsDestroyed(int mass, int[] asteroids) {\rlong mas = mass;\rArrays.sort(asteroids);\rfor(int i : asteroids) {\rif(mas  第 273 场周赛 2119. 反转两次的数字 难度：简单\t末尾不为0\nclass Solution {\rpublic boolean isSameAfterReversals(int num) {\rreturn !(num != 0 \u0026\u0026 num % 10 == 0);\r}\r} ","wordCount":"576","inLanguage":"en","datePublished":"2021-01-20T00:00:00Z","dateModified":"2021-01-20T00:00:00Z","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://xiaotuanzijiang.github.io/posts/leetcode_%E5%91%A8%E8%B5%9B/"},"publisher":{"@type":"Organization","name":"XiaoTuanZiJiang","logo":{"@type":"ImageObject","url":"https://xiaotuanzijiang.github.io/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -143,8 +140,7 @@ LeetCode_周赛
 </div>
 <div class=post-content><h2 id=第-276-场周赛>第 276 场周赛<a hidden class=anchor aria-hidden=true href=#第-276-场周赛>#</a></h2>
 <h3 id=2138-将字符串拆分为若干长度为-k-的组httpsleetcode-cncomproblemsdivide-a-string-into-groups-of-size-k><a href=https://leetcode-cn.com/problems/divide-a-string-into-groups-of-size-k/>2138. 将字符串拆分为若干长度为 k 的组</a><a hidden class=anchor aria-hidden=true href=#2138-将字符串拆分为若干长度为-k-的组httpsleetcode-cncomproblemsdivide-a-string-into-groups-of-size-k>#</a></h3>
-<p>难度：<font color=#008000>简单</font></p>
-<p>补全分割</p>
+<p>难度：<font color=#008000>简单</font> 补全分割</p>
 <pre><code>class Solution {
     public String[] divideString(String s, int k, char fill) {
     	int num = s.length() % k;
@@ -164,8 +160,7 @@ LeetCode_周赛
 }
 </code></pre>
 <h3 id=2139-得到目标值的最少行动次数httpsleetcode-cncomproblemsdivide-a-string-into-groups-of-size-k><a href=https://leetcode-cn.com/problems/divide-a-string-into-groups-of-size-k/>2139. 得到目标值的最少行动次数</a><a hidden class=anchor aria-hidden=true href=#2139-得到目标值的最少行动次数httpsleetcode-cncomproblemsdivide-a-string-into-groups-of-size-k>#</a></h3>
-<p>难度：<font color=#FFA119>中等</font></p>
-<p>贪心</p>
+<p>难度：<font color=#FFA119>中等</font> 贪心</p>
 <pre><code>class Solution {
     public int minMoves(int target, int maxDoubles) {
     	int cnt = 0;
@@ -186,8 +181,7 @@ LeetCode_周赛
 }
 </code></pre>
 <h3 id=2140-解决智力问题httpsleetcode-cncomproblemssolving-questions-with-brainpower><a href=https://leetcode-cn.com/problems/solving-questions-with-brainpower/>2140. 解决智力问题</a><a hidden class=anchor aria-hidden=true href=#2140-解决智力问题httpsleetcode-cncomproblemssolving-questions-with-brainpower>#</a></h3>
-<p>难度：<font color=#FFA119>中等</font></p>
-<p>逆序dp</p>
+<p>难度：<font color=#FFA119>中等</font> 逆序dp</p>
 <pre><code>class Solution {
     public long mostPoints(int[][] questions) {
     	int n = questions.length;
@@ -205,8 +199,7 @@ LeetCode_周赛
 </code></pre>
 <h2 id=第-275-场周赛>第 275 场周赛<a hidden class=anchor aria-hidden=true href=#第-275-场周赛>#</a></h2>
 <h3 id=2133-检查是否每一行每一列都包含全部整数httpsleetcode-cncomproblemscheck-if-every-row-and-column-contains-all-numbers><a href=https://leetcode-cn.com/problems/check-if-every-row-and-column-contains-all-numbers/>2133. 检查是否每一行每一列都包含全部整数</a><a hidden class=anchor aria-hidden=true href=#2133-检查是否每一行每一列都包含全部整数httpsleetcode-cncomproblemscheck-if-every-row-and-column-contains-all-numbers>#</a></h3>
-<p>难度：<font color=#008000>简单</font></p>
-<p>HashSet</p>
+<p>难度：<font color=#008000>简单</font> HashSet</p>
 <pre><code>class Solution {
     public boolean checkValid(int[][] matrix) {
     	int len = matrix.length;
@@ -227,8 +220,7 @@ LeetCode_周赛
 </code></pre>
 <h2 id=第-69-场双周赛>第 69 场双周赛<a hidden class=anchor aria-hidden=true href=#第-69-场双周赛>#</a></h2>
 <h3 id=2129-将标题首字母大写httpsleetcode-cncomproblemscapitalize-the-title><a href=https://leetcode-cn.com/problems/capitalize-the-title/>2129. 将标题首字母大写</a><a hidden class=anchor aria-hidden=true href=#2129-将标题首字母大写httpsleetcode-cncomproblemscapitalize-the-title>#</a></h3>
-<p>难度：<font color=#008000>简单</font></p>
-<p>Api+Ascii</p>
+<p>难度：<font color=#008000>简单</font> Api+Ascii</p>
 <pre><code>class Solution {
     public String capitalizeTitle(String title) {
     	String[] str = title.split(&quot; &quot;);
@@ -246,8 +238,7 @@ LeetCode_周赛
 }
 </code></pre>
 <h3 id=2130-链表最大孪生和httpsleetcode-cncomproblemsmaximum-twin-sum-of-a-linked-list><a href=https://leetcode-cn.com/problems/maximum-twin-sum-of-a-linked-list/>2130. 链表最大孪生和</a><a hidden class=anchor aria-hidden=true href=#2130-链表最大孪生和httpsleetcode-cncomproblemsmaximum-twin-sum-of-a-linked-list>#</a></h3>
-<p>难度：<font color=#FFA119>中等</font></p>
-<p>链表转数组+双指针</p>
+<p>难度：<font color=#FFA119>中等</font> 链表转数组+双指针</p>
 <pre><code>class Solution {
     public int pairSum(ListNode head) {
     	if(head.next == null) return 0;
@@ -268,8 +259,7 @@ LeetCode_周赛
 </code></pre>
 <h2 id=第-274-场周赛>第 274 场周赛<a hidden class=anchor aria-hidden=true href=#第-274-场周赛>#</a></h2>
 <h3 id=2124-检查是否所有-a-都在-b-之前httpsleetcode-cncomproblemscheck-if-all-as-appears-before-all-bs><a href=https://leetcode-cn.com/problems/check-if-all-as-appears-before-all-bs/>2124. 检查是否所有 A 都在 B 之前</a><a hidden class=anchor aria-hidden=true href=#2124-检查是否所有-a-都在-b-之前httpsleetcode-cncomproblemscheck-if-all-as-appears-before-all-bs>#</a></h3>
-<p>难度：<font color=#008000>简单</font></p>
-<p>标记</p>
+<p>难度：<font color=#008000>简单</font> 标记</p>
 <pre><code>class Solution {
     public boolean checkString(String s) {
     	char[] cs = s.toCharArray();
@@ -283,8 +273,7 @@ LeetCode_周赛
 }
 </code></pre>
 <h3 id=2125-银行中的激光束数量httpsleetcode-cncomproblemsnumber-of-laser-beams-in-a-bank><a href=https://leetcode-cn.com/problems/number-of-laser-beams-in-a-bank/>2125. 银行中的激光束数量</a><a hidden class=anchor aria-hidden=true href=#2125-银行中的激光束数量httpsleetcode-cncomproblemsnumber-of-laser-beams-in-a-bank>#</a></h3>
-<p>难度：<font color=#FFA119>中等&lt;/font</p>
-<p>cnt * pre</p>
+<p>难度：<font color=#FFA119>中等</font> cnt * pre</p>
 <pre><code>class Solution {
     public int numberOfBeams(String[] bank) {
      	int ans = 0;
@@ -305,8 +294,7 @@ LeetCode_周赛
 }
 </code></pre>
 <h3 id=2126-摧毁小行星httpsleetcode-cncomproblemsdestroying-asteroids><a href=https://leetcode-cn.com/problems/destroying-asteroids/>2126. 摧毁小行星</a><a hidden class=anchor aria-hidden=true href=#2126-摧毁小行星httpsleetcode-cncomproblemsdestroying-asteroids>#</a></h3>
-<p>难度：<font color=#FFA119>中等</font></p>
-<p>排序+贪心</p>
+<p>难度：<font color=#FFA119>中等</font> 排序+贪心</p>
 <pre><code>class Solution {
     public boolean asteroidsDestroyed(int mass, int[] asteroids) {
     	long mas = mass;
@@ -321,8 +309,7 @@ LeetCode_周赛
 </code></pre>
 <h2 id=第-273-场周赛>第 273 场周赛<a hidden class=anchor aria-hidden=true href=#第-273-场周赛>#</a></h2>
 <h3 id=2119-反转两次的数字httpsleetcode-cncomproblemsa-number-after-a-double-reversal><a href=https://leetcode-cn.com/problems/a-number-after-a-double-reversal/>2119. 反转两次的数字</a><a hidden class=anchor aria-hidden=true href=#2119-反转两次的数字httpsleetcode-cncomproblemsa-number-after-a-double-reversal>#</a></h3>
-<p>难度：<font color=#008000>简单</font></p>
-<p>末尾不为0</p>
+<p>难度：<font color=#008000>简单</font> 末尾不为0</p>
 <pre><code>class Solution {
     public boolean isSameAfterReversals(int num) {
         return !(num != 0 &amp;&amp; num % 10 == 0);
