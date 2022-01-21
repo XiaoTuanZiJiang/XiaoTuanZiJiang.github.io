@@ -118,36 +118,6 @@ git merge newBranch
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>LeetCode_周赛
-</h2>
-</header>
-<section class=entry-content>
-<p>第 276 场周赛 2138. 将字符串拆分为若干长度为 k 的组 难度：简单
-补全分割
-class Solution {
-public String[] divideString(String s, int k, char fill) {
-int num = s.length() % k;
-if(num != 0) {
-num = k - num;
-while(num-- > 0) {
-s += fill;
-}
-}
-int len = s.length() / k;
-String[] ans = new String[len];
-for(int i = 0; i &lt; len; i++) {
-ans[i] = s.substring(i*k, (i + 1) * k);
-}
-return ans;
-}
-}
-2139....</p>
-</section>
-<footer class=entry-footer><span title="2021-01-20 00:00:00 +0000 +0000">January 20, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to LeetCode_周赛" href=https://xiaotuanzijiang.github.io/posts/leetcode_%E5%91%A8%E8%B5%9B/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
 <h2>UNTIL
 </h2>
 </header>
@@ -159,11 +129,12 @@ return ans;
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>LeetCode_每日一题
+<h2>LeetCode
 </h2>
 </header>
 <section class=entry-content>
-<p>1.19_LeetCode-219.存在重复元素II 难度：简单
+<p>LeetCode_每日一题 1.19_LeetCode-219.存在重复元素II 难度：简单
+HashMap
 class Solution {
 public boolean containsNearbyDuplicate(int[] nums, int k) {
 HashMap&lt;Integer, Integer> hashMap = new HashMap&lt;>();
@@ -180,10 +151,14 @@ hashMap.remove(nums[i - k]);
 return false;
 }
 }
-</p>
+LeetCode_周赛 第 276 场周赛 2138. 将字符串拆分为若干长度为 k 的组 难度：简单
+补全分割
+class Solution {
+public String[] divideString(String s, int k, char fill) {
+int num = s....</p>
 </section>
-<footer class=entry-footer><span title="2021-01-19 00:00:00 +0000 +0000">January 19, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to LeetCode_每日一题" href=https://xiaotuanzijiang.github.io/posts/leetcode_%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/></a>
+<footer class=entry-footer><span title="2021-01-19 00:00:00 +0000 +0000">January 19, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to LeetCode" href=https://xiaotuanzijiang.github.io/posts/leetcode/></a>
 </article>
 </main>
 <footer class=footer>
