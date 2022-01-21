@@ -280,20 +280,20 @@ LeetCode
 <blockquote>
 <p>Api+Ascii</p>
 </blockquote>
-<pre><code>class Solution {
-	public String capitalizeTitle(String title) {
-		String[] str = title.split(&quot; &quot;);
-		for(int i = 0; i &lt; str.length; i++) {
-			if(str[i].length() &lt; 3) {
-				str[i] = str[i].toLowerCase();
-			} else {
-				char[] c = str[i].toLowerCase().toCharArray();
-				c[0] &amp;= ~32;
-				str[i] = String.valueOf(c);
-			}
-		}
-		return String.join(&quot; &quot;, str);
-	}
+<pre><code>class Solution  {
+    public String capitalizeTitle(String title) {
+    	String[] str = title.split(&quot; &quot;);
+    	for(int i = 0; i &lt; str.length; i++) {
+    		if(str[i].length() &lt; 3) {
+    			str[i] = str[i].toLowerCase();
+    		} else {
+    			char[] c = str[i].toLowerCase().toCharArray();
+    			c[0] &amp;= ~32;
+    			str[i] = String.valueOf(c);
+    		}
+    	}
+    	return String.join(&quot; &quot;, str);
+    }
 }
 </code></pre>
 <h3 id=2130-链表最大孪生和httpsleetcode-cncomproblemsmaximum-twin-sum-of-a-linked-list><a href=https://leetcode-cn.com/problems/maximum-twin-sum-of-a-linked-list/>2130. 链表最大孪生和</a><a hidden class=anchor aria-hidden=true href=#2130-链表最大孪生和httpsleetcode-cncomproblemsmaximum-twin-sum-of-a-linked-list>#</a></h3>
@@ -301,22 +301,22 @@ LeetCode
 <blockquote>
 <p>链表转数组+双指针</p>
 </blockquote>
-<pre><code>class Solution {
-	public int pairSum(ListNode head) {
-		if(head.next == null) return 0;
-		List&lt;Integer&gt; list = new ArrayList&lt;&gt;();
-		while(head != null) {
-			list.add(head.val);
-			head = head.next;
-		}
-		Integer[] num = list.toArray(new Integer[0]);
-		int mid = num.length &gt;&gt; 1;
-		int max = 0;
-		for(int i = mid - 1; i &gt;= 0; i--){
-			max = Math.max(max, num[i] + num[mid++]);
-		}
-		return max;
-	}
+<pre><code>class Solution   {
+    public int pairSum(ListNode head) {
+    	if(head.next == null) return 0;
+    	List&lt;Integer&gt; list = new ArrayList&lt;&gt;();
+    	while(head != null) {
+    		list.add(head.val);
+    		head = head.next;
+    	}
+    	Integer[] num = list.toArray(new Integer[0]);
+    	int mid = num.length &gt;&gt; 1;
+    	int max = 0;
+    	for(int i = mid - 1; i &gt;= 0; i--){
+    		max = Math.max(max, num[i] + num[mid++]);
+    	}
+    	return max;
+    }
 }
 </code></pre>
 <h2 id=第-274-场周赛>第 274 场周赛<a hidden class=anchor aria-hidden=true href=#第-274-场周赛>#</a></h2>
