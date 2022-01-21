@@ -42,11 +42,11 @@ git merge newBranch
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 1.19_LeetCode-219.存在重复元素II 难度：简单
+      <description>LeetCode_每日一题 1.19-219.存在重复元素II 难度：简单
  HashMap
- class Solution {public boolean containsNearbyDuplicate(int[] nums, int k) {HashMap&amp;lt;Integer, Integer&amp;gt; hashMap = new HashMap&amp;lt;&amp;gt;();for(int i = 0; i &amp;lt; nums.length; i++) {int num = nums[i];if(hashMap.containsKey(num)) {return true;}hashMap.put(num, null);if(hashMap.size() &amp;gt; k) {hashMap.remove(nums[i - k]);}}return false;}} LeetCode_周赛 第 276 场周赛 2138. 将字符串拆分为若干长度为 k 的组 难度：简单
- 补全分割
- class Solution {public String[] divideString(String s, int k, char fill) {int num = s.</description>
+ class Solution {public boolean containsNearbyDuplicate(int[] nums, int k) {HashMap&amp;lt;Integer, Integer&amp;gt; hashMap = new HashMap&amp;lt;&amp;gt;();for(int i = 0; i &amp;lt; nums.length; i++) {int num = nums[i];if(hashMap.containsKey(num)) {return true;}hashMap.put(num, null);if(hashMap.size() &amp;gt; k) {hashMap.remove(nums[i - k]);}}return false;}} 1.22-1332. 删除回文子序列 难度：简单
+ 模拟
+ class Solution {public int removePalindromeSub(String s) {int n = s.</description>
     </item>
     
     
