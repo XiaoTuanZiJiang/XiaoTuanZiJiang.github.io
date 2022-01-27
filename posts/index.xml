@@ -9,22 +9,7 @@
       <link>https://xiaotuanzijiang.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 27 Jan 2022 01:50:56 +0800</lastBuildDate><atom:link href="https://xiaotuanzijiang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Java多线程</title>
-      <link>https://xiaotuanzijiang.github.io/posts/java%E5%A4%9A%E7%BA%BF%E7%A8%8B/</link>
-      <pubDate>Thu, 27 Jan 2022 01:50:56 +0800</pubDate>
-      
-      <guid>https://xiaotuanzijiang.github.io/posts/java%E5%A4%9A%E7%BA%BF%E7%A8%8B/</guid>
-      <description>线程概述 线程相关概念 进程: 是操作系统进行资源分配和调度的基本单位,可以简单理解为正在操作系统中云心的一个程序 线程: 线程是进程的一个执行单元 主线程与子线程 主线程就是运行main方法的线程 如果在A线程中创建了B线程，那么B线程就是A线程的子线程 串行、并发和并行 串行可以理解为单通道，进程一个一个执行 并发可以理解为多通道，多个进程一起执行 并行是一种更为严格、理想的并发，多个进程同一时间点执行 线程的创建与启动 在Java中，创建一个线程就是创建一个Thread类(子类)的对象(实例) 1、定义Thread类的子类 2、定义一个Runnable接口的实现类  两种创建方法没有本质的区别
- 启动: Thread.start( ); 线程的常用方法 Thread.currentThread( ) &amp;ndash;&amp;gt; 获得当前线程  return: Thread
- Thread.setName(name)/getName( ) &amp;ndash;&amp;gt; 设置线程名称，返回线程名称 Thread.isAlive( ) &amp;ndash;&amp;gt; 判断当前线程是否处于活动状态 Thread.sleep(millis) &amp;ndash;&amp;gt; 指定当前线程休眠的毫秒数 Thread.getId( ) &amp;ndash;&amp;gt; 获得线程的唯一标识 Thread.yieId( ) &amp;ndash;&amp;gt; 使当前线程放弃CPU资源 Thread.setPriority(num) &amp;ndash;&amp;gt; 设置线程优先级  1&amp;lt;=num&amp;lt;=10 超出范围抛出 IllegalArgumentException
-线程优先级本质只是给线程调度器一个提示信息，不能保证优先级高的线程先运行，开发时不必设置线程优先级
-线程优先级具有继承性
- Thread.interrupt( ) &amp;ndash;&amp;gt; 中断线程  仅仅是在当前线程设置停止标志，并不会真正停止线程
- Thread.setDaemon( ) &amp;ndash;&amp;gt; 设置当前线程为守护线程  Java中的线程分为用户线程与守护线程</description>
-    </item>
-    
+    <lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaotuanzijiang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git提交代码时出现Everything up-to-date</title>
       <link>https://xiaotuanzijiang.github.io/posts/git%E9%97%AE%E9%A2%98/</link>
@@ -57,13 +42,9 @@ git merge newBranch
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 1.25-1688. 比赛中的配对次数 难度：简单
- 脑筋急转弯
- class Solution {public int numberOfMatches(int n) {return n - 1;}} 1.22-1332. 删除回文子序列 难度：简单
+      <description>LeetCode_每日一题 1.27-2047. 句子中的有效单词数 难度：简单
  模拟
- class Solution {public int removePalindromeSub(String s) {int n = s.length();for(int i = 0; i &amp;lt; (n &amp;gt;&amp;gt; 1); i++)if(s.charAt(i) != s.charAt(n-1-i)) return 2;return 1;}} 1.19-219.存在重复元素II 难度：简单
- HashMap
- class Solution {public boolean containsNearbyDuplicate(int[] nums, int k) {HashMap&amp;lt;Integer, Integer&amp;gt; hashMap = new HashMap&amp;lt;&amp;gt;();for(int i = 0; i &amp;lt; nums.</description>
+ class Solution {public int countValidWords(String sentence) {String[] ss = sentence.split(&amp;quot; &amp;quot;);int ans = 0;for (String s : ss) if (check(s)) ans++;return ans;}boolean check(String s) {int n = s.length();if (n == 0) return false;for (int i = 0, c1 = 0, c2 = 0; i &amp;lt; n; i++) {char c = s.charAt(i);if (Character.</description>
     </item>
     
   </channel>
