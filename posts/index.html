@@ -116,21 +116,27 @@ git merge newBranch
 </h2>
 </header>
 <section class=entry-content>
-<p>LeetCode_每日一题 1.27-2047. 句子中的有效单词数 难度：简单
+<p>LeetCode_每日一题 1.28-1996. 游戏中弱角色的数量 难度：中等
+排序
+class Solution {
+public int numberOfWeakCharacters(int[][] properties) {
+Arrays.sort(properties,(a,b)->{
+return a[0] == b[0] ? (a[1] - b[1]) : (b[0] - a[0]);
+});
+int cnt = 0;
+int temp = 0;
+for (int[] p : properties) {
+if(p[1] &lt; temp) cnt++;
+else temp = p[1];
+}
+return cnt;
+}
+}
+1.27-2047. 句子中的有效单词数 难度：简单
 模拟
 class Solution {
 public int countValidWords(String sentence) {
-String[] ss = sentence.split(" ");
-int ans = 0;
-for (String s : ss) if (check(s)) ans++;
-return ans;
-}
-boolean check(String s) {
-int n = s.length();
-if (n == 0) return false;
-for (int i = 0, c1 = 0, c2 = 0; i &lt; n; i++) {
-char c = s.charAt(i);
-if (Character....</p>
+String[] ss = sentence....</p>
 </section>
 <footer class=entry-footer><span title="2021-01-19 00:00:00 +0000 +0000">January 19, 2021</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to LeetCode" href=https://xiaotuanzijiang.github.io/posts/leetcode/></a>
