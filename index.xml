@@ -42,11 +42,9 @@ git merge newBranch
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 1.28-1996. 游戏中弱角色的数量 难度：中等
- 排序
- class Solution {public int numberOfWeakCharacters(int[][] properties) {Arrays.sort(properties,(a,b)-&amp;gt;{return a[0] == b[0] ? (a[1] - b[1]) : (b[0] - a[0]);});int cnt = 0;int temp = 0;for (int[] p : properties) {if(p[1] &amp;lt; temp) cnt++;else temp = p[1];}return cnt;}} 1.27-2047. 句子中的有效单词数 难度：简单
- 模拟
- class Solution {public int countValidWords(String sentence) {String[] ss = sentence.</description>
+      <description>LeetCode_每日一题 1.30-884. 两句话中的不常见单词 难度：简单
+ HashMap
+ class Solution {public String[] uncommonFromSentences(String s1, String s2) {Map&amp;lt;String, Integer&amp;gt; map = new HashMap&amp;lt;&amp;gt;();count(s1, map);count(s2, map);List&amp;lt;String&amp;gt; list = new ArrayList&amp;lt;&amp;gt;();map.forEach((k, v) -&amp;gt; {if (v == 1) {list.add(k);}});return list.toArray(new String[list.size()]);}private void count(String s, Map&amp;lt;String, Integer&amp;gt; map) {for (String a : s.split(&amp;quot; &amp;quot;)) {map.put(a, map.getOrDefault(a, 0) + 1);}}} 1.</description>
     </item>
     
     
