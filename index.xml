@@ -42,9 +42,11 @@ git merge newBranch
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 1.30-884. 两句话中的不常见单词 难度：简单
+      <description>LeetCode_每日一题 1.31-1342. 将数字变成 0 的操作次数 难度：简单
+ 模拟
+ class Solution {public int numberOfSteps(int num) {int con = 0;while (num != 0) {num = (num &amp;amp; 1) == 0 ? num &amp;gt;&amp;gt; 1 : num - 1;con++;}return con;}} 1.30-884. 两句话中的不常见单词 难度：简单
  HashMap
- class Solution {public String[] uncommonFromSentences(String s1, String s2) {Map&amp;lt;String, Integer&amp;gt; map = new HashMap&amp;lt;&amp;gt;();count(s1, map);count(s2, map);List&amp;lt;String&amp;gt; list = new ArrayList&amp;lt;&amp;gt;();map.forEach((k, v) -&amp;gt; {if (v == 1) {list.add(k);}});return list.toArray(new String[list.size()]);}private void count(String s, Map&amp;lt;String, Integer&amp;gt; map) {for (String a : s.split(&amp;quot; &amp;quot;)) {map.put(a, map.getOrDefault(a, 0) + 1);}}} 1.</description>
+ class Solution {public String[] uncommonFromSentences(String s1, String s2) {Map&amp;lt;String, Integer&amp;gt; map = new HashMap&amp;lt;&amp;gt;();count(s1, map);count(s2, map);List&amp;lt;String&amp;gt; list = new ArrayList&amp;lt;&amp;gt;();map.</description>
     </item>
     
     

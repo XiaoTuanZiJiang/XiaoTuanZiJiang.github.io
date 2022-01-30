@@ -133,7 +133,19 @@ git merge newBranch
 </h2>
 </header>
 <section class=entry-content>
-<p>LeetCode_每日一题 1.30-884. 两句话中的不常见单词 难度：简单
+<p>LeetCode_每日一题 1.31-1342. 将数字变成 0 的操作次数 难度：简单
+模拟
+class Solution {
+public int numberOfSteps(int num) {
+int con = 0;
+while (num != 0) {
+num = (num & 1) == 0 ? num >> 1 : num - 1;
+con++;
+}
+return con;
+}
+}
+1.30-884. 两句话中的不常见单词 难度：简单
 HashMap
 class Solution {
 public String[] uncommonFromSentences(String s1, String s2) {
@@ -141,20 +153,7 @@ Map&lt;String, Integer> map = new HashMap&lt;>();
 count(s1, map);
 count(s2, map);
 List&lt;String> list = new ArrayList&lt;>();
-map.forEach((k, v) -> {
-if (v == 1) {
-list.add(k);
-}
-});
-return list.toArray(new String[list.size()]);
-}
-private void count(String s, Map&lt;String, Integer> map) {
-for (String a : s.split(" ")) {
-map.put(a, map.getOrDefault(a, 0) + 1);
-}
-}
-}
-1....</p>
+map....</p>
 </section>
 <footer class=entry-footer><span title="2021-01-19 00:00:00 +0000 +0000">January 19, 2021</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to LeetCode" href=https://xiaotuanzijiang.github.io/posts/leetcode/></a>
