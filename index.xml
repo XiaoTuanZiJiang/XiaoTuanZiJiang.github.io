@@ -42,11 +42,11 @@ git merge newBranch
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 1.31-1342. 将数字变成 0 的操作次数 难度：简单
+      <description>LeetCode_每日一题 2.4-1725. 可以形成最大正方形的矩形数目 难度：简单
  模拟
- class Solution {public int numberOfSteps(int num) {int con = 0;while (num != 0) {num = (num &amp;amp; 1) == 0 ? num &amp;gt;&amp;gt; 1 : num - 1;con++;}return con;}} 1.30-884. 两句话中的不常见单词 难度：简单
- HashMap
- class Solution {public String[] uncommonFromSentences(String s1, String s2) {Map&amp;lt;String, Integer&amp;gt; map = new HashMap&amp;lt;&amp;gt;();count(s1, map);count(s2, map);List&amp;lt;String&amp;gt; list = new ArrayList&amp;lt;&amp;gt;();map.</description>
+ class Solution {public int countGoodRectangles(int[][] rectangles) {int max = 0, ans = 0;for (int[] r : rectangles) {int cur = Math.min(r[0], r[1]);if (cur == max) ans++;else if (cur &amp;gt; max) {max = cur; ans = 1;}}return ans;}} 2.2-2000. 反转单词前缀 难度：简单
+ 模拟
+ class Solution {public String reversePrefix(String word, char ch) {StringBuilder sb = new StringBuilder();char[] cs = word.</description>
     </item>
     
     
