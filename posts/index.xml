@@ -42,11 +42,11 @@ git merge newBranch
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 2.4-1725. 可以形成最大正方形的矩形数目 难度：简单
+      <description>LeetCode_每日一题 2.11-1984. 学生分数的最小差值 难度：简单
+ 排序+动态窗口
+ class Solution {public int minimumDifference(int[] nums, int k) {Arrays.sort(nums);int ans = Integer.MAX_VALUE;for (int i = 0; i &amp;lt;= nums.length - k; i++) {ans = Math.min(ans, nums[i + k - 1] - nums[i]);}return ans;}} 2.4-1725. 可以形成最大正方形的矩形数目 难度：简单
  模拟
- class Solution {public int countGoodRectangles(int[][] rectangles) {int max = 0, ans = 0;for (int[] r : rectangles) {int cur = Math.min(r[0], r[1]);if (cur == max) ans++;else if (cur &amp;gt; max) {max = cur; ans = 1;}}return ans;}} 2.2-2000. 反转单词前缀 难度：简单
- 模拟
- class Solution {public String reversePrefix(String word, char ch) {StringBuilder sb = new StringBuilder();char[] cs = word.</description>
+ class Solution {public int countGoodRectangles(int[][] rectangles) {int max = 0, ans = 0;for (int[] r : rectangles) {int cur = Math.</description>
     </item>
     
   </channel>
