@@ -116,26 +116,25 @@ git merge newBranch
 </h2>
 </header>
 <section class=entry-content>
-<p>LeetCode_每日一题 2.14-540. 有序数组中的单一元素 难度：中等
-二分
-class Solution {
-public int singleNonDuplicate(int[] nums) {
-int n = nums.length;
-int l = 0,r = n - 1;
-while(l &lt; r){
-int mid = (l + r) >> 1;
-if((mid & 1) == 0){
-if (mid + 1 &lt; n && nums[mid] == nums[mid + 1]) l = mid + 1;
-else r = mid;
-}else{
-if (mid - 1 >= 0 && nums[mid - 1] == nums[mid]) l = mid + 1;
-else r = mid;
+<p>.mac {
+width:10px;
+height:10px;
+border-radius:5px;
+float:left;
+margin:10px 0 0 5px;
 }
+.b1 {
+background:#E0443E;
+margin-left: 10px;
 }
-return nums[r];
+.b2 { background:#DEA123; }
+.b3 { background:#1AAB29; }
+.warpper{
+background:#121212;
+border-radius:5px;
+width:400px;
 }
-}
-2....</p>
+#include&lt;iostream>using namespace std; int main(){ return 0; } # LeetCode_每日一题 ### [2.14-540. 有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/) 难度：&lt;font color=#FFA119>中等&lt;/font> >二分 class Solution { public int singleNonDuplicate(int[] nums) { int n = nums.length; int l = 0,r = n - 1; while(l &lt; r){ int mid = (l + r) >> 1; if((mid & 1) == 0){ if (mid + 1 &lt; n && nums[mid] == nums[mid + 1]) l = mid + 1; else r = mid; }else{ if (mid - 1 >= 0 && nums[mid - 1] == nums[mid]) l = mid + 1; else r = mid; } } return nums[r]; } } ### [2....</p>
 </section>
 <footer class=entry-footer><span title="2021-01-19 00:00:00 +0000 +0000">January 19, 2021</span>&nbsp;·&nbsp;7 min&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to LeetCode" href=https://xiaotuanzijiang.github.io/posts/leetcode/></a>

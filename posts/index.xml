@@ -42,9 +42,7 @@ git merge newBranch
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 2.14-540. 有序数组中的单一元素 难度：中等
- 二分
- class Solution {public int singleNonDuplicate(int[] nums) {int n = nums.length;int l = 0,r = n - 1;while(l &amp;lt; r){int mid = (l + r) &amp;gt;&amp;gt; 1;if((mid &amp;amp; 1) == 0){if (mid + 1 &amp;lt; n &amp;amp;&amp;amp; nums[mid] == nums[mid + 1]) l = mid + 1;else r = mid;}else{if (mid - 1 &amp;gt;= 0 &amp;amp;&amp;amp; nums[mid - 1] == nums[mid]) l = mid + 1;else r = mid;}}return nums[r];}} 2.</description>
+      <description>.mac {width:10px;height:10px;border-radius:5px;float:left;margin:10px 0 0 5px;}.b1 {background:#E0443E;margin-left: 10px;}.b2 { background:#DEA123; }.b3 { background:#1AAB29; }.warpper{background:#121212;border-radius:5px;width:400px;}#include&amp;lt;iostream&amp;gt;using namespace std; int main(){ return 0; } # LeetCode_每日一题 ### [2.14-540. 有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/) 难度：&amp;lt;font color=#FFA119&amp;gt;中等&amp;lt;/font&amp;gt; &amp;gt;二分 class Solution { public int singleNonDuplicate(int[] nums) { int n = nums.length; int l = 0,r = n - 1; while(l &amp;lt; r){ int mid = (l + r) &amp;gt;&amp;gt; 1; if((mid &amp;amp; 1) == 0){ if (mid + 1 &amp;lt; n &amp;amp;&amp;amp; nums[mid] == nums[mid + 1]) l = mid + 1; else r = mid; }else{ if (mid - 1 &amp;gt;= 0 &amp;amp;&amp;amp; nums[mid - 1] == nums[mid]) l = mid + 1; else r = mid; } } return nums[r]; } } ### [2.</description>
     </item>
     
   </channel>
