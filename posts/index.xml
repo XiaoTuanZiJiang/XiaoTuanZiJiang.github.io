@@ -42,11 +42,9 @@ git merge newBranch
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 2.11-1984. 学生分数的最小差值 难度：简单
- 排序+动态窗口
- class Solution {public int minimumDifference(int[] nums, int k) {Arrays.sort(nums);int ans = Integer.MAX_VALUE;for (int i = 0; i &amp;lt;= nums.length - k; i++) {ans = Math.min(ans, nums[i + k - 1] - nums[i]);}return ans;}} 2.4-1725. 可以形成最大正方形的矩形数目 难度：简单
- 模拟
- class Solution {public int countGoodRectangles(int[][] rectangles) {int max = 0, ans = 0;for (int[] r : rectangles) {int cur = Math.</description>
+      <description>LeetCode_每日一题 2.14-540. 有序数组中的单一元素 难度：中等
+ 二分
+ class Solution {public int singleNonDuplicate(int[] nums) {int n = nums.length;int l = 0,r = n - 1;while(l &amp;lt; r){int mid = (l + r) &amp;gt;&amp;gt; 1;if((mid &amp;amp; 1) == 0){if (mid + 1 &amp;lt; n &amp;amp;&amp;amp; nums[mid] == nums[mid + 1]) l = mid + 1;else r = mid;}else{if (mid - 1 &amp;gt;= 0 &amp;amp;&amp;amp; nums[mid - 1] == nums[mid]) l = mid + 1;else r = mid;}}return nums[r];}} 2.</description>
     </item>
     
   </channel>
