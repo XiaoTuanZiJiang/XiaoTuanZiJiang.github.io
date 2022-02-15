@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LeetCode on XiaoTuanZiJiang</title>
+    <link>https://xiaotuanzijiang.github.io/tags/leetcode/</link>
+    <description>Recent content in LeetCode on XiaoTuanZiJiang</description>
+    <image>
+      <url>https://xiaotuanzijiang.github.io/papermod-cover.png</url>
+      <link>https://xiaotuanzijiang.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 19 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaotuanzijiang.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode</title>
+      <link>https://xiaotuanzijiang.github.io/posts/leetcode/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
+      <description>LeetCode_每日一题 2.15-1380. 矩阵中的幸运数 难度：简单
+ 模拟
+ class Solution { public List&amp;lt;Integer&amp;gt; luckyNumbers (int[][] matrix) { List&amp;lt;Integer&amp;gt; ans = new ArrayList&amp;lt;&amp;gt;(); int m = matrix.length, n = matrix[0].length; int[] row = new int[m]; int[] col = new int[n]; for(int i = 0; i &amp;lt; m; i++){ row[i] = Integer.MAX_VALUE; for(int j = 0; j &amp;lt; n; j++){ row[i] = Math.min(matrix[i][j],row[i]); col[j] = Math.max(matrix[i][j],col[j]); } } for (int i = 0; i &amp;lt; m; i++) { for (int j = 0; j &amp;lt; n; j++) { if (matrix[i][j] == row[i] &amp;amp;&amp;amp; matrix[i][j] == col[j]) { ans.</description>
+    </item>
+    
+  </channel>
+</rss>
