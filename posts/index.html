@@ -87,7 +87,7 @@
 </header>
 <section class=entry-content>
 <p>Redis基本数据类型，应用场景 Redis的数据结构有:
-字符串（String）：存储简单的数据，例如缓存某个简单的字符串、JSON格式的字符串、Redis分布式锁的实现、实现计数器、Session共享、分布式ID 哈希表（Hash）：存储一些key-value，适合用来存储对象 列表（List）：Redis的列表通过命令的组合，可当作栈或队列来使用，或是缓存一下消息数据流 集合（Set）：和列表类似，可存储多个不相同的元素，集合可以进行交集、并集、差集操作 有序集合（HSet）：有序的Set Redis的持久化策略 RDB Redis DataBase 将某一时刻的内存快照（Snapshot）以二进制的方式写入磁盘。
+字符串（String）：存储简单的数据，例如缓存某个简单的字符串、JSON格式的字符串、Redis分布式锁的实现、实现计数器、Session共享、分布式ID 哈希表（Hash）：存储一些key-value，适合用来存储对象 列表（List）：Redis的列表通过命令的组合，可当作栈或队列来使用，或是缓存一下消息数据流 集合（Set）：和列表类似，可存储多个不相同的元素，集合可以进行交集、并集、差集操作 有序集合（HSet）：有序的Set 常见的缓存淘汰算法 FIFO（First In First Out，先进先出），根据缓存被存储的时间，距离当前时间最远的数据优先被淘汰，类似于队列 LRU（Least Recently Used，最近最少使用）根据最近被使用的时间，距离当前时间最远的数据优先被淘汰 LFU（Least Frequently Used，最不经常使用），在一段时间内，缓存数据被使用次数最少的数据优先淘汰 Redis的持久化策略 RDB Redis DataBase 将某一时刻的内存快照（Snapshot）以二进制的方式写入磁盘。
 手动触发:
 save命令：使Redis处于阻塞状态，知道RDB持久化完成，才会响应其他客户端请求，所以在生产环境中谨慎使用 bgsave命令：fork出一个子进程执行持久化，主线程只在fork过程中又短暂的阻塞，子线程创建完成后，主线程才会响应其他客户端请求 自动触发:
 save m n: 在m秒内，如果有n个键发生改变，则自动触发持久化，通过调用bgsave执行，如果设置多个，只要满足其中一个就会触发一次。配置文件中有默认配置（可以注释掉） flushall: 用于清空Redis所有的数据库，flushdb清空当前Redis所在数据库，会清空RDB文件，同时会生成dump.rdb文件，内容为空 优点
@@ -103,15 +103,7 @@ AOF Append Only File 以日志的形式记录服务器所处理过的每一个�
 3、AOF文件会越来越大，需要定期对AOF文件进行重写，达到压缩的目的
 4、当Redis重启时，可以加载AOF文件进行数据恢复
 同步策略:
-每秒同步：异步完成，效率非常高，如果出现宕机现象，那么则会丢失这一秒钟之内修改的数据。 每修改同步：同步持久化，每次发生的数据变化都会被立即记录到磁盘中，最多丢失一条数据 不同步：有操作系统控制，可能会丢失较多数据 优点
-1、数据安全
-2、通过append模式写文件，即使服务器中途宕机也不会破坏已经存在的内容，可以通过redis-check-aof工具解决数据一致性问题
-3、AOF机制的rewrite模式。定期对AOF文件进行重写，以达到压缩文件的目的
-缺点
-1、AOF文件比RDB文件大，且恢复速度慢
-2、数据集大的时候，比RDB启动效率低
-3、运行效率比RDB低
-</p>
+每秒同步：异步完成，效率非常高，如果出现宕机现象，那么则会丢失这一秒钟之内修改的数据。 每修改同步：同步持久化，每次发生的数据变化都会被立即记录到磁盘中，最多丢失一条数据 不同步：有操作系统控制，可能会丢失较多数据 优点...</p>
 </section>
 <footer class=entry-footer><span title="2022-02-15 16:26:12 +0800 CST">February 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to Redis面试题" href=https://xiaotuanzijiang.github.io/posts/redis/></a>
