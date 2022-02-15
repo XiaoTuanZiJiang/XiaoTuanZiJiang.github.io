@@ -16,9 +16,8 @@
       <pubDate>Tue, 15 Feb 2022 16:26:12 +0800</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/redis/</guid>
-      <description>##Redis基本数据类型，应用场景 Redis的数据结构有:
- 字符串（String）：存储简单的数据，例如缓存某个简单的字符串、JSON格式的字符串、Redis分布式锁的实现、实现计数器、Session共享、分布式ID 哈希表（Hash）：存储一些key-value，适合用来存储对象 列表（List）：Redis的列表通过命令的组合，可当作栈或队列来使用，或是缓存一下消息数据流 集合（Set）：和列表类似，可存储多个不相同的元素，集合可以进行交集、并集、差集操作 有序集合（HSet）：有序的Set  ##Redis的持久化策略
-RDB  Redis DataBase 将某一时刻的内存快照（Snapshot）以二进制的方式写入磁盘。
+      <description>Redis基本数据类型，应用场景 Redis的数据结构有:
+ 字符串（String）：存储简单的数据，例如缓存某个简单的字符串、JSON格式的字符串、Redis分布式锁的实现、实现计数器、Session共享、分布式ID 哈希表（Hash）：存储一些key-value，适合用来存储对象 列表（List）：Redis的列表通过命令的组合，可当作栈或队列来使用，或是缓存一下消息数据流 集合（Set）：和列表类似，可存储多个不相同的元素，集合可以进行交集、并集、差集操作 有序集合（HSet）：有序的Set  Redis的持久化策略 RDB  Redis DataBase 将某一时刻的内存快照（Snapshot）以二进制的方式写入磁盘。
  手动触发:
  save命令：使Redis处于阻塞状态，知道RDB持久化完成，才会响应其他客户端请求，所以在生产环境中谨慎使用 bgsave命令：fork出一个子进程执行持久化，主线程只在fork过程中又短暂的阻塞，子线程创建完成后，主线程才会响应其他客户端请求  自动触发:
  save m n: 在m秒内，如果有n个键发生改变，则自动触发持久化，通过调用bgsave执行，如果设置多个，只要满足其中一个就会触发一次。配置文件中有默认配置（可以注释掉） flushall: 用于清空Redis所有的数据库，flushdb清空当前Redis所在数据库，会清空RDB文件，同时会生成dump.rdb文件，内容为空  优点
