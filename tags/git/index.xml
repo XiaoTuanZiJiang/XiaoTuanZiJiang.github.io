@@ -24,7 +24,7 @@
 git merge newBranch
  6. 删除新分区：  git branch -D newBranch
  7. 重新提交一下代码：  git push
- </description>
+  </description>
     </item>
     
   </channel>

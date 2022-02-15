@@ -40,7 +40,8 @@
 缺点
 1、AOF文件比RDB文件大，且恢复速度慢
 2、数据集大的时候，比RDB启动效率低
-3、运行效率比RDB低</description>
+3、运行效率比RDB低
+  </description>
     </item>
     
     <item>
@@ -57,7 +58,7 @@
 git merge newBranch
  6. 删除新分区：  git branch -D newBranch
  7. 重新提交一下代码：  git push
- </description>
+  </description>
     </item>
     
     <item>
@@ -66,7 +67,7 @@ git merge newBranch
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/unitl/</guid>
-      <description>前端 - Color - CSSLayout - CSSGridGenerator - Uigradients - FreeDownloads 后端 - Binary Tree - BinaryTreeVisuakuser - Data Structure Visualizations - MvnRepository - MavenRepository - 阿里巴巴开源镜像站 其他 - MarkDown编辑器 - Eclipse主题 - Pexels - CodeLf - Favicon - RegexLearn </description>
+      <description>前端 - Color - CSSLayout - CSSGridGenerator - Uigradients - FreeDownloads 后端 - Binary Tree - BinaryTreeVisuakuser - Data Structure Visualizations - MvnRepository - MavenRepository - 阿里巴巴开源镜像站 其他 - MarkDown编辑器 - Eclipse主题 - Pexels - CodeLf - Favicon - RegexLearn  </description>
     </item>
     
     <item>

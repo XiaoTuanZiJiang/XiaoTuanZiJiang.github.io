@@ -40,7 +40,8 @@
 缺点
 1、AOF文件比RDB文件大，且恢复速度慢
 2、数据集大的时候，比RDB启动效率低
-3、运行效率比RDB低</description>
+3、运行效率比RDB低
+  </description>
     </item>
     
   </channel>
