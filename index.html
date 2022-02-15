@@ -133,9 +133,9 @@ git merge newBranch
 </h2>
 </header>
 <section class=entry-content>
-<p>LeetCode_每日一题 2.14-540. 有序数组中的单一元素 难度：中等
-二分
-class Solution { public int singleNonDuplicate(int[] nums) { int n = nums.length; int l = 0,r = n - 1; while(l &lt; r){ int mid = (l + r) >> 1; if((mid & 1) == 0){ if (mid + 1 &lt; n && nums[mid] == nums[mid + 1]) l = mid + 1; else r = mid; }else{ if (mid - 1 >= 0 && nums[mid - 1] == nums[mid]) l = mid + 1; else r = mid; } } return nums[r]; } } 2....</p>
+<p>LeetCode_每日一题 2.15-1380. 矩阵中的幸运数 难度：简单
+模拟
+class Solution { public List&lt;Integer> luckyNumbers (int[][] matrix) { List&lt;Integer> ans = new ArrayList&lt;>(); int m = matrix.length, n = matrix[0].length; int[] row = new int[m]; int[] col = new int[n]; for(int i = 0; i &lt; m; i++){ row[i] = Integer.MAX_VALUE; for(int j = 0; j &lt; n; j++){ row[i] = Math.min(matrix[i][j],row[i]); col[j] = Math.max(matrix[i][j],col[j]); } } for (int i = 0; i &lt; m; i++) { for (int j = 0; j &lt; n; j++) { if (matrix[i][j] == row[i] && matrix[i][j] == col[j]) { ans....</p>
 </section>
 <footer class=entry-footer><span title="2021-01-19 00:00:00 +0000 +0000">January 19, 2021</span>&nbsp;·&nbsp;7 min&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to LeetCode" href=https://xiaotuanzijiang.github.io/posts/leetcode/></a>

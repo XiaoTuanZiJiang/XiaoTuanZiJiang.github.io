@@ -42,9 +42,9 @@ git merge newBranch
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 2.14-540. 有序数组中的单一元素 难度：中等
- 二分
- class Solution { public int singleNonDuplicate(int[] nums) { int n = nums.length; int l = 0,r = n - 1; while(l &amp;lt; r){ int mid = (l + r) &amp;gt;&amp;gt; 1; if((mid &amp;amp; 1) == 0){ if (mid + 1 &amp;lt; n &amp;amp;&amp;amp; nums[mid] == nums[mid + 1]) l = mid + 1; else r = mid; }else{ if (mid - 1 &amp;gt;= 0 &amp;amp;&amp;amp; nums[mid - 1] == nums[mid]) l = mid + 1; else r = mid; } } return nums[r]; } } 2.</description>
+      <description>LeetCode_每日一题 2.15-1380. 矩阵中的幸运数 难度：简单
+ 模拟
+ class Solution { public List&amp;lt;Integer&amp;gt; luckyNumbers (int[][] matrix) { List&amp;lt;Integer&amp;gt; ans = new ArrayList&amp;lt;&amp;gt;(); int m = matrix.length, n = matrix[0].length; int[] row = new int[m]; int[] col = new int[n]; for(int i = 0; i &amp;lt; m; i++){ row[i] = Integer.MAX_VALUE; for(int j = 0; j &amp;lt; n; j++){ row[i] = Math.min(matrix[i][j],row[i]); col[j] = Math.max(matrix[i][j],col[j]); } } for (int i = 0; i &amp;lt; m; i++) { for (int j = 0; j &amp;lt; n; j++) { if (matrix[i][j] == row[i] &amp;amp;&amp;amp; matrix[i][j] == col[j]) { ans.</description>
     </item>
     
   </channel>
