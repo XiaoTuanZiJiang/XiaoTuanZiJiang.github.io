@@ -7,10 +7,10 @@
 <meta name=keywords content>
 <meta name=description content="LeetCode_每日一题 2.14-540. 有序数组中的单一元素 难度：中等
  二分
- class Solution {public int singleNonDuplicate(int[] nums) {int n = nums.length;int l = 0,r = n - 1;while(l < r){int mid = (l + r) >> 1;if((mid & 1) == 0){if (mid + 1 < n && nums[mid] == nums[mid + 1]) l = mid + 1;else r = mid;}else{if (mid - 1 >= 0 && nums[mid - 1] == nums[mid]) l = mid + 1;else r = mid;}}return nums[r];}} 2.">
+ class Solution { public int singleNonDuplicate(int[] nums) { int n = nums.length; int l = 0,r = n - 1; while(l < r){ int mid = (l + r) >> 1; if((mid & 1) == 0){ if (mid + 1 < n && nums[mid] == nums[mid + 1]) l = mid + 1; else r = mid; }else{ if (mid - 1 >= 0 && nums[mid - 1] == nums[mid]) l = mid + 1; else r = mid; } } return nums[r]; } } 2.">
 <meta name=author content="Me">
 <link rel=canonical href=https://xiaotuanzijiang.github.io/posts/leetcode/>
-<link crossorigin=anonymous href=/assets/css/stylesheet.min.2a086469502008636a7a7022ec96a7636d19602bea52fe0febd3bb86dcaf64c2.css integrity="sha256-KghkaVAgCGNqenAi7JanY20ZYCvqUv4P69O7htyvZMI=" rel="preload stylesheet" as=style>
+<link crossorigin=anonymous href=/assets/css/stylesheet.min.b7fb244b78acb330b3b156be0458e5e0de6ad27b02d4346062739ade43b921f7.css integrity="sha256-t/skS3isszCzsVa+BFjl4N5q0nsC1DRgYnOa3kO5Ifc=" rel="preload stylesheet" as=style>
 <script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
 <link rel=icon href=https://xiaotuanzijiang.github.io/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://xiaotuanzijiang.github.io/favicon-16x16.png>
@@ -28,7 +28,7 @@
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-123-45','auto'),ga('send','pageview'))</script><meta property="og:title" content="LeetCode">
 <meta property="og:description" content="LeetCode_每日一题 2.14-540. 有序数组中的单一元素 难度：中等
  二分
- class Solution {public int singleNonDuplicate(int[] nums) {int n = nums.length;int l = 0,r = n - 1;while(l < r){int mid = (l + r) >> 1;if((mid & 1) == 0){if (mid + 1 < n && nums[mid] == nums[mid + 1]) l = mid + 1;else r = mid;}else{if (mid - 1 >= 0 && nums[mid - 1] == nums[mid]) l = mid + 1;else r = mid;}}return nums[r];}} 2.">
+ class Solution { public int singleNonDuplicate(int[] nums) { int n = nums.length; int l = 0,r = n - 1; while(l < r){ int mid = (l + r) >> 1; if((mid & 1) == 0){ if (mid + 1 < n && nums[mid] == nums[mid + 1]) l = mid + 1; else r = mid; }else{ if (mid - 1 >= 0 && nums[mid - 1] == nums[mid]) l = mid + 1; else r = mid; } } return nums[r]; } } 2.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://xiaotuanzijiang.github.io/posts/leetcode/"><meta property="og:image" content="https://xiaotuanzijiang.github.io/papermod-cover.png"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2021-01-19T00:00:00+00:00">
@@ -38,9 +38,9 @@
 <meta name=twitter:title content="LeetCode">
 <meta name=twitter:description content="LeetCode_每日一题 2.14-540. 有序数组中的单一元素 难度：中等
  二分
- class Solution {public int singleNonDuplicate(int[] nums) {int n = nums.length;int l = 0,r = n - 1;while(l < r){int mid = (l + r) >> 1;if((mid & 1) == 0){if (mid + 1 < n && nums[mid] == nums[mid + 1]) l = mid + 1;else r = mid;}else{if (mid - 1 >= 0 && nums[mid - 1] == nums[mid]) l = mid + 1;else r = mid;}}return nums[r];}} 2.">
+ class Solution { public int singleNonDuplicate(int[] nums) { int n = nums.length; int l = 0,r = n - 1; while(l < r){ int mid = (l + r) >> 1; if((mid & 1) == 0){ if (mid + 1 < n && nums[mid] == nums[mid + 1]) l = mid + 1; else r = mid; }else{ if (mid - 1 >= 0 && nums[mid - 1] == nums[mid]) l = mid + 1; else r = mid; } } return nums[r]; } } 2.">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://xiaotuanzijiang.github.io/posts/"},{"@type":"ListItem","position":2,"name":"LeetCode","item":"https://xiaotuanzijiang.github.io/posts/leetcode/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"LeetCode","name":"LeetCode","description":"LeetCode_每日一题 2.14-540. 有序数组中的单一元素 难度：中等\n 二分\n class Solution {\rpublic int singleNonDuplicate(int[] nums) {\rint n = nums.length;\rint l = 0,r = n - 1;\rwhile(l \u0026lt; r){\rint mid = (l + r) \u0026gt;\u0026gt; 1;\rif((mid \u0026amp; 1) == 0){\rif (mid + 1 \u0026lt; n \u0026amp;\u0026amp; nums[mid] == nums[mid + 1]) l = mid + 1;\relse r = mid;\r}else{\rif (mid - 1 \u0026gt;= 0 \u0026amp;\u0026amp; nums[mid - 1] == nums[mid]) l = mid + 1;\relse r = mid;\r}\r}\rreturn nums[r];\r}\r}\r 2.","keywords":[],"articleBody":"LeetCode_每日一题 2.14-540. 有序数组中的单一元素 难度：中等\n 二分\n class Solution {\rpublic int singleNonDuplicate(int[] nums) {\rint n = nums.length;\rint l = 0,r = n - 1;\rwhile(l  1;\rif((mid \u0026 1) == 0){\rif (mid + 1 = 0 \u0026\u0026 nums[mid - 1] == nums[mid]) l = mid + 1;\relse r = mid;\r}\r}\rreturn nums[r];\r}\r}\r 2.11-1984. 学生分数的最小差值 难度：简单\n 排序+动态窗口\n class Solution {\rpublic int minimumDifference(int[] nums, int k) {\rArrays.sort(nums);\rint ans = Integer.MAX_VALUE;\rfor (int i = 0; i  2.4-1725. 可以形成最大正方形的矩形数目 难度：简单\n 模拟\n class Solution {\rpublic int countGoodRectangles(int[][] rectangles) {\rint max = 0, ans = 0;\rfor (int[] r : rectangles) {\rint cur = Math.min(r[0], r[1]);\rif (cur == max) ans++;\relse if (cur  max) {\rmax = cur; ans = 1;\r}\r}\rreturn ans;\r}\r}\r 2.2-2000. 反转单词前缀 难度：简单\n 模拟\n class Solution {\rpublic String reversePrefix(String word, char ch) {\rStringBuilder sb = new StringBuilder();\rchar[] cs = word.toCharArray();\rboolean isone = true;\rfor (int i = 0; i  1.31-1342. 将数字变成 0 的操作次数 难度：简单\n 模拟\n class Solution {\rpublic int numberOfSteps(int num) {\rint con = 0;\rwhile (num != 0) {\rnum = (num \u0026 1) == 0 ? num  1 : num - 1;\rcon++;\r}\rreturn con;\r}\r}\r 1.30-884. 两句话中的不常见单词 难度：简单\n HashMap\n class Solution {\rpublic String[] uncommonFromSentences(String s1, String s2) {\rMapmap = new HashMap();\rcount(s1, map);\rcount(s2, map);\rList list = new ArrayList();\rmap.forEach((k, v) - {\rif (v == 1) {\rlist.add(k);\r}\r});\rreturn list.toArray(new String[list.size()]);\r}\rprivate void count(String s, Mapmap) {\rfor (String a : s.split(\" \")) {\rmap.put(a, map.getOrDefault(a, 0) + 1);\r}\r}\r}\r 1.28-1996. 游戏中弱角色的数量 难度：中等\n 排序\n class Solution {\rpublic int numberOfWeakCharacters(int[][] properties) {\rArrays.sort(properties,(a,b)-{\rreturn a[0] == b[0] ? (a[1] - b[1]) : (b[0] - a[0]);\r});\rint cnt = 0;\rint temp = 0;\rfor (int[] p : properties) {\rif(p[1]  1.27-2047. 句子中的有效单词数 难度：简单\n 模拟\n class Solution {\rpublic int countValidWords(String sentence) {\rString[] ss = sentence.split(\" \");\rint ans = 0;\rfor (String s : ss) if (check(s)) ans++;\rreturn ans;\r}\rboolean check(String s) {\rint n = s.length();\rif (n == 0) return false;\rfor (int i = 0, c1 = 0, c2 = 0; i = 0) {\rif (c1  1 || (i == 0 || i == n - 1)) return false;\rif (!Character.isLetter(s.charAt(i - 1)) || !Character.isLetter(s.charAt(i + 1))) return false;\r}\rif ((c == '!' || c == '.' || c == ',') \u0026\u0026 ++c2 = 0) {\rif (c2  1 || (i != n - 1)) return false;\r}\r}\rreturn true;\r}\r}\r 1.25-1688. 比赛中的配对次数 难度：简单\n 脑筋急转弯\n class Solution {\rpublic int numberOfMatches(int n) {\rreturn n - 1;\r}\r}\r 1.22-1332. 删除回文子序列 难度：简单\n 模拟\n class Solution {\rpublic int removePalindromeSub(String s) {\rint n = s.length();\rfor(int i = 0; i  1); i++)\rif(s.charAt(i) != s.charAt(n-1-i)) return 2;\rreturn 1;\r}\r}\r 1.19-219.存在重复元素II 难度：简单\n HashMap\n class Solution {\rpublic boolean containsNearbyDuplicate(int[] nums, int k) {\rHashMaphashMap = new HashMap();\rfor(int i = 0; i k) {\rhashMap.remove(nums[i - k]);\r}\r}\rreturn false;\r}\r}\r LeetCode_周赛 第 276 场周赛 2138. 将字符串拆分为若干长度为 k 的组 难度：简单\n 补全分割\n class Solution {\rpublic String[] divideString(String s, int k, char fill) {\rint num = s.length() % k;\rif(num != 0) {\rnum = k - num;\rwhile(num--  0) {\rs += fill;\r}\r}\rint len = s.length() / k;\rString[] ans = new String[len];\rfor(int i = 0; i  2139. 得到目标值的最少行动次数 难度：中等\n 贪心\n class Solution {\rpublic int minMoves(int target, int maxDoubles) {\rint cnt = 0;\rwhile(target  1) {\rif(maxDoubles  0) {\rif((target \u0026 1) == 1) target--;\relse {\rtarget = 1;\rmaxDoubles--;\r}\rcnt++;\r}else {\rreturn target + cnt - 1;\r}\r}\rreturn cnt;\r}\r}\r 2140. 解决智力问题 难度：中等\n 逆序dp\n class Solution {\rpublic long mostPoints(int[][] questions) {\rint n = questions.length;\rlong[] dp = new long[n + 1];\rfor(int i = n -1; i = 0; i--) {\rif(questions[i][1] + i + 1  第 275 场周赛 2133. 检查是否每一行每一列都包含全部整数 难度：简单\n HashSet\n class Solution {\rpublic boolean checkValid(int[][] matrix) {\rint len = matrix.length;\rHashSet h1 = new HashSet();\rHashSet h2 = new HashSet();\rfor(int i = 0; i  第 69 场双周赛 2129. 将标题首字母大写 难度：简单\n Api+Ascii\n class Solution {\rpublic String capitalizeTitle(String title) {\rString[] str = title.split(\" \");\rfor(int i = 0; i  2130. 链表最大孪生和 难度：中等\n 链表转数组+双指针\n class Solution {\rpublic int pairSum(ListNode head) {\rif(head.next == null) return 0;\rList list = new ArrayList();\rwhile(head != null) {\rlist.add(head.val);\rhead = head.next;\r}\rInteger[] num = list.toArray(new Integer[0]);\rint mid = num.length  1;\rint max = 0;\rfor(int i = mid - 1; i = 0; i--){\rmax = Math.max(max, num[i] + num[mid++]);\r}\rreturn max;\r}\r}\r 第 274 场周赛 2124. 检查是否所有 A 都在 B 之前 难度：简单\n 标记\n class Solution {\rpublic boolean checkString(String s) {\rchar[] cs = s.toCharArray();\rboolean na = false;\rfor(char c : cs) {\rif(c == 'a' \u0026\u0026 na) return false;\rif(c != 'a') na = true;\r}\rreturn true;\r}\r}\r 2125. 银行中的激光束数量 难度：中等\n cnt * pre\n class Solution {\rpublic int numberOfBeams(String[] bank) {\rint ans = 0;\rint pre = 0;\rfor(String s : bank) {\rint cnt = 0;\rchar[] cs = s.toCharArray();\rfor(int i = 0; i  2126. 摧毁小行星 难度：中等\n 排序+贪心\n class Solution {\rpublic boolean asteroidsDestroyed(int mass, int[] asteroids) {\rlong mas = mass;\rArrays.sort(asteroids);\rfor(int i : asteroids) {\rif(mas  第 273 场周赛 2119. 反转两次的数字 难度：简单\n 末尾不为0\n class Solution {\rpublic boolean isSameAfterReversals(int num) {\rreturn !(num != 0 \u0026\u0026 num % 10 == 0);\r}\r}\r LeetCode_Other 169. 多数元素 难度：简单\n 脑筋急转弯\n class Solution {\rpublic int majorityElement(int[] nums) {\rArrays.sort(nums);\rreturn nums[nums.length  1];\r}\r}\r  摩尔投票法\n class Solution {\rpublic int majorityElement(int[] nums) {\rint cnt = 0;\rint temp = 0;\rfor(int i : nums) {\rif(cnt == 0) {\rtemp = i;\rcnt = 1;\r}else {\rcnt += temp != i ? -1 : 1;\r}\r}\rreturn temp;\r}\r} ","wordCount":"1306","inLanguage":"en","datePublished":"2021-01-19T00:00:00Z","dateModified":"2021-01-19T00:00:00Z","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://xiaotuanzijiang.github.io/posts/leetcode/"},"publisher":{"@type":"Organization","name":"XiaoTuanZiJiang","logo":{"@type":"ImageObject","url":"https://xiaotuanzijiang.github.io/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"LeetCode","name":"LeetCode","description":"LeetCode_每日一题 2.14-540. 有序数组中的单一元素 难度：中等\n 二分\n class Solution { public int singleNonDuplicate(int[] nums) { int n = nums.length; int l = 0,r = n - 1; while(l \u0026lt; r){ int mid = (l + r) \u0026gt;\u0026gt; 1; if((mid \u0026amp; 1) == 0){ if (mid + 1 \u0026lt; n \u0026amp;\u0026amp; nums[mid] == nums[mid + 1]) l = mid + 1; else r = mid; }else{ if (mid - 1 \u0026gt;= 0 \u0026amp;\u0026amp; nums[mid - 1] == nums[mid]) l = mid + 1; else r = mid; } } return nums[r]; } } 2.","keywords":[],"articleBody":"LeetCode_每日一题 2.14-540. 有序数组中的单一元素 难度：中等\n 二分\n class Solution { public int singleNonDuplicate(int[] nums) { int n = nums.length; int l = 0,r = n - 1; while(l  r){ int mid = (l + r)  1; if((mid \u0026 1) == 0){ if (mid + 1  n \u0026\u0026 nums[mid] == nums[mid + 1]) l = mid + 1; else r = mid; }else{ if (mid - 1 = 0 \u0026\u0026 nums[mid - 1] == nums[mid]) l = mid + 1; else r = mid; } } return nums[r]; } } 2.11-1984. 学生分数的最小差值 难度：简单\n 排序+动态窗口\n class Solution { public int minimumDifference(int[] nums, int k) { Arrays.sort(nums); int ans = Integer.MAX_VALUE; for (int i = 0; i  nums.length - k; i++) { ans = Math.min(ans, nums[i + k - 1] - nums[i]); } return ans; } } 2.4-1725. 可以形成最大正方形的矩形数目 难度：简单\n 模拟\n class Solution { public int countGoodRectangles(int[][] rectangles) { int max = 0, ans = 0; for (int[] r : rectangles) { int cur = Math.min(r[0], r[1]); if (cur == max) ans++; else if (cur  max) { max = cur; ans = 1; } } return ans; } } 2.2-2000. 反转单词前缀 难度：简单\n 模拟\n class Solution { public String reversePrefix(String word, char ch) { StringBuilder sb = new StringBuilder(); char[] cs = word.toCharArray(); boolean isone = true; for (int i = 0; i  cs.length; i++) { sb.append(cs[i]); if(cs[i] == ch \u0026\u0026 isone){ isone = false; sb.reverse(); } } return sb.toString(); } } 1.31-1342. 将数字变成 0 的操作次数 难度：简单\n 模拟\n class Solution { public int numberOfSteps(int num) { int con = 0; while (num != 0) { num = (num \u0026 1) == 0 ? num  1 : num - 1; con++; } return con; } } 1.30-884. 两句话中的不常见单词 难度：简单\n HashMap\n class Solution { public String[] uncommonFromSentences(String s1, String s2) { MapString, Integer map = new HashMap(); count(s1, map); count(s2, map); ListString list = new ArrayList(); map.forEach((k, v) - { if (v == 1) { list.add(k); } }); return list.toArray(new String[list.size()]); } private void count(String s, MapString, Integer map) { for (String a : s.split(\" \")) { map.put(a, map.getOrDefault(a, 0) + 1); } } } 1.28-1996. 游戏中弱角色的数量 难度：中等\n 排序\n class Solution { public int numberOfWeakCharacters(int[][] properties) { Arrays.sort(properties,(a,b)-{ return a[0] == b[0] ? (a[1] - b[1]) : (b[0] - a[0]); }); int cnt = 0; int temp = 0; for (int[] p : properties) { if(p[1]  temp) cnt++; else temp = p[1]; } return cnt; } } 1.27-2047. 句子中的有效单词数 难度：简单\n 模拟\n class Solution { public int countValidWords(String sentence) { String[] ss = sentence.split(\" \"); int ans = 0; for (String s : ss) if (check(s)) ans++; return ans; } boolean check(String s) { int n = s.length(); if (n == 0) return false; for (int i = 0, c1 = 0, c2 = 0; i  n; i++) { char c = s.charAt(i); if (Character.isDigit(c)) return false; if (c == ' ') return false; if (c == '-' \u0026\u0026 ++c1 = 0) { if (c1  1 || (i == 0 || i == n - 1)) return false; if (!Character.isLetter(s.charAt(i - 1)) || !Character.isLetter(s.charAt(i + 1))) return false; } if ((c == '!' || c == '.' || c == ',') \u0026\u0026 ++c2 = 0) { if (c2  1 || (i != n - 1)) return false; } } return true; } } 1.25-1688. 比赛中的配对次数 难度：简单\n 脑筋急转弯\n class Solution { public int numberOfMatches(int n) { return n - 1; } } 1.22-1332. 删除回文子序列 难度：简单\n 模拟\n class Solution { public int removePalindromeSub(String s) { int n = s.length(); for(int i = 0; i  (n  1); i++) if(s.charAt(i) != s.charAt(n-1-i)) return 2; return 1; } } 1.19-219.存在重复元素II 难度：简单\n HashMap\n class Solution { public boolean containsNearbyDuplicate(int[] nums, int k) { HashMapInteger, Integer hashMap = new HashMap(); for(int i = 0; i  nums.length; i++) { int num = nums[i]; if(hashMap.containsKey(num)) { return true; } hashMap.put(num, null); if(hashMap.size()  k) { hashMap.remove(nums[i - k]); } } return false; } } LeetCode_周赛 第 276 场周赛 2138. 将字符串拆分为若干长度为 k 的组 难度：简单\n 补全分割\n class Solution { public String[] divideString(String s, int k, char fill) { int num = s.length() % k; if(num != 0) { num = k - num; while(num--  0) { s += fill; } } int len = s.length() / k; String[] ans = new String[len]; for(int i = 0; i  len; i++) { ans[i] = s.substring(i*k, (i + 1) * k); } return ans; } } 2139. 得到目标值的最少行动次数 难度：中等\n 贪心\n class Solution { public int minMoves(int target, int maxDoubles) { int cnt = 0; while(target  1) { if(maxDoubles  0) { if((target \u0026 1) == 1) target--; else { target = 1; maxDoubles--; } cnt++; }else { return target + cnt - 1; } } return cnt; } } 2140. 解决智力问题 难度：中等\n 逆序dp\n class Solution { public long mostPoints(int[][] questions) { int n = questions.length; long[] dp = new long[n + 1]; for(int i = n -1; i = 0; i--) { if(questions[i][1] + i + 1  n) { dp[i] = Math.max(dp[i + 1], dp[questions[i][1] + i + 1] + questions[i][0]); } else { dp[i] = Math.max(dp[i + 1], questions[i][0]); } } return dp[0]; } } 第 275 场周赛 2133. 检查是否每一行每一列都包含全部整数 难度：简单\n HashSet\n class Solution { public boolean checkValid(int[][] matrix) { int len = matrix.length; HashSetInteger h1 = new HashSet(); HashSetInteger h2 = new HashSet(); for(int i = 0; i  len; i++) { for(int j = 0; j  len; j++) { h1.add(matrix[i][j]); h2.add(matrix[j][i]); } if(h1.size() != len || h2.size() != len) return false; h1.clear(); h2.clear(); } return true; } } 第 69 场双周赛 2129. 将标题首字母大写 难度：简单\n Api+Ascii\n class Solution { public String capitalizeTitle(String title) { String[] str = title.split(\" \"); for(int i = 0; i  str.length; i++) { if(str[i].length()  3) { str[i] = str[i].toLowerCase(); } else { char[] c = str[i].toLowerCase().toCharArray(); c[0] \u0026= ~32; str[i] = String.valueOf(c); } } return String.join(\" \", str); } } 2130. 链表最大孪生和 难度：中等\n 链表转数组+双指针\n class Solution { public int pairSum(ListNode head) { if(head.next == null) return 0; ListInteger list = new ArrayList(); while(head != null) { list.add(head.val); head = head.next; } Integer[] num = list.toArray(new Integer[0]); int mid = num.length  1; int max = 0; for(int i = mid - 1; i = 0; i--){ max = Math.max(max, num[i] + num[mid++]); } return max; } } 第 274 场周赛 2124. 检查是否所有 A 都在 B 之前 难度：简单\n 标记\n class Solution { public boolean checkString(String s) { char[] cs = s.toCharArray(); boolean na = false; for(char c : cs) { if(c == 'a' \u0026\u0026 na) return false; if(c != 'a') na = true; } return true; } } 2125. 银行中的激光束数量 难度：中等\n cnt * pre\n class Solution { public int numberOfBeams(String[] bank) { int ans = 0; int pre = 0; for(String s : bank) { int cnt = 0; char[] cs = s.toCharArray(); for(int i = 0; i  cs.length; i++) { cnt += cs[i] == '1' ? 1 : 0; } if(cnt != 0) { ans += cnt * pre; pre = cnt; } } return ans; } } 2126. 摧毁小行星 难度：中等\n 排序+贪心\n class Solution { public boolean asteroidsDestroyed(int mass, int[] asteroids) { long mas = mass; Arrays.sort(asteroids); for(int i : asteroids) { if(mas  i) return false; mas += i; } return true; } } 第 273 场周赛 2119. 反转两次的数字 难度：简单\n 末尾不为0\n class Solution { public boolean isSameAfterReversals(int num) { return !(num != 0 \u0026\u0026 num % 10 == 0); } } LeetCode_Other 169. 多数元素 难度：简单\n 脑筋急转弯\n class Solution { public int majorityElement(int[] nums) { Arrays.sort(nums); return nums[nums.length  1]; } }  摩尔投票法\n class Solution { public int majorityElement(int[] nums) { int cnt = 0; int temp = 0; for(int i : nums) { if(cnt == 0) { temp = i; cnt = 1; }else { cnt += temp != i ? -1 : 1; } } return temp; } } ","wordCount":"1306","inLanguage":"en","datePublished":"2021-01-19T00:00:00Z","dateModified":"2021-01-19T00:00:00Z","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://xiaotuanzijiang.github.io/posts/leetcode/"},"publisher":{"@type":"Organization","name":"XiaoTuanZiJiang","logo":{"@type":"ImageObject","url":"https://xiaotuanzijiang.github.io/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -184,460 +184,439 @@ LeetCode
 <blockquote>
 <p>二分</p>
 </blockquote>
-<pre><code>class Solution {
-    public int singleNonDuplicate(int[] nums) {
-        int n = nums.length;
-        int l = 0,r = n - 1;
-        while(l &lt; r){
-            int mid = (l + r) &gt;&gt; 1;
-            if((mid &amp; 1) == 0){
-                if (mid + 1 &lt; n &amp;&amp; nums[mid] == nums[mid + 1]) l = mid + 1;
-                else r = mid;
-            }else{
-                if (mid - 1 &gt;= 0 &amp;&amp; nums[mid - 1] == nums[mid]) l = mid + 1;
-                else r = mid;
-            }
-        }
-        return nums[r];
-    }
-}
-</code></pre>
-<h3 id=211-1984-学生分数的最小差值httpsleetcode-cncomproblemsminimum-difference-between-highest-and-lowest-of-k-scores><a href=https://leetcode-cn.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/>2.11-1984. 学生分数的最小差值</a><a hidden class=anchor aria-hidden=true href=#211-1984-学生分数的最小差值httpsleetcode-cncomproblemsminimum-difference-between-highest-and-lowest-of-k-scores>#</a></h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>int</span> <span class=nf>singleNonDuplicate</span><span class=o>(</span><span class=kt>int</span><span class=o>[]</span> <span class=n>nums</span><span class=o>)</span> <span class=o>{</span>
+        <span class=kt>int</span> <span class=n>n</span> <span class=o>=</span> <span class=n>nums</span><span class=o>.</span><span class=na>length</span><span class=o>;</span>
+        <span class=kt>int</span> <span class=n>l</span> <span class=o>=</span> <span class=n>0</span><span class=o>,</span><span class=n>r</span> <span class=o>=</span> <span class=n>n</span> <span class=o>-</span> <span class=n>1</span><span class=o>;</span>
+        <span class=k>while</span><span class=o>(</span><span class=n>l</span> <span class=o>&lt;</span> <span class=n>r</span><span class=o>){</span>
+            <span class=kt>int</span> <span class=n>mid</span> <span class=o>=</span> <span class=o>(</span><span class=n>l</span> <span class=o>+</span> <span class=n>r</span><span class=o>)</span> <span class=o>&gt;&gt;</span> <span class=n>1</span><span class=o>;</span>
+            <span class=k>if</span><span class=o>((</span><span class=n>mid</span> <span class=o>&amp;</span> <span class=n>1</span><span class=o>)</span> <span class=o>==</span> <span class=n>0</span><span class=o>){</span>
+                <span class=k>if</span> <span class=o>(</span><span class=n>mid</span> <span class=o>+</span> <span class=n>1</span> <span class=o>&lt;</span> <span class=n>n</span> <span class=o>&amp;&amp;</span> <span class=n>nums</span><span class=o>[</span><span class=n>mid</span><span class=o>]</span> <span class=o>==</span> <span class=n>nums</span><span class=o>[</span><span class=n>mid</span> <span class=o>+</span> <span class=n>1</span><span class=o>])</span> <span class=n>l</span> <span class=o>=</span> <span class=n>mid</span> <span class=o>+</span> <span class=n>1</span><span class=o>;</span>
+                <span class=k>else</span> <span class=n>r</span> <span class=o>=</span> <span class=n>mid</span><span class=o>;</span>
+            <span class=o>}</span><span class=k>else</span><span class=o>{</span>
+                <span class=k>if</span> <span class=o>(</span><span class=n>mid</span> <span class=o>-</span> <span class=n>1</span> <span class=o>&gt;=</span> <span class=n>0</span> <span class=o>&amp;&amp;</span> <span class=n>nums</span><span class=o>[</span><span class=n>mid</span> <span class=o>-</span> <span class=n>1</span><span class=o>]</span> <span class=o>==</span> <span class=n>nums</span><span class=o>[</span><span class=n>mid</span><span class=o>])</span> <span class=n>l</span> <span class=o>=</span> <span class=n>mid</span> <span class=o>+</span> <span class=n>1</span><span class=o>;</span>
+                <span class=k>else</span> <span class=n>r</span> <span class=o>=</span> <span class=n>mid</span><span class=o>;</span>
+            <span class=o>}</span>
+        <span class=o>}</span>
+        <span class=k>return</span> <span class=n>nums</span><span class=o>[</span><span class=n>r</span><span class=o>];</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h3 id=211-1984-学生分数的最小差值httpsleetcode-cncomproblemsminimum-difference-between-highest-and-lowest-of-k-scores><a href=https://leetcode-cn.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/>2.11-1984. 学生分数的最小差值</a><a hidden class=anchor aria-hidden=true href=#211-1984-学生分数的最小差值httpsleetcode-cncomproblemsminimum-difference-between-highest-and-lowest-of-k-scores>#</a></h3>
 <p>难度：<font color=#5AB726>简单</font></p>
 <blockquote>
 <p>排序+动态窗口</p>
 </blockquote>
-<pre><code>class Solution {
-    public int minimumDifference(int[] nums, int k) {
-        Arrays.sort(nums);
-        int ans = Integer.MAX_VALUE;
-        for (int i = 0; i &lt;= nums.length - k; i++) {
-            ans = Math.min(ans, nums[i + k - 1] - nums[i]);
-        }
-        return ans;
-    }
-}
-</code></pre>
-<h3 id=24-1725-可以形成最大正方形的矩形数目httpsleetcode-cncomproblemsnumber-of-rectangles-that-can-form-the-largest-square><a href=https://leetcode-cn.com/problems/number-of-rectangles-that-can-form-the-largest-square/>2.4-1725. 可以形成最大正方形的矩形数目</a><a hidden class=anchor aria-hidden=true href=#24-1725-可以形成最大正方形的矩形数目httpsleetcode-cncomproblemsnumber-of-rectangles-that-can-form-the-largest-square>#</a></h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>int</span> <span class=nf>minimumDifference</span><span class=o>(</span><span class=kt>int</span><span class=o>[]</span> <span class=n>nums</span><span class=o>,</span> <span class=kt>int</span> <span class=n>k</span><span class=o>)</span> <span class=o>{</span>
+        <span class=n>Arrays</span><span class=o>.</span><span class=na>sort</span><span class=o>(</span><span class=n>nums</span><span class=o>);</span>
+        <span class=kt>int</span> <span class=n>ans</span> <span class=o>=</span> <span class=n>Integer</span><span class=o>.</span><span class=na>MAX_VALUE</span><span class=o>;</span>
+        <span class=k>for</span> <span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span> <span class=n>i</span> <span class=o>&lt;=</span> <span class=n>nums</span><span class=o>.</span><span class=na>length</span> <span class=o>-</span> <span class=n>k</span><span class=o>;</span> <span class=n>i</span><span class=o>++)</span> <span class=o>{</span>
+            <span class=n>ans</span> <span class=o>=</span> <span class=n>Math</span><span class=o>.</span><span class=na>min</span><span class=o>(</span><span class=n>ans</span><span class=o>,</span> <span class=n>nums</span><span class=o>[</span><span class=n>i</span> <span class=o>+</span> <span class=n>k</span> <span class=o>-</span> <span class=n>1</span><span class=o>]</span> <span class=o>-</span> <span class=n>nums</span><span class=o>[</span><span class=n>i</span><span class=o>]);</span>
+        <span class=o>}</span>
+        <span class=k>return</span> <span class=n>ans</span><span class=o>;</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h3 id=24-1725-可以形成最大正方形的矩形数目httpsleetcode-cncomproblemsnumber-of-rectangles-that-can-form-the-largest-square><a href=https://leetcode-cn.com/problems/number-of-rectangles-that-can-form-the-largest-square/>2.4-1725. 可以形成最大正方形的矩形数目</a><a hidden class=anchor aria-hidden=true href=#24-1725-可以形成最大正方形的矩形数目httpsleetcode-cncomproblemsnumber-of-rectangles-that-can-form-the-largest-square>#</a></h3>
 <p>难度：<font color=#5AB726>简单</font></p>
 <blockquote>
 <p>模拟</p>
 </blockquote>
-<pre><code>class Solution {
-    public int countGoodRectangles(int[][] rectangles) {
-        int max = 0, ans = 0;
-        for (int[] r : rectangles) {
-            int cur = Math.min(r[0], r[1]);
-            if (cur == max) ans++;
-            else if (cur &gt; max) {
-                max = cur; ans = 1;
-            }
-        }
-        return ans;
-    }
-}
-</code></pre>
-<h3 id=22-2000-反转单词前缀httpsleetcode-cncomproblemsreverse-prefix-of-word><a href=https://leetcode-cn.com/problems/reverse-prefix-of-word/>2.2-2000. 反转单词前缀</a><a hidden class=anchor aria-hidden=true href=#22-2000-反转单词前缀httpsleetcode-cncomproblemsreverse-prefix-of-word>#</a></h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>int</span> <span class=nf>countGoodRectangles</span><span class=o>(</span><span class=kt>int</span><span class=o>[][]</span> <span class=n>rectangles</span><span class=o>)</span> <span class=o>{</span>
+        <span class=kt>int</span> <span class=n>max</span> <span class=o>=</span> <span class=n>0</span><span class=o>,</span> <span class=n>ans</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span>
+        <span class=k>for</span> <span class=o>(</span><span class=kt>int</span><span class=o>[]</span> <span class=n>r</span> <span class=o>:</span> <span class=n>rectangles</span><span class=o>)</span> <span class=o>{</span>
+            <span class=kt>int</span> <span class=n>cur</span> <span class=o>=</span> <span class=n>Math</span><span class=o>.</span><span class=na>min</span><span class=o>(</span><span class=n>r</span><span class=o>[</span><span class=n>0</span><span class=o>],</span> <span class=n>r</span><span class=o>[</span><span class=n>1</span><span class=o>]);</span>
+            <span class=k>if</span> <span class=o>(</span><span class=n>cur</span> <span class=o>==</span> <span class=n>max</span><span class=o>)</span> <span class=n>ans</span><span class=o>++;</span>
+            <span class=k>else</span> <span class=k>if</span> <span class=o>(</span><span class=n>cur</span> <span class=o>&gt;</span> <span class=n>max</span><span class=o>)</span> <span class=o>{</span>
+                <span class=n>max</span> <span class=o>=</span> <span class=n>cur</span><span class=o>;</span> <span class=n>ans</span> <span class=o>=</span> <span class=n>1</span><span class=o>;</span>
+            <span class=o>}</span>
+        <span class=o>}</span>
+        <span class=k>return</span> <span class=n>ans</span><span class=o>;</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h3 id=22-2000-反转单词前缀httpsleetcode-cncomproblemsreverse-prefix-of-word><a href=https://leetcode-cn.com/problems/reverse-prefix-of-word/>2.2-2000. 反转单词前缀</a><a hidden class=anchor aria-hidden=true href=#22-2000-反转单词前缀httpsleetcode-cncomproblemsreverse-prefix-of-word>#</a></h3>
 <p>难度：<font color=#5AB726>简单</font></p>
 <blockquote>
 <p>模拟</p>
 </blockquote>
-<pre><code>class Solution {
-    public String reversePrefix(String word, char ch) {
-        StringBuilder sb = new StringBuilder();
-        char[] cs = word.toCharArray();
-        boolean isone = true;
-        for (int i = 0; i &lt; cs.length; i++) {
-            sb.append(cs[i]);
-            if(cs[i] == ch &amp;&amp; isone){
-                isone = false;
-                sb.reverse();
-            }
-        }
-        return sb.toString();
-    }
-}
-</code></pre>
-<h3 id=131-1342-将数字变成-0-的操作次数httpsleetcode-cncomproblemsnumber-of-steps-to-reduce-a-number-to-zero><a href=https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/>1.31-1342. 将数字变成 0 的操作次数</a><a hidden class=anchor aria-hidden=true href=#131-1342-将数字变成-0-的操作次数httpsleetcode-cncomproblemsnumber-of-steps-to-reduce-a-number-to-zero>#</a></h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=n>String</span> <span class=nf>reversePrefix</span><span class=o>(</span><span class=n>String</span> <span class=n>word</span><span class=o>,</span> <span class=kt>char</span> <span class=n>ch</span><span class=o>)</span> <span class=o>{</span>
+        <span class=n>StringBuilder</span> <span class=n>sb</span> <span class=o>=</span> <span class=k>new</span> <span class=n>StringBuilder</span><span class=o>();</span>
+        <span class=kt>char</span><span class=o>[]</span> <span class=n>cs</span> <span class=o>=</span> <span class=n>word</span><span class=o>.</span><span class=na>toCharArray</span><span class=o>();</span>
+        <span class=kt>boolean</span> <span class=n>isone</span> <span class=o>=</span> <span class=kc>true</span><span class=o>;</span>
+        <span class=k>for</span> <span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span> <span class=n>i</span> <span class=o>&lt;</span> <span class=n>cs</span><span class=o>.</span><span class=na>length</span><span class=o>;</span> <span class=n>i</span><span class=o>++)</span> <span class=o>{</span>
+            <span class=n>sb</span><span class=o>.</span><span class=na>append</span><span class=o>(</span><span class=n>cs</span><span class=o>[</span><span class=n>i</span><span class=o>]);</span>
+            <span class=k>if</span><span class=o>(</span><span class=n>cs</span><span class=o>[</span><span class=n>i</span><span class=o>]</span> <span class=o>==</span> <span class=n>ch</span> <span class=o>&amp;&amp;</span> <span class=n>isone</span><span class=o>){</span>
+                <span class=n>isone</span> <span class=o>=</span> <span class=kc>false</span><span class=o>;</span>
+                <span class=n>sb</span><span class=o>.</span><span class=na>reverse</span><span class=o>();</span>
+            <span class=o>}</span>
+        <span class=o>}</span>
+        <span class=k>return</span> <span class=n>sb</span><span class=o>.</span><span class=na>toString</span><span class=o>();</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h3 id=131-1342-将数字变成-0-的操作次数httpsleetcode-cncomproblemsnumber-of-steps-to-reduce-a-number-to-zero><a href=https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/>1.31-1342. 将数字变成 0 的操作次数</a><a hidden class=anchor aria-hidden=true href=#131-1342-将数字变成-0-的操作次数httpsleetcode-cncomproblemsnumber-of-steps-to-reduce-a-number-to-zero>#</a></h3>
 <p>难度：<font color=#5AB726>简单</font></p>
 <blockquote>
 <p>模拟</p>
 </blockquote>
-<pre><code>class Solution {
-    public int numberOfSteps(int num) {
-    	int con = 0;
-    	while (num != 0) {
-            num = (num &amp; 1) == 0 ? num &gt;&gt; 1 : num - 1;
-            con++;
-    	}
-    	return con;
-    }
-}
-</code></pre>
-<h3 id=130-884-两句话中的不常见单词httpsleetcode-cncomproblemsuncommon-words-from-two-sentences><a href=https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/>1.30-884. 两句话中的不常见单词</a><a hidden class=anchor aria-hidden=true href=#130-884-两句话中的不常见单词httpsleetcode-cncomproblemsuncommon-words-from-two-sentences>#</a></h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>int</span> <span class=nf>numberOfSteps</span><span class=o>(</span><span class=kt>int</span> <span class=n>num</span><span class=o>)</span> <span class=o>{</span>
+    	<span class=kt>int</span> <span class=n>con</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span>
+    	<span class=k>while</span> <span class=o>(</span><span class=n>num</span> <span class=o>!=</span> <span class=n>0</span><span class=o>)</span> <span class=o>{</span>
+            <span class=n>num</span> <span class=o>=</span> <span class=o>(</span><span class=n>num</span> <span class=o>&amp;</span> <span class=n>1</span><span class=o>)</span> <span class=o>==</span> <span class=n>0</span> <span class=o>?</span> <span class=n>num</span> <span class=o>&gt;&gt;</span> <span class=n>1</span> <span class=o>:</span> <span class=n>num</span> <span class=o>-</span> <span class=n>1</span><span class=o>;</span>
+            <span class=n>con</span><span class=o>++;</span>
+    	<span class=o>}</span>
+    	<span class=k>return</span> <span class=n>con</span><span class=o>;</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h3 id=130-884-两句话中的不常见单词httpsleetcode-cncomproblemsuncommon-words-from-two-sentences><a href=https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/>1.30-884. 两句话中的不常见单词</a><a hidden class=anchor aria-hidden=true href=#130-884-两句话中的不常见单词httpsleetcode-cncomproblemsuncommon-words-from-two-sentences>#</a></h3>
 <p>难度：<font color=#5AB726>简单</font></p>
 <blockquote>
 <p>HashMap</p>
 </blockquote>
-<pre><code>class Solution {
-    public String[] uncommonFromSentences(String s1, String s2) {
-        Map&lt;String, Integer&gt; map = new HashMap&lt;&gt;();
-        count(s1, map);
-        count(s2, map);
-        List&lt;String&gt; list = new ArrayList&lt;&gt;();
-        map.forEach((k, v) -&gt; {
-            if (v == 1) {
-                list.add(k);
-            }
-        });
-        return list.toArray(new String[list.size()]);
-    }
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=n>String</span><span class=o>[]</span> <span class=nf>uncommonFromSentences</span><span class=o>(</span><span class=n>String</span> <span class=n>s1</span><span class=o>,</span> <span class=n>String</span> <span class=n>s2</span><span class=o>)</span> <span class=o>{</span>
+        <span class=n>Map</span><span class=o>&lt;</span><span class=n>String</span><span class=o>,</span> <span class=n>Integer</span><span class=o>&gt;</span> <span class=n>map</span> <span class=o>=</span> <span class=k>new</span> <span class=n>HashMap</span><span class=o>&lt;&gt;();</span>
+        <span class=n>count</span><span class=o>(</span><span class=n>s1</span><span class=o>,</span> <span class=n>map</span><span class=o>);</span>
+        <span class=n>count</span><span class=o>(</span><span class=n>s2</span><span class=o>,</span> <span class=n>map</span><span class=o>);</span>
+        <span class=n>List</span><span class=o>&lt;</span><span class=n>String</span><span class=o>&gt;</span> <span class=n>list</span> <span class=o>=</span> <span class=k>new</span> <span class=n>ArrayList</span><span class=o>&lt;&gt;();</span>
+        <span class=n>map</span><span class=o>.</span><span class=na>forEach</span><span class=o>((</span><span class=n>k</span><span class=o>,</span> <span class=n>v</span><span class=o>)</span> <span class=o>-&gt;</span> <span class=o>{</span>
+            <span class=k>if</span> <span class=o>(</span><span class=n>v</span> <span class=o>==</span> <span class=n>1</span><span class=o>)</span> <span class=o>{</span>
+                <span class=n>list</span><span class=o>.</span><span class=na>add</span><span class=o>(</span><span class=n>k</span><span class=o>);</span>
+            <span class=o>}</span>
+        <span class=o>});</span>
+        <span class=k>return</span> <span class=n>list</span><span class=o>.</span><span class=na>toArray</span><span class=o>(</span><span class=k>new</span> <span class=n>String</span><span class=o>[</span><span class=n>list</span><span class=o>.</span><span class=na>size</span><span class=o>()]);</span>
+    <span class=o>}</span>
 
-    private void count(String s, Map&lt;String, Integer&gt; map) {
-        for (String a : s.split(&quot; &quot;)) {
-            map.put(a, map.getOrDefault(a, 0) + 1);
-        }
-    }
-}
-</code></pre>
-<h3 id=128-1996-游戏中弱角色的数量httpsleetcode-cncomproblemsthe-number-of-weak-characters-in-the-game><a href=https://leetcode-cn.com/problems/the-number-of-weak-characters-in-the-game/>1.28-1996. 游戏中弱角色的数量</a><a hidden class=anchor aria-hidden=true href=#128-1996-游戏中弱角色的数量httpsleetcode-cncomproblemsthe-number-of-weak-characters-in-the-game>#</a></h3>
+    <span class=kd>private</span> <span class=kt>void</span> <span class=nf>count</span><span class=o>(</span><span class=n>String</span> <span class=n>s</span><span class=o>,</span> <span class=n>Map</span><span class=o>&lt;</span><span class=n>String</span><span class=o>,</span> <span class=n>Integer</span><span class=o>&gt;</span> <span class=n>map</span><span class=o>)</span> <span class=o>{</span>
+        <span class=k>for</span> <span class=o>(</span><span class=n>String</span> <span class=n>a</span> <span class=o>:</span> <span class=n>s</span><span class=o>.</span><span class=na>split</span><span class=o>(</span><span class=s>&#34; &#34;</span><span class=o>))</span> <span class=o>{</span>
+            <span class=n>map</span><span class=o>.</span><span class=na>put</span><span class=o>(</span><span class=n>a</span><span class=o>,</span> <span class=n>map</span><span class=o>.</span><span class=na>getOrDefault</span><span class=o>(</span><span class=n>a</span><span class=o>,</span> <span class=n>0</span><span class=o>)</span> <span class=o>+</span> <span class=n>1</span><span class=o>);</span>
+        <span class=o>}</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h3 id=128-1996-游戏中弱角色的数量httpsleetcode-cncomproblemsthe-number-of-weak-characters-in-the-game><a href=https://leetcode-cn.com/problems/the-number-of-weak-characters-in-the-game/>1.28-1996. 游戏中弱角色的数量</a><a hidden class=anchor aria-hidden=true href=#128-1996-游戏中弱角色的数量httpsleetcode-cncomproblemsthe-number-of-weak-characters-in-the-game>#</a></h3>
 <p>难度：<font color=#FFA119>中等</font></p>
 <blockquote>
 <p>排序</p>
 </blockquote>
-<pre><code>class Solution {
-    public int numberOfWeakCharacters(int[][] properties) {
-        Arrays.sort(properties,(a,b)-&gt;{
-            return a[0] == b[0] ? (a[1] - b[1]) : (b[0] - a[0]);
-        });
-        int cnt = 0;
-        int temp = 0;
-        for (int[] p : properties) {
-            if(p[1] &lt; temp) cnt++;
-            else temp = p[1];
-        }
-        return cnt;
-    }
-}
-</code></pre>
-<h3 id=127-2047-句子中的有效单词数httpsleetcode-cncomproblemsnumber-of-valid-words-in-a-sentence><a href=https://leetcode-cn.com/problems/number-of-valid-words-in-a-sentence/>1.27-2047. 句子中的有效单词数</a><a hidden class=anchor aria-hidden=true href=#127-2047-句子中的有效单词数httpsleetcode-cncomproblemsnumber-of-valid-words-in-a-sentence>#</a></h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>int</span> <span class=nf>numberOfWeakCharacters</span><span class=o>(</span><span class=kt>int</span><span class=o>[][]</span> <span class=n>properties</span><span class=o>)</span> <span class=o>{</span>
+        <span class=n>Arrays</span><span class=o>.</span><span class=na>sort</span><span class=o>(</span><span class=n>properties</span><span class=o>,(</span><span class=n>a</span><span class=o>,</span><span class=n>b</span><span class=o>)-&gt;{</span>
+            <span class=k>return</span> <span class=n>a</span><span class=o>[</span><span class=n>0</span><span class=o>]</span> <span class=o>==</span> <span class=n>b</span><span class=o>[</span><span class=n>0</span><span class=o>]</span> <span class=o>?</span> <span class=o>(</span><span class=n>a</span><span class=o>[</span><span class=n>1</span><span class=o>]</span> <span class=o>-</span> <span class=n>b</span><span class=o>[</span><span class=n>1</span><span class=o>])</span> <span class=o>:</span> <span class=o>(</span><span class=n>b</span><span class=o>[</span><span class=n>0</span><span class=o>]</span> <span class=o>-</span> <span class=n>a</span><span class=o>[</span><span class=n>0</span><span class=o>]);</span>
+        <span class=o>});</span>
+        <span class=kt>int</span> <span class=n>cnt</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span>
+        <span class=kt>int</span> <span class=n>temp</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span>
+        <span class=k>for</span> <span class=o>(</span><span class=kt>int</span><span class=o>[]</span> <span class=n>p</span> <span class=o>:</span> <span class=n>properties</span><span class=o>)</span> <span class=o>{</span>
+            <span class=k>if</span><span class=o>(</span><span class=n>p</span><span class=o>[</span><span class=n>1</span><span class=o>]</span> <span class=o>&lt;</span> <span class=n>temp</span><span class=o>)</span> <span class=n>cnt</span><span class=o>++;</span>
+            <span class=k>else</span> <span class=n>temp</span> <span class=o>=</span> <span class=n>p</span><span class=o>[</span><span class=n>1</span><span class=o>];</span>
+        <span class=o>}</span>
+        <span class=k>return</span> <span class=n>cnt</span><span class=o>;</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h3 id=127-2047-句子中的有效单词数httpsleetcode-cncomproblemsnumber-of-valid-words-in-a-sentence><a href=https://leetcode-cn.com/problems/number-of-valid-words-in-a-sentence/>1.27-2047. 句子中的有效单词数</a><a hidden class=anchor aria-hidden=true href=#127-2047-句子中的有效单词数httpsleetcode-cncomproblemsnumber-of-valid-words-in-a-sentence>#</a></h3>
 <p>难度：<font color=#5AB726>简单</font></p>
 <blockquote>
 <p>模拟</p>
 </blockquote>
-<pre><code>class Solution {
-    public int countValidWords(String sentence) {
-        String[] ss = sentence.split(&quot; &quot;);
-        int ans = 0;
-        for (String s : ss) if (check(s)) ans++;
-        return ans;
-    }
-    boolean check(String s) {
-        int n = s.length();
-        if (n == 0) return false;
-        for (int i = 0, c1 = 0, c2 = 0; i &lt; n; i++) {
-            char c = s.charAt(i);
-            if (Character.isDigit(c)) return false;
-            if (c == ' ') return false;
-            if (c == '-' &amp;&amp; ++c1 &gt;= 0) {
-                if (c1 &gt; 1 || (i == 0 || i == n - 1)) return false;
-                if (!Character.isLetter(s.charAt(i - 1)) || !Character.isLetter(s.charAt(i + 1))) return false;
-            }
-            if ((c == '!' || c == '.' || c == ',') &amp;&amp; ++c2 &gt;= 0) {
-                if (c2 &gt; 1 || (i != n - 1)) return false;
-            }
-        }
-        return true;
-    }
-}
-</code></pre>
-<h3 id=125-1688-比赛中的配对次数httpsleetcode-cncomproblemscount-of-matches-in-tournament><a href=https://leetcode-cn.com/problems/count-of-matches-in-tournament/>1.25-1688. 比赛中的配对次数</a><a hidden class=anchor aria-hidden=true href=#125-1688-比赛中的配对次数httpsleetcode-cncomproblemscount-of-matches-in-tournament>#</a></h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>int</span> <span class=nf>countValidWords</span><span class=o>(</span><span class=n>String</span> <span class=n>sentence</span><span class=o>)</span> <span class=o>{</span>
+        <span class=n>String</span><span class=o>[]</span> <span class=n>ss</span> <span class=o>=</span> <span class=n>sentence</span><span class=o>.</span><span class=na>split</span><span class=o>(</span><span class=s>&#34; &#34;</span><span class=o>);</span>
+        <span class=kt>int</span> <span class=n>ans</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span>
+        <span class=k>for</span> <span class=o>(</span><span class=n>String</span> <span class=n>s</span> <span class=o>:</span> <span class=n>ss</span><span class=o>)</span> <span class=k>if</span> <span class=o>(</span><span class=n>check</span><span class=o>(</span><span class=n>s</span><span class=o>))</span> <span class=n>ans</span><span class=o>++;</span>
+        <span class=k>return</span> <span class=n>ans</span><span class=o>;</span>
+    <span class=o>}</span>
+    <span class=kt>boolean</span> <span class=nf>check</span><span class=o>(</span><span class=n>String</span> <span class=n>s</span><span class=o>)</span> <span class=o>{</span>
+        <span class=kt>int</span> <span class=n>n</span> <span class=o>=</span> <span class=n>s</span><span class=o>.</span><span class=na>length</span><span class=o>();</span>
+        <span class=k>if</span> <span class=o>(</span><span class=n>n</span> <span class=o>==</span> <span class=n>0</span><span class=o>)</span> <span class=k>return</span> <span class=kc>false</span><span class=o>;</span>
+        <span class=k>for</span> <span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=n>0</span><span class=o>,</span> <span class=n>c1</span> <span class=o>=</span> <span class=n>0</span><span class=o>,</span> <span class=n>c2</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span> <span class=n>i</span> <span class=o>&lt;</span> <span class=n>n</span><span class=o>;</span> <span class=n>i</span><span class=o>++)</span> <span class=o>{</span>
+            <span class=kt>char</span> <span class=n>c</span> <span class=o>=</span> <span class=n>s</span><span class=o>.</span><span class=na>charAt</span><span class=o>(</span><span class=n>i</span><span class=o>);</span>
+            <span class=k>if</span> <span class=o>(</span><span class=n>Character</span><span class=o>.</span><span class=na>isDigit</span><span class=o>(</span><span class=n>c</span><span class=o>))</span> <span class=k>return</span> <span class=kc>false</span><span class=o>;</span>
+            <span class=k>if</span> <span class=o>(</span><span class=n>c</span> <span class=o>==</span> <span class=sc>&#39; &#39;</span><span class=o>)</span> <span class=k>return</span> <span class=kc>false</span><span class=o>;</span>
+            <span class=k>if</span> <span class=o>(</span><span class=n>c</span> <span class=o>==</span> <span class=sc>&#39;-&#39;</span> <span class=o>&amp;&amp;</span> <span class=o>++</span><span class=n>c1</span> <span class=o>&gt;=</span> <span class=n>0</span><span class=o>)</span> <span class=o>{</span>
+                <span class=k>if</span> <span class=o>(</span><span class=n>c1</span> <span class=o>&gt;</span> <span class=n>1</span> <span class=o>||</span> <span class=o>(</span><span class=n>i</span> <span class=o>==</span> <span class=n>0</span> <span class=o>||</span> <span class=n>i</span> <span class=o>==</span> <span class=n>n</span> <span class=o>-</span> <span class=n>1</span><span class=o>))</span> <span class=k>return</span> <span class=kc>false</span><span class=o>;</span>
+                <span class=k>if</span> <span class=o>(!</span><span class=n>Character</span><span class=o>.</span><span class=na>isLetter</span><span class=o>(</span><span class=n>s</span><span class=o>.</span><span class=na>charAt</span><span class=o>(</span><span class=n>i</span> <span class=o>-</span> <span class=n>1</span><span class=o>))</span> <span class=o>||</span> <span class=o>!</span><span class=n>Character</span><span class=o>.</span><span class=na>isLetter</span><span class=o>(</span><span class=n>s</span><span class=o>.</span><span class=na>charAt</span><span class=o>(</span><span class=n>i</span> <span class=o>+</span> <span class=n>1</span><span class=o>)))</span> <span class=k>return</span> <span class=kc>false</span><span class=o>;</span>
+            <span class=o>}</span>
+            <span class=k>if</span> <span class=o>((</span><span class=n>c</span> <span class=o>==</span> <span class=sc>&#39;!&#39;</span> <span class=o>||</span> <span class=n>c</span> <span class=o>==</span> <span class=sc>&#39;.&#39;</span> <span class=o>||</span> <span class=n>c</span> <span class=o>==</span> <span class=sc>&#39;,&#39;</span><span class=o>)</span> <span class=o>&amp;&amp;</span> <span class=o>++</span><span class=n>c2</span> <span class=o>&gt;=</span> <span class=n>0</span><span class=o>)</span> <span class=o>{</span>
+                <span class=k>if</span> <span class=o>(</span><span class=n>c2</span> <span class=o>&gt;</span> <span class=n>1</span> <span class=o>||</span> <span class=o>(</span><span class=n>i</span> <span class=o>!=</span> <span class=n>n</span> <span class=o>-</span> <span class=n>1</span><span class=o>))</span> <span class=k>return</span> <span class=kc>false</span><span class=o>;</span>
+            <span class=o>}</span>
+        <span class=o>}</span>
+        <span class=k>return</span> <span class=kc>true</span><span class=o>;</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h3 id=125-1688-比赛中的配对次数httpsleetcode-cncomproblemscount-of-matches-in-tournament><a href=https://leetcode-cn.com/problems/count-of-matches-in-tournament/>1.25-1688. 比赛中的配对次数</a><a hidden class=anchor aria-hidden=true href=#125-1688-比赛中的配对次数httpsleetcode-cncomproblemscount-of-matches-in-tournament>#</a></h3>
 <p>难度：<font color=#5AB726>简单</font></p>
 <blockquote>
 <p>脑筋急转弯</p>
 </blockquote>
-<pre><code>class Solution {
-    public int numberOfMatches(int n) {
-        return n - 1;
-    }
-}
-</code></pre>
-<h3 id=122-1332-删除回文子序列httpsleetcode-cncomproblemsremove-palindromic-subsequences><a href=https://leetcode-cn.com/problems/remove-palindromic-subsequences>1.22-1332. 删除回文子序列</a><a hidden class=anchor aria-hidden=true href=#122-1332-删除回文子序列httpsleetcode-cncomproblemsremove-palindromic-subsequences>#</a></h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>int</span> <span class=nf>numberOfMatches</span><span class=o>(</span><span class=kt>int</span> <span class=n>n</span><span class=o>)</span> <span class=o>{</span>
+        <span class=k>return</span> <span class=n>n</span> <span class=o>-</span> <span class=n>1</span><span class=o>;</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h3 id=122-1332-删除回文子序列httpsleetcode-cncomproblemsremove-palindromic-subsequences><a href=https://leetcode-cn.com/problems/remove-palindromic-subsequences>1.22-1332. 删除回文子序列</a><a hidden class=anchor aria-hidden=true href=#122-1332-删除回文子序列httpsleetcode-cncomproblemsremove-palindromic-subsequences>#</a></h3>
 <p>难度：<font color=#5AB726>简单</font></p>
 <blockquote>
 <p>模拟</p>
 </blockquote>
-<pre><code>class Solution {
-    public int removePalindromeSub(String s) {
-        int n = s.length();
-        for(int i = 0; i &lt; (n &gt;&gt; 1); i++)
-            if(s.charAt(i) != s.charAt(n-1-i)) return 2;
-        return 1;
-    }
-}
-</code></pre>
-<h3 id=119-219存在重复元素iihttpsleetcode-cncomproblemscontains-duplicate-ii><a href=https://leetcode-cn.com/problems/contains-duplicate-ii>1.19-219.存在重复元素II</a><a hidden class=anchor aria-hidden=true href=#119-219存在重复元素iihttpsleetcode-cncomproblemscontains-duplicate-ii>#</a></h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>int</span> <span class=nf>removePalindromeSub</span><span class=o>(</span><span class=n>String</span> <span class=n>s</span><span class=o>)</span> <span class=o>{</span>
+        <span class=kt>int</span> <span class=n>n</span> <span class=o>=</span> <span class=n>s</span><span class=o>.</span><span class=na>length</span><span class=o>();</span>
+        <span class=k>for</span><span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span> <span class=n>i</span> <span class=o>&lt;</span> <span class=o>(</span><span class=n>n</span> <span class=o>&gt;&gt;</span> <span class=n>1</span><span class=o>);</span> <span class=n>i</span><span class=o>++)</span>
+            <span class=k>if</span><span class=o>(</span><span class=n>s</span><span class=o>.</span><span class=na>charAt</span><span class=o>(</span><span class=n>i</span><span class=o>)</span> <span class=o>!=</span> <span class=n>s</span><span class=o>.</span><span class=na>charAt</span><span class=o>(</span><span class=n>n</span><span class=o>-</span><span class=n>1</span><span class=o>-</span><span class=n>i</span><span class=o>))</span> <span class=k>return</span> <span class=n>2</span><span class=o>;</span>
+        <span class=k>return</span> <span class=n>1</span><span class=o>;</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h3 id=119-219存在重复元素iihttpsleetcode-cncomproblemscontains-duplicate-ii><a href=https://leetcode-cn.com/problems/contains-duplicate-ii>1.19-219.存在重复元素II</a><a hidden class=anchor aria-hidden=true href=#119-219存在重复元素iihttpsleetcode-cncomproblemscontains-duplicate-ii>#</a></h3>
 <p>难度：<font color=#5AB726>简单</font></p>
 <blockquote>
 <p>HashMap</p>
 </blockquote>
-<pre><code>class Solution {
-    public boolean containsNearbyDuplicate(int[] nums, int k) {
-        HashMap&lt;Integer, Integer&gt; hashMap = new HashMap&lt;&gt;();
-        for(int i = 0; i &lt; nums.length; i++) {
-            int num = nums[i];
-            if(hashMap.containsKey(num)) {
-                return true;
-            }
-            hashMap.put(num, null);
-            if(hashMap.size() &gt; k) {
-                hashMap.remove(nums[i - k]);
-            }
-        }
-        return false;
-    }
-}
-</code></pre>
-<h1 id=leetcode_周赛>LeetCode_周赛<a hidden class=anchor aria-hidden=true href=#leetcode_周赛>#</a></h1>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>boolean</span> <span class=nf>containsNearbyDuplicate</span><span class=o>(</span><span class=kt>int</span><span class=o>[]</span> <span class=n>nums</span><span class=o>,</span> <span class=kt>int</span> <span class=n>k</span><span class=o>)</span> <span class=o>{</span>
+        <span class=n>HashMap</span><span class=o>&lt;</span><span class=n>Integer</span><span class=o>,</span> <span class=n>Integer</span><span class=o>&gt;</span> <span class=n>hashMap</span> <span class=o>=</span> <span class=k>new</span> <span class=n>HashMap</span><span class=o>&lt;&gt;();</span>
+        <span class=k>for</span><span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span> <span class=n>i</span> <span class=o>&lt;</span> <span class=n>nums</span><span class=o>.</span><span class=na>length</span><span class=o>;</span> <span class=n>i</span><span class=o>++)</span> <span class=o>{</span>
+            <span class=kt>int</span> <span class=n>num</span> <span class=o>=</span> <span class=n>nums</span><span class=o>[</span><span class=n>i</span><span class=o>];</span>
+            <span class=k>if</span><span class=o>(</span><span class=n>hashMap</span><span class=o>.</span><span class=na>containsKey</span><span class=o>(</span><span class=n>num</span><span class=o>))</span> <span class=o>{</span>
+                <span class=k>return</span> <span class=kc>true</span><span class=o>;</span>
+            <span class=o>}</span>
+            <span class=n>hashMap</span><span class=o>.</span><span class=na>put</span><span class=o>(</span><span class=n>num</span><span class=o>,</span> <span class=kc>null</span><span class=o>);</span>
+            <span class=k>if</span><span class=o>(</span><span class=n>hashMap</span><span class=o>.</span><span class=na>size</span><span class=o>()</span> <span class=o>&gt;</span> <span class=n>k</span><span class=o>)</span> <span class=o>{</span>
+                <span class=n>hashMap</span><span class=o>.</span><span class=na>remove</span><span class=o>(</span><span class=n>nums</span><span class=o>[</span><span class=n>i</span> <span class=o>-</span> <span class=n>k</span><span class=o>]);</span>
+            <span class=o>}</span>
+        <span class=o>}</span>
+        <span class=k>return</span> <span class=kc>false</span><span class=o>;</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h1 id=leetcode_周赛>LeetCode_周赛<a hidden class=anchor aria-hidden=true href=#leetcode_周赛>#</a></h1>
 <h2 id=第-276-场周赛>第 276 场周赛<a hidden class=anchor aria-hidden=true href=#第-276-场周赛>#</a></h2>
 <h3 id=2138-将字符串拆分为若干长度为-k-的组httpsleetcode-cncomproblemsdivide-a-string-into-groups-of-size-k><a href=https://leetcode-cn.com/problems/divide-a-string-into-groups-of-size-k/>2138. 将字符串拆分为若干长度为 k 的组</a><a hidden class=anchor aria-hidden=true href=#2138-将字符串拆分为若干长度为-k-的组httpsleetcode-cncomproblemsdivide-a-string-into-groups-of-size-k>#</a></h3>
 <p>难度：<font color=#5AB726>简单</font></p>
 <blockquote>
 <p>补全分割</p>
 </blockquote>
-<pre><code>class Solution {
-    public String[] divideString(String s, int k, char fill) {
-    	int num = s.length() % k;
-    	if(num != 0) {
-    		num = k - num;
-    		while(num-- &gt; 0) {
-    			s += fill;
-    		}
-    	}
-    	int len = s.length() / k;
-    	String[] ans = new String[len];
-    	for(int i = 0; i &lt; len; i++) {
-    		ans[i] = s.substring(i*k, (i + 1) * k);
-    	}
-    	return ans;
-    }
-}
-</code></pre>
-<h3 id=2139-得到目标值的最少行动次数httpsleetcode-cncomproblemsdivide-a-string-into-groups-of-size-k><a href=https://leetcode-cn.com/problems/divide-a-string-into-groups-of-size-k/>2139. 得到目标值的最少行动次数</a><a hidden class=anchor aria-hidden=true href=#2139-得到目标值的最少行动次数httpsleetcode-cncomproblemsdivide-a-string-into-groups-of-size-k>#</a></h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=n>String</span><span class=o>[]</span> <span class=nf>divideString</span><span class=o>(</span><span class=n>String</span> <span class=n>s</span><span class=o>,</span> <span class=kt>int</span> <span class=n>k</span><span class=o>,</span> <span class=kt>char</span> <span class=n>fill</span><span class=o>)</span> <span class=o>{</span>
+    	<span class=kt>int</span> <span class=n>num</span> <span class=o>=</span> <span class=n>s</span><span class=o>.</span><span class=na>length</span><span class=o>()</span> <span class=o>%</span> <span class=n>k</span><span class=o>;</span>
+    	<span class=k>if</span><span class=o>(</span><span class=n>num</span> <span class=o>!=</span> <span class=n>0</span><span class=o>)</span> <span class=o>{</span>
+    		<span class=n>num</span> <span class=o>=</span> <span class=n>k</span> <span class=o>-</span> <span class=n>num</span><span class=o>;</span>
+    		<span class=k>while</span><span class=o>(</span><span class=n>num</span><span class=o>--</span> <span class=o>&gt;</span> <span class=n>0</span><span class=o>)</span> <span class=o>{</span>
+    			<span class=n>s</span> <span class=o>+=</span> <span class=n>fill</span><span class=o>;</span>
+    		<span class=o>}</span>
+    	<span class=o>}</span>
+    	<span class=kt>int</span> <span class=n>len</span> <span class=o>=</span> <span class=n>s</span><span class=o>.</span><span class=na>length</span><span class=o>()</span> <span class=o>/</span> <span class=n>k</span><span class=o>;</span>
+    	<span class=n>String</span><span class=o>[]</span> <span class=n>ans</span> <span class=o>=</span> <span class=k>new</span> <span class=n>String</span><span class=o>[</span><span class=n>len</span><span class=o>];</span>
+    	<span class=k>for</span><span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span> <span class=n>i</span> <span class=o>&lt;</span> <span class=n>len</span><span class=o>;</span> <span class=n>i</span><span class=o>++)</span> <span class=o>{</span>
+    		<span class=n>ans</span><span class=o>[</span><span class=n>i</span><span class=o>]</span> <span class=o>=</span> <span class=n>s</span><span class=o>.</span><span class=na>substring</span><span class=o>(</span><span class=n>i</span><span class=o>*</span><span class=n>k</span><span class=o>,</span> <span class=o>(</span><span class=n>i</span> <span class=o>+</span> <span class=n>1</span><span class=o>)</span> <span class=o>*</span> <span class=n>k</span><span class=o>);</span>
+    	<span class=o>}</span>
+    	<span class=k>return</span> <span class=n>ans</span><span class=o>;</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h3 id=2139-得到目标值的最少行动次数httpsleetcode-cncomproblemsdivide-a-string-into-groups-of-size-k><a href=https://leetcode-cn.com/problems/divide-a-string-into-groups-of-size-k/>2139. 得到目标值的最少行动次数</a><a hidden class=anchor aria-hidden=true href=#2139-得到目标值的最少行动次数httpsleetcode-cncomproblemsdivide-a-string-into-groups-of-size-k>#</a></h3>
 <p>难度：<font color=#FFA119>中等</font></p>
 <blockquote>
 <p>贪心</p>
 </blockquote>
-<pre><code>class Solution {
-    public int minMoves(int target, int maxDoubles) {
-    	int cnt = 0;
-    	while(target &gt; 1) {
-    		if(maxDoubles &gt; 0) {
-    			if((target &amp; 1) == 1) target--;
-    			else {
-    				target &gt;&gt;= 1;
-    				maxDoubles--;
-    			}
-    			cnt++;
-    		}else {
-    			return target + cnt - 1;
-    		}
-    	}
-    	return cnt;
-    }
-}
-</code></pre>
-<h3 id=2140-解决智力问题httpsleetcode-cncomproblemssolving-questions-with-brainpower><a href=https://leetcode-cn.com/problems/solving-questions-with-brainpower/>2140. 解决智力问题</a><a hidden class=anchor aria-hidden=true href=#2140-解决智力问题httpsleetcode-cncomproblemssolving-questions-with-brainpower>#</a></h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>int</span> <span class=nf>minMoves</span><span class=o>(</span><span class=kt>int</span> <span class=n>target</span><span class=o>,</span> <span class=kt>int</span> <span class=n>maxDoubles</span><span class=o>)</span> <span class=o>{</span>
+    	<span class=kt>int</span> <span class=n>cnt</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span>
+    	<span class=k>while</span><span class=o>(</span><span class=n>target</span> <span class=o>&gt;</span> <span class=n>1</span><span class=o>)</span> <span class=o>{</span>
+    		<span class=k>if</span><span class=o>(</span><span class=n>maxDoubles</span> <span class=o>&gt;</span> <span class=n>0</span><span class=o>)</span> <span class=o>{</span>
+    			<span class=k>if</span><span class=o>((</span><span class=n>target</span> <span class=o>&amp;</span> <span class=n>1</span><span class=o>)</span> <span class=o>==</span> <span class=n>1</span><span class=o>)</span> <span class=n>target</span><span class=o>--;</span>
+    			<span class=k>else</span> <span class=o>{</span>
+    				<span class=n>target</span> <span class=o>&gt;&gt;=</span> <span class=n>1</span><span class=o>;</span>
+    				<span class=n>maxDoubles</span><span class=o>--;</span>
+    			<span class=o>}</span>
+    			<span class=n>cnt</span><span class=o>++;</span>
+    		<span class=o>}</span><span class=k>else</span> <span class=o>{</span>
+    			<span class=k>return</span> <span class=n>target</span> <span class=o>+</span> <span class=n>cnt</span> <span class=o>-</span> <span class=n>1</span><span class=o>;</span>
+    		<span class=o>}</span>
+    	<span class=o>}</span>
+    	<span class=k>return</span> <span class=n>cnt</span><span class=o>;</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h3 id=2140-解决智力问题httpsleetcode-cncomproblemssolving-questions-with-brainpower><a href=https://leetcode-cn.com/problems/solving-questions-with-brainpower/>2140. 解决智力问题</a><a hidden class=anchor aria-hidden=true href=#2140-解决智力问题httpsleetcode-cncomproblemssolving-questions-with-brainpower>#</a></h3>
 <p>难度：<font color=#FFA119>中等</font></p>
 <blockquote>
 <p>逆序dp</p>
 </blockquote>
-<pre><code>class Solution {
-    public long mostPoints(int[][] questions) {
-    	int n = questions.length;
-    	long[] dp = new long[n + 1];
-    	for(int i = n -1; i &gt;= 0; i--) {
-    		if(questions[i][1] + i + 1 &lt; n) {
-    			dp[i] = Math.max(dp[i + 1], dp[questions[i][1] + i + 1] + questions[i][0]);
-    		} else {
-    			dp[i] = Math.max(dp[i + 1], questions[i][0]);
-    		}
-    	}
-    	return dp[0];
-    }
-}  
-</code></pre>
-<h2 id=第-275-场周赛>第 275 场周赛<a hidden class=anchor aria-hidden=true href=#第-275-场周赛>#</a></h2>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>long</span> <span class=nf>mostPoints</span><span class=o>(</span><span class=kt>int</span><span class=o>[][]</span> <span class=n>questions</span><span class=o>)</span> <span class=o>{</span>
+    	<span class=kt>int</span> <span class=n>n</span> <span class=o>=</span> <span class=n>questions</span><span class=o>.</span><span class=na>length</span><span class=o>;</span>
+    	<span class=kt>long</span><span class=o>[]</span> <span class=n>dp</span> <span class=o>=</span> <span class=k>new</span> <span class=kt>long</span><span class=o>[</span><span class=n>n</span> <span class=o>+</span> <span class=n>1</span><span class=o>];</span>
+    	<span class=k>for</span><span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=n>n</span> <span class=o>-</span><span class=n>1</span><span class=o>;</span> <span class=n>i</span> <span class=o>&gt;=</span> <span class=n>0</span><span class=o>;</span> <span class=n>i</span><span class=o>--)</span> <span class=o>{</span>
+    		<span class=k>if</span><span class=o>(</span><span class=n>questions</span><span class=o>[</span><span class=n>i</span><span class=o>][</span><span class=n>1</span><span class=o>]</span> <span class=o>+</span> <span class=n>i</span> <span class=o>+</span> <span class=n>1</span> <span class=o>&lt;</span> <span class=n>n</span><span class=o>)</span> <span class=o>{</span>
+    			<span class=n>dp</span><span class=o>[</span><span class=n>i</span><span class=o>]</span> <span class=o>=</span> <span class=n>Math</span><span class=o>.</span><span class=na>max</span><span class=o>(</span><span class=n>dp</span><span class=o>[</span><span class=n>i</span> <span class=o>+</span> <span class=n>1</span><span class=o>],</span> <span class=n>dp</span><span class=o>[</span><span class=n>questions</span><span class=o>[</span><span class=n>i</span><span class=o>][</span><span class=n>1</span><span class=o>]</span> <span class=o>+</span> <span class=n>i</span> <span class=o>+</span> <span class=n>1</span><span class=o>]</span> <span class=o>+</span> <span class=n>questions</span><span class=o>[</span><span class=n>i</span><span class=o>][</span><span class=n>0</span><span class=o>]);</span>
+    		<span class=o>}</span> <span class=k>else</span> <span class=o>{</span>
+    			<span class=n>dp</span><span class=o>[</span><span class=n>i</span><span class=o>]</span> <span class=o>=</span> <span class=n>Math</span><span class=o>.</span><span class=na>max</span><span class=o>(</span><span class=n>dp</span><span class=o>[</span><span class=n>i</span> <span class=o>+</span> <span class=n>1</span><span class=o>],</span> <span class=n>questions</span><span class=o>[</span><span class=n>i</span><span class=o>][</span><span class=n>0</span><span class=o>]);</span>
+    		<span class=o>}</span>
+    	<span class=o>}</span>
+    	<span class=k>return</span> <span class=n>dp</span><span class=o>[</span><span class=n>0</span><span class=o>];</span>
+    <span class=o>}</span>
+<span class=o>}</span>  
+</code></pre></div><h2 id=第-275-场周赛>第 275 场周赛<a hidden class=anchor aria-hidden=true href=#第-275-场周赛>#</a></h2>
 <h3 id=2133-检查是否每一行每一列都包含全部整数httpsleetcode-cncomproblemscheck-if-every-row-and-column-contains-all-numbers><a href=https://leetcode-cn.com/problems/check-if-every-row-and-column-contains-all-numbers/>2133. 检查是否每一行每一列都包含全部整数</a><a hidden class=anchor aria-hidden=true href=#2133-检查是否每一行每一列都包含全部整数httpsleetcode-cncomproblemscheck-if-every-row-and-column-contains-all-numbers>#</a></h3>
 <p>难度：<font color=#5AB726>简单</font></p>
 <blockquote>
 <p>HashSet</p>
 </blockquote>
-<pre><code>class Solution {
-    public boolean checkValid(int[][] matrix) {
-    	int len = matrix.length;
-    	HashSet&lt;Integer&gt; h1 = new HashSet&lt;&gt;();
-    	HashSet&lt;Integer&gt; h2 = new HashSet&lt;&gt;();
-    	for(int i = 0; i &lt; len; i++) {
-    		for(int j = 0; j &lt; len; j++) {
-    			h1.add(matrix[i][j]);
-    			h2.add(matrix[j][i]);
-    		}
-    		if(h1.size() != len || h2.size() != len) return false;
-    		h1.clear();
-    		h2.clear();
-    	}
-    	return true;
-    }
-}		
-</code></pre>
-<h2 id=第-69-场双周赛>第 69 场双周赛<a hidden class=anchor aria-hidden=true href=#第-69-场双周赛>#</a></h2>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>boolean</span> <span class=nf>checkValid</span><span class=o>(</span><span class=kt>int</span><span class=o>[][]</span> <span class=n>matrix</span><span class=o>)</span> <span class=o>{</span>
+    	<span class=kt>int</span> <span class=n>len</span> <span class=o>=</span> <span class=n>matrix</span><span class=o>.</span><span class=na>length</span><span class=o>;</span>
+    	<span class=n>HashSet</span><span class=o>&lt;</span><span class=n>Integer</span><span class=o>&gt;</span> <span class=n>h1</span> <span class=o>=</span> <span class=k>new</span> <span class=n>HashSet</span><span class=o>&lt;&gt;();</span>
+    	<span class=n>HashSet</span><span class=o>&lt;</span><span class=n>Integer</span><span class=o>&gt;</span> <span class=n>h2</span> <span class=o>=</span> <span class=k>new</span> <span class=n>HashSet</span><span class=o>&lt;&gt;();</span>
+    	<span class=k>for</span><span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span> <span class=n>i</span> <span class=o>&lt;</span> <span class=n>len</span><span class=o>;</span> <span class=n>i</span><span class=o>++)</span> <span class=o>{</span>
+    		<span class=k>for</span><span class=o>(</span><span class=kt>int</span> <span class=n>j</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span> <span class=n>j</span> <span class=o>&lt;</span> <span class=n>len</span><span class=o>;</span> <span class=n>j</span><span class=o>++)</span> <span class=o>{</span>
+    			<span class=n>h1</span><span class=o>.</span><span class=na>add</span><span class=o>(</span><span class=n>matrix</span><span class=o>[</span><span class=n>i</span><span class=o>][</span><span class=n>j</span><span class=o>]);</span>
+    			<span class=n>h2</span><span class=o>.</span><span class=na>add</span><span class=o>(</span><span class=n>matrix</span><span class=o>[</span><span class=n>j</span><span class=o>][</span><span class=n>i</span><span class=o>]);</span>
+    		<span class=o>}</span>
+    		<span class=k>if</span><span class=o>(</span><span class=n>h1</span><span class=o>.</span><span class=na>size</span><span class=o>()</span> <span class=o>!=</span> <span class=n>len</span> <span class=o>||</span> <span class=n>h2</span><span class=o>.</span><span class=na>size</span><span class=o>()</span> <span class=o>!=</span> <span class=n>len</span><span class=o>)</span> <span class=k>return</span> <span class=kc>false</span><span class=o>;</span>
+    		<span class=n>h1</span><span class=o>.</span><span class=na>clear</span><span class=o>();</span>
+    		<span class=n>h2</span><span class=o>.</span><span class=na>clear</span><span class=o>();</span>
+    	<span class=o>}</span>
+    	<span class=k>return</span> <span class=kc>true</span><span class=o>;</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h2 id=第-69-场双周赛>第 69 场双周赛<a hidden class=anchor aria-hidden=true href=#第-69-场双周赛>#</a></h2>
 <h3 id=2129-将标题首字母大写httpsleetcode-cncomproblemscapitalize-the-title><a href=https://leetcode-cn.com/problems/capitalize-the-title/>2129. 将标题首字母大写</a><a hidden class=anchor aria-hidden=true href=#2129-将标题首字母大写httpsleetcode-cncomproblemscapitalize-the-title>#</a></h3>
 <p>难度：<font color=#5AB726>简单</font></p>
 <blockquote>
 <p>Api+Ascii</p>
 </blockquote>
-<pre><code>class Solution  {
-    public String capitalizeTitle(String title) {
-    	String[] str = title.split(&quot; &quot;);
-    	for(int i = 0; i &lt; str.length; i++) {
-    		if(str[i].length() &lt; 3) {
-    			str[i] = str[i].toLowerCase();
-    		} else {
-    			char[] c = str[i].toLowerCase().toCharArray();
-    			c[0] &amp;= ~32;
-    			str[i] = String.valueOf(c);
-    		}
-    	}
-    	return String.join(&quot; &quot;, str);
-    }
-}
-</code></pre>
-<h3 id=2130-链表最大孪生和httpsleetcode-cncomproblemsmaximum-twin-sum-of-a-linked-list><a href=https://leetcode-cn.com/problems/maximum-twin-sum-of-a-linked-list/>2130. 链表最大孪生和</a><a hidden class=anchor aria-hidden=true href=#2130-链表最大孪生和httpsleetcode-cncomproblemsmaximum-twin-sum-of-a-linked-list>#</a></h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span>  <span class=o>{</span>
+    <span class=kd>public</span> <span class=n>String</span> <span class=nf>capitalizeTitle</span><span class=o>(</span><span class=n>String</span> <span class=n>title</span><span class=o>)</span> <span class=o>{</span>
+    	<span class=n>String</span><span class=o>[]</span> <span class=n>str</span> <span class=o>=</span> <span class=n>title</span><span class=o>.</span><span class=na>split</span><span class=o>(</span><span class=s>&#34; &#34;</span><span class=o>);</span>
+    	<span class=k>for</span><span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span> <span class=n>i</span> <span class=o>&lt;</span> <span class=n>str</span><span class=o>.</span><span class=na>length</span><span class=o>;</span> <span class=n>i</span><span class=o>++)</span> <span class=o>{</span>
+    		<span class=k>if</span><span class=o>(</span><span class=n>str</span><span class=o>[</span><span class=n>i</span><span class=o>].</span><span class=na>length</span><span class=o>()</span> <span class=o>&lt;</span> <span class=n>3</span><span class=o>)</span> <span class=o>{</span>
+    			<span class=n>str</span><span class=o>[</span><span class=n>i</span><span class=o>]</span> <span class=o>=</span> <span class=n>str</span><span class=o>[</span><span class=n>i</span><span class=o>].</span><span class=na>toLowerCase</span><span class=o>();</span>
+    		<span class=o>}</span> <span class=k>else</span> <span class=o>{</span>
+    			<span class=kt>char</span><span class=o>[]</span> <span class=n>c</span> <span class=o>=</span> <span class=n>str</span><span class=o>[</span><span class=n>i</span><span class=o>].</span><span class=na>toLowerCase</span><span class=o>().</span><span class=na>toCharArray</span><span class=o>();</span>
+    			<span class=n>c</span><span class=o>[</span><span class=n>0</span><span class=o>]</span> <span class=o>&amp;=</span> <span class=o>~</span><span class=n>32</span><span class=o>;</span>
+    			<span class=n>str</span><span class=o>[</span><span class=n>i</span><span class=o>]</span> <span class=o>=</span> <span class=n>String</span><span class=o>.</span><span class=na>valueOf</span><span class=o>(</span><span class=n>c</span><span class=o>);</span>
+    		<span class=o>}</span>
+    	<span class=o>}</span>
+    	<span class=k>return</span> <span class=n>String</span><span class=o>.</span><span class=na>join</span><span class=o>(</span><span class=s>&#34; &#34;</span><span class=o>,</span> <span class=n>str</span><span class=o>);</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h3 id=2130-链表最大孪生和httpsleetcode-cncomproblemsmaximum-twin-sum-of-a-linked-list><a href=https://leetcode-cn.com/problems/maximum-twin-sum-of-a-linked-list/>2130. 链表最大孪生和</a><a hidden class=anchor aria-hidden=true href=#2130-链表最大孪生和httpsleetcode-cncomproblemsmaximum-twin-sum-of-a-linked-list>#</a></h3>
 <p>难度：<font color=#FFA119>中等</font></p>
 <blockquote>
 <p>链表转数组+双指针</p>
 </blockquote>
-<pre><code>class Solution   {
-    public int pairSum(ListNode head) {
-    	if(head.next == null) return 0;
-    	List&lt;Integer&gt; list = new ArrayList&lt;&gt;();
-    	while(head != null) {
-    		list.add(head.val);
-    		head = head.next;
-    	}
-    	Integer[] num = list.toArray(new Integer[0]);
-    	int mid = num.length &gt;&gt; 1;
-    	int max = 0;
-    	for(int i = mid - 1; i &gt;= 0; i--){
-    		max = Math.max(max, num[i] + num[mid++]);
-    	}
-    	return max;
-    }
-}
-</code></pre>
-<h2 id=第-274-场周赛>第 274 场周赛<a hidden class=anchor aria-hidden=true href=#第-274-场周赛>#</a></h2>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span>   <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>int</span> <span class=nf>pairSum</span><span class=o>(</span><span class=n>ListNode</span> <span class=n>head</span><span class=o>)</span> <span class=o>{</span>
+    	<span class=k>if</span><span class=o>(</span><span class=n>head</span><span class=o>.</span><span class=na>next</span> <span class=o>==</span> <span class=kc>null</span><span class=o>)</span> <span class=k>return</span> <span class=n>0</span><span class=o>;</span>
+    	<span class=n>List</span><span class=o>&lt;</span><span class=n>Integer</span><span class=o>&gt;</span> <span class=n>list</span> <span class=o>=</span> <span class=k>new</span> <span class=n>ArrayList</span><span class=o>&lt;&gt;();</span>
+    	<span class=k>while</span><span class=o>(</span><span class=n>head</span> <span class=o>!=</span> <span class=kc>null</span><span class=o>)</span> <span class=o>{</span>
+    		<span class=n>list</span><span class=o>.</span><span class=na>add</span><span class=o>(</span><span class=n>head</span><span class=o>.</span><span class=na>val</span><span class=o>);</span>
+    		<span class=n>head</span> <span class=o>=</span> <span class=n>head</span><span class=o>.</span><span class=na>next</span><span class=o>;</span>
+    	<span class=o>}</span>
+    	<span class=n>Integer</span><span class=o>[]</span> <span class=n>num</span> <span class=o>=</span> <span class=n>list</span><span class=o>.</span><span class=na>toArray</span><span class=o>(</span><span class=k>new</span> <span class=n>Integer</span><span class=o>[</span><span class=n>0</span><span class=o>]);</span>
+    	<span class=kt>int</span> <span class=n>mid</span> <span class=o>=</span> <span class=n>num</span><span class=o>.</span><span class=na>length</span> <span class=o>&gt;&gt;</span> <span class=n>1</span><span class=o>;</span>
+    	<span class=kt>int</span> <span class=n>max</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span>
+    	<span class=k>for</span><span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=n>mid</span> <span class=o>-</span> <span class=n>1</span><span class=o>;</span> <span class=n>i</span> <span class=o>&gt;=</span> <span class=n>0</span><span class=o>;</span> <span class=n>i</span><span class=o>--){</span>
+    		<span class=n>max</span> <span class=o>=</span> <span class=n>Math</span><span class=o>.</span><span class=na>max</span><span class=o>(</span><span class=n>max</span><span class=o>,</span> <span class=n>num</span><span class=o>[</span><span class=n>i</span><span class=o>]</span> <span class=o>+</span> <span class=n>num</span><span class=o>[</span><span class=n>mid</span><span class=o>++]);</span>
+    	<span class=o>}</span>
+    	<span class=k>return</span> <span class=n>max</span><span class=o>;</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h2 id=第-274-场周赛>第 274 场周赛<a hidden class=anchor aria-hidden=true href=#第-274-场周赛>#</a></h2>
 <h3 id=2124-检查是否所有-a-都在-b-之前httpsleetcode-cncomproblemscheck-if-all-as-appears-before-all-bs><a href=https://leetcode-cn.com/problems/check-if-all-as-appears-before-all-bs/>2124. 检查是否所有 A 都在 B 之前</a><a hidden class=anchor aria-hidden=true href=#2124-检查是否所有-a-都在-b-之前httpsleetcode-cncomproblemscheck-if-all-as-appears-before-all-bs>#</a></h3>
 <p>难度：<font color=#5AB726>简单</font></p>
 <blockquote>
 <p>标记</p>
 </blockquote>
-<pre><code>class Solution {
-    public boolean checkString(String s) {
-    	char[] cs = s.toCharArray();
-    	boolean na = false;
-    	for(char c : cs) {
-    		if(c == 'a' &amp;&amp; na) return false;
-    		if(c != 'a') na = true;
-    	}
-    	return true;
-    }
-}
-</code></pre>
-<h3 id=2125-银行中的激光束数量httpsleetcode-cncomproblemsnumber-of-laser-beams-in-a-bank><a href=https://leetcode-cn.com/problems/number-of-laser-beams-in-a-bank/>2125. 银行中的激光束数量</a><a hidden class=anchor aria-hidden=true href=#2125-银行中的激光束数量httpsleetcode-cncomproblemsnumber-of-laser-beams-in-a-bank>#</a></h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>boolean</span> <span class=nf>checkString</span><span class=o>(</span><span class=n>String</span> <span class=n>s</span><span class=o>)</span> <span class=o>{</span>
+    	<span class=kt>char</span><span class=o>[]</span> <span class=n>cs</span> <span class=o>=</span> <span class=n>s</span><span class=o>.</span><span class=na>toCharArray</span><span class=o>();</span>
+    	<span class=kt>boolean</span> <span class=n>na</span> <span class=o>=</span> <span class=kc>false</span><span class=o>;</span>
+    	<span class=k>for</span><span class=o>(</span><span class=kt>char</span> <span class=n>c</span> <span class=o>:</span> <span class=n>cs</span><span class=o>)</span> <span class=o>{</span>
+    		<span class=k>if</span><span class=o>(</span><span class=n>c</span> <span class=o>==</span> <span class=sc>&#39;a&#39;</span> <span class=o>&amp;&amp;</span> <span class=n>na</span><span class=o>)</span> <span class=k>return</span> <span class=kc>false</span><span class=o>;</span>
+    		<span class=k>if</span><span class=o>(</span><span class=n>c</span> <span class=o>!=</span> <span class=sc>&#39;a&#39;</span><span class=o>)</span> <span class=n>na</span> <span class=o>=</span> <span class=kc>true</span><span class=o>;</span>
+    	<span class=o>}</span>
+    	<span class=k>return</span> <span class=kc>true</span><span class=o>;</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h3 id=2125-银行中的激光束数量httpsleetcode-cncomproblemsnumber-of-laser-beams-in-a-bank><a href=https://leetcode-cn.com/problems/number-of-laser-beams-in-a-bank/>2125. 银行中的激光束数量</a><a hidden class=anchor aria-hidden=true href=#2125-银行中的激光束数量httpsleetcode-cncomproblemsnumber-of-laser-beams-in-a-bank>#</a></h3>
 <p>难度：<font color=#FFA119>中等</font></p>
 <blockquote>
 <p>cnt * pre</p>
 </blockquote>
-<pre><code>class Solution {
-    public int numberOfBeams(String[] bank) {
-     	int ans = 0;
-    	int pre = 0;
-    	for(String s : bank) {
-    		int cnt = 0;
-    		char[] cs = s.toCharArray();
-    		for(int i = 0; i &lt; cs.length; i++) {
-    			cnt += cs[i] == '1' ? 1 : 0;
-    		}
-    		if(cnt != 0) {
-    			ans += cnt * pre;
-    			pre = cnt;
-    		}
-    	}
-    	return ans;
-    }
-}
-</code></pre>
-<h3 id=2126-摧毁小行星httpsleetcode-cncomproblemsdestroying-asteroids><a href=https://leetcode-cn.com/problems/destroying-asteroids/>2126. 摧毁小行星</a><a hidden class=anchor aria-hidden=true href=#2126-摧毁小行星httpsleetcode-cncomproblemsdestroying-asteroids>#</a></h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>int</span> <span class=nf>numberOfBeams</span><span class=o>(</span><span class=n>String</span><span class=o>[]</span> <span class=n>bank</span><span class=o>)</span> <span class=o>{</span>
+     	<span class=kt>int</span> <span class=n>ans</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span>
+    	<span class=kt>int</span> <span class=n>pre</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span>
+    	<span class=k>for</span><span class=o>(</span><span class=n>String</span> <span class=n>s</span> <span class=o>:</span> <span class=n>bank</span><span class=o>)</span> <span class=o>{</span>
+    		<span class=kt>int</span> <span class=n>cnt</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span>
+    		<span class=kt>char</span><span class=o>[]</span> <span class=n>cs</span> <span class=o>=</span> <span class=n>s</span><span class=o>.</span><span class=na>toCharArray</span><span class=o>();</span>
+    		<span class=k>for</span><span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span> <span class=n>i</span> <span class=o>&lt;</span> <span class=n>cs</span><span class=o>.</span><span class=na>length</span><span class=o>;</span> <span class=n>i</span><span class=o>++)</span> <span class=o>{</span>
+    			<span class=n>cnt</span> <span class=o>+=</span> <span class=n>cs</span><span class=o>[</span><span class=n>i</span><span class=o>]</span> <span class=o>==</span> <span class=sc>&#39;1&#39;</span> <span class=o>?</span> <span class=n>1</span> <span class=o>:</span> <span class=n>0</span><span class=o>;</span>
+    		<span class=o>}</span>
+    		<span class=k>if</span><span class=o>(</span><span class=n>cnt</span> <span class=o>!=</span> <span class=n>0</span><span class=o>)</span> <span class=o>{</span>
+    			<span class=n>ans</span> <span class=o>+=</span> <span class=n>cnt</span> <span class=o>*</span> <span class=n>pre</span><span class=o>;</span>
+    			<span class=n>pre</span> <span class=o>=</span> <span class=n>cnt</span><span class=o>;</span>
+    		<span class=o>}</span>
+    	<span class=o>}</span>
+    	<span class=k>return</span> <span class=n>ans</span><span class=o>;</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h3 id=2126-摧毁小行星httpsleetcode-cncomproblemsdestroying-asteroids><a href=https://leetcode-cn.com/problems/destroying-asteroids/>2126. 摧毁小行星</a><a hidden class=anchor aria-hidden=true href=#2126-摧毁小行星httpsleetcode-cncomproblemsdestroying-asteroids>#</a></h3>
 <p>难度：<font color=#FFA119>中等</font></p>
 <blockquote>
 <p>排序+贪心</p>
 </blockquote>
-<pre><code>class Solution {
-    public boolean asteroidsDestroyed(int mass, int[] asteroids) {
-    	long mas = mass;
-    	Arrays.sort(asteroids);
-    	for(int i : asteroids) {
-    		if(mas &lt; i) return false;
-    		mas += i;
-    	}
-    	return true;
-    }
-}
-</code></pre>
-<h2 id=第-273-场周赛>第 273 场周赛<a hidden class=anchor aria-hidden=true href=#第-273-场周赛>#</a></h2>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>boolean</span> <span class=nf>asteroidsDestroyed</span><span class=o>(</span><span class=kt>int</span> <span class=n>mass</span><span class=o>,</span> <span class=kt>int</span><span class=o>[]</span> <span class=n>asteroids</span><span class=o>)</span> <span class=o>{</span>
+    	<span class=kt>long</span> <span class=n>mas</span> <span class=o>=</span> <span class=n>mass</span><span class=o>;</span>
+    	<span class=n>Arrays</span><span class=o>.</span><span class=na>sort</span><span class=o>(</span><span class=n>asteroids</span><span class=o>);</span>
+    	<span class=k>for</span><span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>:</span> <span class=n>asteroids</span><span class=o>)</span> <span class=o>{</span>
+    		<span class=k>if</span><span class=o>(</span><span class=n>mas</span> <span class=o>&lt;</span> <span class=n>i</span><span class=o>)</span> <span class=k>return</span> <span class=kc>false</span><span class=o>;</span>
+    		<span class=n>mas</span> <span class=o>+=</span> <span class=n>i</span><span class=o>;</span>
+    	<span class=o>}</span>
+    	<span class=k>return</span> <span class=kc>true</span><span class=o>;</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h2 id=第-273-场周赛>第 273 场周赛<a hidden class=anchor aria-hidden=true href=#第-273-场周赛>#</a></h2>
 <h3 id=2119-反转两次的数字httpsleetcode-cncomproblemsa-number-after-a-double-reversal><a href=https://leetcode-cn.com/problems/a-number-after-a-double-reversal/>2119. 反转两次的数字</a><a hidden class=anchor aria-hidden=true href=#2119-反转两次的数字httpsleetcode-cncomproblemsa-number-after-a-double-reversal>#</a></h3>
 <p>难度：<font color=#5AB726>简单</font></p>
 <blockquote>
 <p>末尾不为0</p>
 </blockquote>
-<pre><code>class Solution {
-    public boolean isSameAfterReversals(int num) {
-        return !(num != 0 &amp;&amp; num % 10 == 0);
-    }
-}
-</code></pre>
-<h1 id=leetcode_other>LeetCode_Other<a hidden class=anchor aria-hidden=true href=#leetcode_other>#</a></h1>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>boolean</span> <span class=nf>isSameAfterReversals</span><span class=o>(</span><span class=kt>int</span> <span class=n>num</span><span class=o>)</span> <span class=o>{</span>
+        <span class=k>return</span> <span class=o>!(</span><span class=n>num</span> <span class=o>!=</span> <span class=n>0</span> <span class=o>&amp;&amp;</span> <span class=n>num</span> <span class=o>%</span> <span class=n>10</span> <span class=o>==</span> <span class=n>0</span><span class=o>);</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><h1 id=leetcode_other>LeetCode_Other<a hidden class=anchor aria-hidden=true href=#leetcode_other>#</a></h1>
 <h3 id=169-多数元素httpsleetcode-cncomproblemsmajority-element><a href=https://leetcode-cn.com/problems/majority-element/>169. 多数元素</a><a hidden class=anchor aria-hidden=true href=#169-多数元素httpsleetcode-cncomproblemsmajority-element>#</a></h3>
 <p>难度：<font color=#5AB726>简单</font></p>
 <blockquote>
 <p>脑筋急转弯</p>
 </blockquote>
-<pre><code>class Solution {
-    public int majorityElement(int[] nums) {
-        Arrays.sort(nums);
-        return nums[nums.length &gt;&gt; 1];
-    }
-}
-</code></pre>
-<blockquote>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>int</span> <span class=nf>majorityElement</span><span class=o>(</span><span class=kt>int</span><span class=o>[]</span> <span class=n>nums</span><span class=o>)</span> <span class=o>{</span>
+        <span class=n>Arrays</span><span class=o>.</span><span class=na>sort</span><span class=o>(</span><span class=n>nums</span><span class=o>);</span>
+        <span class=k>return</span> <span class=n>nums</span><span class=o>[</span><span class=n>nums</span><span class=o>.</span><span class=na>length</span> <span class=o>&gt;&gt;</span> <span class=n>1</span><span class=o>];</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div><blockquote>
 <p>摩尔投票法</p>
 </blockquote>
-<pre><code>class Solution {
-    public int majorityElement(int[] nums) {
-    	int cnt = 0;
-    	int temp = 0;
-    	for(int i : nums) {
-    		if(cnt == 0) {
-    			temp = i;
-    			cnt = 1;
-    		}else {
-    			cnt += temp != i ? -1 : 1;
-    		}
-    	}
-    	return temp;
-    }
-}</code></pre>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=kt>int</span> <span class=nf>majorityElement</span><span class=o>(</span><span class=kt>int</span><span class=o>[]</span> <span class=n>nums</span><span class=o>)</span> <span class=o>{</span>
+    	<span class=kt>int</span> <span class=n>cnt</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span>
+    	<span class=kt>int</span> <span class=n>temp</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span>
+    	<span class=k>for</span><span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>:</span> <span class=n>nums</span><span class=o>)</span> <span class=o>{</span>
+    		<span class=k>if</span><span class=o>(</span><span class=n>cnt</span> <span class=o>==</span> <span class=n>0</span><span class=o>)</span> <span class=o>{</span>
+    			<span class=n>temp</span> <span class=o>=</span> <span class=n>i</span><span class=o>;</span>
+    			<span class=n>cnt</span> <span class=o>=</span> <span class=n>1</span><span class=o>;</span>
+    		<span class=o>}</span><span class=k>else</span> <span class=o>{</span>
+    			<span class=n>cnt</span> <span class=o>+=</span> <span class=n>temp</span> <span class=o>!=</span> <span class=n>i</span> <span class=o>?</span> <span class=o>-</span><span class=n>1</span> <span class=o>:</span> <span class=n>1</span><span class=o>;</span>
+    		<span class=o>}</span>
+    	<span class=o>}</span>
+    	<span class=k>return</span> <span class=n>temp</span><span class=o>;</span>
+    <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></div>
 </div>
 <footer class=post-footer>
 <nav class=paginav>
