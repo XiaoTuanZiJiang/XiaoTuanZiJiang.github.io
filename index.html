@@ -161,11 +161,12 @@ git merge newBranch
 </h2>
 </header>
 <section class=entry-content>
-<p>LeetCode_每日一题 2.15-1380. 矩阵中的幸运数 难度：简单
-模拟
-class Solution { public List&lt;Integer> luckyNumbers (int[][] matrix) { List&lt;Integer> ans = new ArrayList&lt;>(); int m = matrix.length, n = matrix[0].length; int[] row = new int[m]; int[] col = new int[n]; for(int i = 0; i &lt; m; i++){ row[i] = Integer.MAX_VALUE; for(int j = 0; j &lt; n; j++){ row[i] = Math.min(matrix[i][j],row[i]); col[j] = Math.max(matrix[i][j],col[j]); } } for (int i = 0; i &lt; m; i++) { for (int j = 0; j &lt; n; j++) { if (matrix[i][j] == row[i] && matrix[i][j] == col[j]) { ans....</p>
+<p>LeetCode_每日一题 2.18-791. 找出星型图的中心节点 难度：简单
+HashMap
+class Solution { public int findCenter(int[][] edges) { HashMap&lt;Integer, Integer> hashMap = new HashMap&lt;>(); int res = 0; for(int i = 0; i &lt; 2; i++) { for (int j = 0; j &lt; 2; j++) { if(hashMap.containsKey(edges[i][j])) { res = edges[i][j]; } hashMap.put(edges[i][j], 0); } } return res; } } 模拟
+class Solution { public int findCenter(int[][] edges) { return edges[0][0] == edges[1][0] ?...</p>
 </section>
-<footer class=entry-footer><span title="2021-01-19 00:00:00 +0000 +0000">January 19, 2021</span>&nbsp;·&nbsp;7 min&nbsp;·&nbsp;Me</footer>
+<footer class=entry-footer><span title="2021-01-19 00:00:00 +0000 +0000">January 19, 2021</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to LeetCode" href=https://xiaotuanzijiang.github.io/posts/leetcode/></a>
 </article>
 </main>
