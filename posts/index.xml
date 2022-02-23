@@ -67,11 +67,11 @@ git merge newBranch
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 2.20-717. 1比特与2比特字符 难度：简单
+      <description>LeetCode_每日一题 2.2-917. 仅仅反转字母 难度：简单
+ 双指针
+ class Solution { public String reverseOnlyLetters(String s) { char[] cs = s.toCharArray(); int l = 0, r = cs.length - 1; while(l &amp;lt; r){ if(Character.isLetter(cs[l])){ if(Character.isLetter(cs[r])){ char tmp = cs[l]; cs[l++] = cs[r]; cs[r--] = tmp; } else{ r--; } }else{ l++; } } return String.valueOf(cs); } } 2.20-717. 1比特与2比特字符 难度：简单
  模拟
- class Solution { public boolean isOneBitCharacter(int[] bits) { int n = bits.length, i = 0; while(i &amp;lt; n - 1){ if(bits[i] == 0) i++; else i += 2; } return i == n - 1; } } 2.18-791. 找出星型图的中心节点 难度：简单
- HashMap
- class Solution { public int findCenter (int[][] edges) { HashMap&amp;lt;Integer, Integer&amp;gt; hashMap = new HashMap&amp;lt;&amp;gt;(); int res = 0; for (int i = 0; i &amp;lt; 2; i++) { for (int j = 0; j &amp;lt; 2; j++) { if (hashMap.</description>
+ class Solution { public boolean isOneBitCharacter(int[] bits) { int n = bits.</description>
     </item>
     
   </channel>
