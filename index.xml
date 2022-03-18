@@ -67,11 +67,9 @@ git merge newBranch
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 2.2-917. 仅仅反转字母 难度：简单
- 双指针
- class Solution { public String reverseOnlyLetters(String s) { char[] cs = s.toCharArray(); int l = 0, r = cs.length - 1; while(l &amp;lt; r){ if(Character.isLetter(cs[l])){ if(Character.isLetter(cs[r])){ char tmp = cs[l]; cs[l++] = cs[r]; cs[r--] = tmp; } else{ r--; } }else{ l++; } } return String.valueOf(cs); } } 2.20-717. 1比特与2比特字符 难度：简单
+      <description>LeetCode_每日一题 3.18-2043. 简易银行系统 难度：中等
  模拟
- class Solution { public boolean isOneBitCharacter(int[] bits) { int n = bits.</description>
+ class Bank { private long[] accounts; private int accountSize; public Bank(long[] balance) { accounts = balance; accountSize = balance.length; } public boolean transfer(int account1, int account2, long money) { if(account1 &amp;gt; accountSize || account2 &amp;gt; accountSize || account1 &amp;lt;= 0 || account2 &amp;lt;= 0) return false; if(accounts[--account1] &amp;lt; money) return false; accounts[account1] -= money; accounts[--account2] += money; return true; } public boolean deposit(int account, long money) { if(account &amp;lt;= 0 || account &amp;gt; accountSize) return false; accounts[--account] += money; return true; } public boolean withdraw(int account, long money) { if(account &amp;lt;= 0 || account &amp;gt; accountSize || accounts[--account] &amp;lt; money) return false; accounts[account] -= money; return true; } } /** * Your Bank object will be instantiated and called as such: * Bank obj = new Bank(balance); * boolean param_1 = obj.</description>
     </item>
     
     
