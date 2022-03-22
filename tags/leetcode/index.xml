@@ -16,9 +16,9 @@
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 3.18-2043. 简易银行系统 难度：中等
- 模拟
- class Bank { private long[] accounts; private int accountSize; public Bank(long[] balance) { accounts = balance; accountSize = balance.length; } public boolean transfer(int account1, int account2, long money) { if(account1 &amp;gt; accountSize || account2 &amp;gt; accountSize || account1 &amp;lt;= 0 || account2 &amp;lt;= 0) return false; if(accounts[--account1] &amp;lt; money) return false; accounts[account1] -= money; accounts[--account2] += money; return true; } public boolean deposit(int account, long money) { if(account &amp;lt;= 0 || account &amp;gt; accountSize) return false; accounts[--account] += money; return true; } public boolean withdraw(int account, long money) { if(account &amp;lt;= 0 || account &amp;gt; accountSize || accounts[--account] &amp;lt; money) return false; accounts[account] -= money; return true; } } /** * Your Bank object will be instantiated and called as such: * Bank obj = new Bank(balance); * boolean param_1 = obj.</description>
+      <description>LeetCode_每日一题 3.22-2038. 如果相邻两个颜色均相同则删除当前颜色 难度：中等
+ 脑筋急转弯
+ class Solution { public boolean winnerOfGame(String colors) { char[] cs = colors.toCharArray(); int n = cs.length; int Acnt = 0, Bcnt = 0; for (int i = 1; i &amp;lt; n - 1; i++) { if (cs[i] == &amp;#39;A&amp;#39; &amp;amp;&amp;amp; cs[i - 1] == &amp;#39;A&amp;#39; &amp;amp;&amp;amp; cs[i + 1] == &amp;#39;A&amp;#39;) Acnt++; if (cs[i] == &amp;#39;B&amp;#39; &amp;amp;&amp;amp; cs[i - 1] == &amp;#39;B&amp;#39; &amp;amp;&amp;amp; cs[i + 1] == &amp;#39;B&amp;#39;) Bcnt++; } return Acnt &amp;gt; Bcnt; } } 3.</description>
     </item>
     
   </channel>

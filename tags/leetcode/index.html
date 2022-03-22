@@ -85,9 +85,9 @@
 </h2>
 </header>
 <section class=entry-content>
-<p>LeetCode_每日一题 3.18-2043. 简易银行系统 难度：中等
-模拟
-class Bank { private long[] accounts; private int accountSize; public Bank(long[] balance) { accounts = balance; accountSize = balance.length; } public boolean transfer(int account1, int account2, long money) { if(account1 > accountSize || account2 > accountSize || account1 &lt;= 0 || account2 &lt;= 0) return false; if(accounts[--account1] &lt; money) return false; accounts[account1] -= money; accounts[--account2] += money; return true; } public boolean deposit(int account, long money) { if(account &lt;= 0 || account > accountSize) return false; accounts[--account] += money; return true; } public boolean withdraw(int account, long money) { if(account &lt;= 0 || account > accountSize || accounts[--account] &lt; money) return false; accounts[account] -= money; return true; } } /** * Your Bank object will be instantiated and called as such: * Bank obj = new Bank(balance); * boolean param_1 = obj....</p>
+<p>LeetCode_每日一题 3.22-2038. 如果相邻两个颜色均相同则删除当前颜色 难度：中等
+脑筋急转弯
+class Solution { public boolean winnerOfGame(String colors) { char[] cs = colors.toCharArray(); int n = cs.length; int Acnt = 0, Bcnt = 0; for (int i = 1; i &lt; n - 1; i++) { if (cs[i] == 'A' && cs[i - 1] == 'A' && cs[i + 1] == 'A') Acnt++; if (cs[i] == 'B' && cs[i - 1] == 'B' && cs[i + 1] == 'B') Bcnt++; } return Acnt > Bcnt; } } 3....</p>
 </section>
 <footer class=entry-footer><span title="2021-01-19 00:00:00 +0000 +0000">January 19, 2021</span>&nbsp;·&nbsp;9 min&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to LeetCode" href=https://xiaotuanzijiang.github.io/posts/leetcode/></a>
