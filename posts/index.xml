@@ -67,9 +67,11 @@ git merge newBranch
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 3.22-2038. 如果相邻两个颜色均相同则删除当前颜色 难度：中等
+      <description>LeetCode_每日一题 3.26-682. 棒球比赛 难度：简单
+ 模拟
+ class Solution { public int calPoints(String[] ops) { List&amp;lt;Integer&amp;gt; list = new ArrayList&amp;lt;&amp;gt;(); for(String s : ops){ int size = list.size(); if(&amp;#34;C&amp;#34;.equals(s)){ list.remove(size - 1); } else if(&amp;#34;+&amp;#34;.equals(s)){ list.add(list.get(size - 1) + list.get(size - 2)); } else if(&amp;#34;D&amp;#34;.equals(s)){ list.add(list.get(size - 1) &amp;lt;&amp;lt; 1); } else{ list.add(Integer.parseInt(s)); } } return list.stream().reduce(Integer::sum).orElse(0); } } 3.22-2038. 如果相邻两个颜色均相同则删除当前颜色 难度：中等
  脑筋急转弯
- class Solution { public boolean winnerOfGame(String colors) { char[] cs = colors.toCharArray(); int n = cs.length; int Acnt = 0, Bcnt = 0; for (int i = 1; i &amp;lt; n - 1; i++) { if (cs[i] == &amp;#39;A&amp;#39; &amp;amp;&amp;amp; cs[i - 1] == &amp;#39;A&amp;#39; &amp;amp;&amp;amp; cs[i + 1] == &amp;#39;A&amp;#39;) Acnt++; if (cs[i] == &amp;#39;B&amp;#39; &amp;amp;&amp;amp; cs[i - 1] == &amp;#39;B&amp;#39; &amp;amp;&amp;amp; cs[i + 1] == &amp;#39;B&amp;#39;) Bcnt++; } return Acnt &amp;gt; Bcnt; } } 3.</description>
+ class Solution { public boolean winnerOfGame(String colors) { char[] cs = colors.</description>
     </item>
     
   </channel>
