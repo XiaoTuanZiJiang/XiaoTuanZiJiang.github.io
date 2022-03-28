@@ -16,11 +16,10 @@
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 3.26-682. 棒球比赛 难度：简单
+      <description>LeetCode_每日一题 3.28-693. 交替位二进制数 难度：简单
  模拟
- class Solution { public int calPoints(String[] ops) { List&amp;lt;Integer&amp;gt; list = new ArrayList&amp;lt;&amp;gt;(); for(String s : ops){ int size = list.size(); if(&amp;#34;C&amp;#34;.equals(s)){ list.remove(size - 1); } else if(&amp;#34;+&amp;#34;.equals(s)){ list.add(list.get(size - 1) + list.get(size - 2)); } else if(&amp;#34;D&amp;#34;.equals(s)){ list.add(list.get(size - 1) &amp;lt;&amp;lt; 1); } else{ list.add(Integer.parseInt(s)); } } return list.stream().reduce(Integer::sum).orElse(0); } } 3.22-2038. 如果相邻两个颜色均相同则删除当前颜色 难度：中等
- 脑筋急转弯
- class Solution { public boolean winnerOfGame(String colors) { char[] cs = colors.</description>
+ class Solution { public boolean hasAlternatingBits(int n) { while(n &amp;gt; 0){ if((n &amp;amp; 1) + (n &amp;gt;&amp;gt; 1 &amp;amp; 1) != 1) return false; n &amp;gt;&amp;gt;= 1; } return true; } }  位运算
+ class Solution { public boolean hasAlternatingBits(int n) { int x = n ^ (n &amp;gt;&amp;gt; 1); return (x &amp;amp; (x + 1)) == 0; } } 3.26-682. 棒球比赛 难度：简单</description>
     </item>
     
   </channel>
