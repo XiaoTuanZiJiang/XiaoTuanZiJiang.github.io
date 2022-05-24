@@ -16,11 +16,9 @@
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 5.21-961. 在长度 2N 的数组中找出重复 N 次的元素 难度：简单
- 模拟
- func repeatedNTimes(nums []int) int { hash := map[int]int{} for _, num := range nums { if hash[num] == 1 { return num } hash[num]++ } return -1 } 3.28-693. 交替位二进制数 难度：简单
- 模拟
- class Solution { public boolean hasAlternatingBits(int n) { while(n &amp;gt; 0){ if((n &amp;amp; 1) + (n &amp;gt;&amp;gt; 1 &amp;amp; 1) != 1) return false; n &amp;gt;&amp;gt;= 1; } return true; } }  位运算</description>
+      <description>LeetCode_每日一题 5.24-965. 单值二叉树 难度：简单
+ DFS
+ /** * Definition for a binary tree node. * type TreeNode struct { * Val int * Left *TreeNode * Right *TreeNode * } */ func isUnivalTree(root *TreeNode) bool { val := root.Val var Find func(node *TreeNode) bool Find = func(node *TreeNode) bool { if node == nil { return true } return node.Val == val &amp;amp;&amp;amp; Find(node.Left) &amp;amp;&amp;amp; Find(node.Right) } return Find(root) } 5.</description>
     </item>
     
   </channel>
