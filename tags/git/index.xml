@@ -9,14 +9,14 @@
       <link>https://xiaotuanzijiang.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaotuanzijiang.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 May 2022 20:32:40 +0800</lastBuildDate><atom:link href="https://xiaotuanzijiang.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Git问题</title>
-      <link>https://xiaotuanzijiang.github.io/posts/git%E9%97%AE%E9%A2%98/</link>
-      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+      <title>Git Question</title>
+      <link>https://xiaotuanzijiang.github.io/posts/git/</link>
+      <pubDate>Wed, 25 May 2022 20:32:40 +0800</pubDate>
       
-      <guid>https://xiaotuanzijiang.github.io/posts/git%E9%97%AE%E9%A2%98/</guid>
-      <description>Git提交代码时出现Everything up-to-date 1. 创建一个新的分支：  git branch newBranch
+      <guid>https://xiaotuanzijiang.github.io/posts/git/</guid>
+      <description>Git提交代码时出现Everything up-to-date 1. 创建一个新的分支  git branch newBranch
  2. 查看分支是否创建成功：  git branch
  3. 切换到新分区：  git checkout newBranch
  4. 把代码直接提到newBranch分支上,如果出现提示,直接执行：  git push &amp;ndash;set-upstream origin newBranch
@@ -24,7 +24,7 @@
 git merge newBranch
  6. 删除新分区：  git branch -D newBranch
  7. 重新提交一下代码：  git push
- Git-error: failed to push some refs to 1.执行如下命令  git pull &amp;ndash;rebase origin master</description>
+  Git-error: failed to push some refs to 1.执行如下命令  git pull &amp;ndash;rebase origin master</description>
     </item>
     
   </channel>
