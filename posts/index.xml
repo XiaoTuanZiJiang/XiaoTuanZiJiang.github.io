@@ -67,9 +67,9 @@ git merge newBranch
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 5.24-965. 单值二叉树 难度：简单
- DFS
- /** * Definition for a binary tree node. * type TreeNode struct { * Val int * Left *TreeNode * Right *TreeNode * } */ func isUnivalTree(root *TreeNode) bool { val := root.Val var Find func(node *TreeNode) bool Find = func(node *TreeNode) bool { if node == nil { return true } return node.Val == val &amp;amp;&amp;amp; Find(node.Left) &amp;amp;&amp;amp; Find(node.Right) } return Find(root) } 5.</description>
+      <description>LeetCode_每日一题 5.29-468. 验证IP地址 难度：中等
+ 模拟
+ func validIPAddress(queryIP string) string { if strings.Contains(queryIP, &amp;#34;.&amp;#34;) { str := strings.Split(queryIP, &amp;#34;.&amp;#34;) if len(str) != 4 { return &amp;#34;Neither&amp;#34; } for _, v := range str { strLen := len(v) num, _ := strconv.Atoi(v) strNum := len(strconv.Itoa(num)) if strLen != strNum || num &amp;gt; 255 || num &amp;lt; 0{ return &amp;#34;Neither&amp;#34; } } return &amp;#34;IPv4&amp;#34; } else { str := strings.Split(queryIP, &amp;#34;:&amp;#34;) if len(str) !</description>
     </item>
     
   </channel>

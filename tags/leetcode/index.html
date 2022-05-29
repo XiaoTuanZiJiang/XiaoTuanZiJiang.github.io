@@ -85,11 +85,11 @@
 </h2>
 </header>
 <section class=entry-content>
-<p>LeetCode_每日一题 5.24-965. 单值二叉树 难度：简单
-DFS
-/** * Definition for a binary tree node. * type TreeNode struct { * Val int * Left *TreeNode * Right *TreeNode * } */ func isUnivalTree(root *TreeNode) bool { val := root.Val var Find func(node *TreeNode) bool Find = func(node *TreeNode) bool { if node == nil { return true } return node.Val == val && Find(node.Left) && Find(node.Right) } return Find(root) } 5....</p>
+<p>LeetCode_每日一题 5.29-468. 验证IP地址 难度：中等
+模拟
+func validIPAddress(queryIP string) string { if strings.Contains(queryIP, ".") { str := strings.Split(queryIP, ".") if len(str) != 4 { return "Neither" } for _, v := range str { strLen := len(v) num, _ := strconv.Atoi(v) strNum := len(strconv.Itoa(num)) if strLen != strNum || num > 255 || num &lt; 0{ return "Neither" } } return "IPv4" } else { str := strings.Split(queryIP, ":") if len(str) !...</p>
 </section>
-<footer class=entry-footer><span title="2021-01-19 00:00:00 +0000 +0000">January 19, 2021</span>&nbsp;·&nbsp;10 min&nbsp;·&nbsp;Me</footer>
+<footer class=entry-footer><span title="2021-01-19 00:00:00 +0000 +0000">January 19, 2021</span>&nbsp;·&nbsp;11 min&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to LeetCode" href=https://xiaotuanzijiang.github.io/posts/leetcode/></a>
 </article>
 </main>
