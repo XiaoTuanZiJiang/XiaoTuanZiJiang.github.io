@@ -99,6 +99,19 @@
 </article>
 <article class=post-entry>
 <header class=entry-header>
+<h2>LeetCode
+</h2>
+</header>
+<section class=entry-content>
+<p>LeetCode_每日一题 5.30-1022. 从根到叶的二进制数之和 难度：简单
+DFS
+/** * Definition for a binary tree node. * type TreeNode struct { * Val int * Left *TreeNode * Right *TreeNode * } */ func sumRootToLeaf(root *TreeNode) int { return dfs(root, 0) } func dfs(node *TreeNode, a int) int{ if node != nil { a = a * 2 + node.Val if node.Left == nil && node.Right == nil { return a } return dfs(node....</p>
+</section>
+<footer class=entry-footer><span title="2022-05-30 00:00:00 +0000 +0000">May 30, 2022</span>&nbsp;·&nbsp;11 min&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to LeetCode" href=https://xiaotuanzijiang.github.io/posts/leetcode/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Git Question
 </h2>
 </header>
@@ -154,19 +167,6 @@ AOF Append Only File 以日志的形式记录服务器所处理过的每一个�
 </section>
 <footer class=entry-footer><span title="2021-01-20 00:00:00 +0000 +0000">January 20, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to UNTIL" href=https://xiaotuanzijiang.github.io/posts/unitl/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>LeetCode
-</h2>
-</header>
-<section class=entry-content>
-<p>LeetCode_每日一题 5.30-1022. 从根到叶的二进制数之和 难度：简单
-DFS
-/** * Definition for a binary tree node. * type TreeNode struct { * Val int * Left *TreeNode * Right *TreeNode * } */ func sumRootToLeaf(root *TreeNode) int { return dfs(root, 0) } func dfs(node *TreeNode, a int) int{ if node != nil { a = a * 2 + node.Val if node.Left == nil && node.Right == nil { return a } return dfs(node....</p>
-</section>
-<footer class=entry-footer><span title="2021-01-19 00:00:00 +0000 +0000">January 19, 2021</span>&nbsp;·&nbsp;11 min&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to LeetCode" href=https://xiaotuanzijiang.github.io/posts/leetcode/></a>
 </article>
 </main>
 <footer class=footer>

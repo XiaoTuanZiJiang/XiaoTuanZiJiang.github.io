@@ -9,7 +9,18 @@
       <link>https://xiaotuanzijiang.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 25 May 2022 20:32:40 +0800</lastBuildDate><atom:link href="https://xiaotuanzijiang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaotuanzijiang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode</title>
+      <link>https://xiaotuanzijiang.github.io/posts/leetcode/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
+      <description>LeetCode_每日一题 5.30-1022. 从根到叶的二进制数之和 难度：简单
+ DFS
+ /** * Definition for a binary tree node. * type TreeNode struct { * Val int * Left *TreeNode * Right *TreeNode * } */ func sumRootToLeaf(root *TreeNode) int { return dfs(root, 0) } func dfs(node *TreeNode, a int) int{ if node != nil { a = a * 2 + node.Val if node.Left == nil &amp;amp;&amp;amp; node.Right == nil { return a } return dfs(node.</description>
+    </item>
+    
     <item>
       <title>Git Question</title>
       <link>https://xiaotuanzijiang.github.io/posts/git/</link>
@@ -59,17 +70,6 @@ git merge newBranch
       
       <guid>https://xiaotuanzijiang.github.io/posts/unitl/</guid>
       <description>前端 - Color - CSSLayout - CSSGridGenerator - Uigradients - FreeDownloads 后端 - Binary Tree - BinaryTreeVisuakuser - Data Structure Visualizations - MvnRepository - MavenRepository - 阿里巴巴开源镜像站 其他 - MarkDown编辑器 - Eclipse主题 - Pexels - CodeLf - Favicon - RegexLearn  </description>
-    </item>
-    
-    <item>
-      <title>LeetCode</title>
-      <link>https://xiaotuanzijiang.github.io/posts/leetcode/</link>
-      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 5.30-1022. 从根到叶的二进制数之和 难度：简单
- DFS
- /** * Definition for a binary tree node. * type TreeNode struct { * Val int * Left *TreeNode * Right *TreeNode * } */ func sumRootToLeaf(root *TreeNode) int { return dfs(root, 0) } func dfs(node *TreeNode, a int) int{ if node != nil { a = a * 2 + node.Val if node.Left == nil &amp;amp;&amp;amp; node.Right == nil { return a } return dfs(node.</description>
     </item>
     
     
