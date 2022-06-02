@@ -85,11 +85,11 @@
 </h2>
 </header>
 <section class=entry-content>
-<p>LeetCode_每日一题 5.30-1022. 从根到叶的二进制数之和 难度：简单
-DFS
-/** * Definition for a binary tree node. * type TreeNode struct { * Val int * Left *TreeNode * Right *TreeNode * } */ func sumRootToLeaf(root *TreeNode) int { return dfs(root, 0) } func dfs(node *TreeNode, a int) int{ if node != nil { a = a * 2 + node.Val if node.Left == nil && node.Right == nil { return a } return dfs(node....</p>
+<p>LeetCode_每日一题 6.2-450. 删除二叉搜索树中的节点 难度：中等
+递归
+/** * Definition for a binary tree node. * type TreeNode struct { * Val int * Left *TreeNode * Right *TreeNode * } */ func deleteNode(root *TreeNode, key int) *TreeNode { if root != nil { if root.Val &lt; key { root.Right = deleteNode(root.Right, key) } else if root.Val > key { root.Left = deleteNode(root.Left, key) } else { if root.Left == nil || root....</p>
 </section>
-<footer class=entry-footer><span title="2022-05-30 00:00:00 +0000 +0000">May 30, 2022</span>&nbsp;·&nbsp;11 min&nbsp;·&nbsp;Me</footer>
+<footer class=entry-footer><span title="2022-05-30 00:00:00 +0000 +0000">May 30, 2022</span>&nbsp;·&nbsp;12 min&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to LeetCode" href=https://xiaotuanzijiang.github.io/posts/leetcode/></a>
 </article>
 </main>

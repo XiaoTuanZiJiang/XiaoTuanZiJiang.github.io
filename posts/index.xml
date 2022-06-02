@@ -16,9 +16,9 @@
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 5.30-1022. 从根到叶的二进制数之和 难度：简单
- DFS
- /** * Definition for a binary tree node. * type TreeNode struct { * Val int * Left *TreeNode * Right *TreeNode * } */ func sumRootToLeaf(root *TreeNode) int { return dfs(root, 0) } func dfs(node *TreeNode, a int) int{ if node != nil { a = a * 2 + node.Val if node.Left == nil &amp;amp;&amp;amp; node.Right == nil { return a } return dfs(node.</description>
+      <description>LeetCode_每日一题 6.2-450. 删除二叉搜索树中的节点 难度：中等
+ 递归
+ /** * Definition for a binary tree node. * type TreeNode struct { * Val int * Left *TreeNode * Right *TreeNode * } */ func deleteNode(root *TreeNode, key int) *TreeNode { if root != nil { if root.Val &amp;lt; key { root.Right = deleteNode(root.Right, key) } else if root.Val &amp;gt; key { root.Left = deleteNode(root.Left, key) } else { if root.Left == nil || root.</description>
     </item>
     
     <item>
