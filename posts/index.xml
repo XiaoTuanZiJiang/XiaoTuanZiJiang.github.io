@@ -16,9 +16,11 @@
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 6.2-450. 删除二叉搜索树中的节点 难度：中等
+      <description>LeetCode_每日一题 6.13-1051. 高度检查器 难度：简单
+ 模拟
+ func heightChecker(heights []int) int { n := len(heights) cnt := 0 ars := make([]int, n) copy(ars, heights) sort.Ints(ars) for i:= 0; i &amp;lt; n; i++ { if ars[i] != heights[i] { cnt++ } } return cnt } 6.2-450. 删除二叉搜索树中的节点 难度：中等
  递归
- /** * Definition for a binary tree node. * type TreeNode struct { * Val int * Left *TreeNode * Right *TreeNode * } */ func deleteNode(root *TreeNode, key int) *TreeNode { if root != nil { if root.Val &amp;lt; key { root.Right = deleteNode(root.Right, key) } else if root.Val &amp;gt; key { root.Left = deleteNode(root.Left, key) } else { if root.Left == nil || root.</description>
+ /** * Definition for a binary tree node. * type TreeNode struct { * Val int * Left *TreeNode * Right *TreeNode * } */ func deleteNode(root *TreeNode, key int) *TreeNode { if root !</description>
     </item>
     
     <item>
