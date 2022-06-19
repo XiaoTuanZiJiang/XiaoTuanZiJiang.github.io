@@ -9,7 +9,16 @@
       <link>https://xiaotuanzijiang.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaotuanzijiang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Jun 2022 22:29:57 +0800</lastBuildDate><atom:link href="https://xiaotuanzijiang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SpringBoot &#43; SpringData Jpa</title>
+      <link>https://xiaotuanzijiang.github.io/posts/springboot/</link>
+      <pubDate>Sun, 19 Jun 2022 22:29:57 +0800</pubDate>
+      
+      <guid>https://xiaotuanzijiang.github.io/posts/springboot/</guid>
+      <description>application.yml spring:datasource:driver-class-name:com.mysql.cj.jdbc.Driverurl:jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2b8username:rootpassword:rootjpa:database:mysqldatabase-platform:org.hibernate.dialect.MySQL5InnoDBDialectshow-sql:truehibernate:ddl-auto:updateUser.java </description>
+    </item>
+    
     <item>
       <title>LeetCode</title>
       <link>https://xiaotuanzijiang.github.io/posts/leetcode/</link>

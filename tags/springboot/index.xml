@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SpringBoot on XiaoTuanZiJiang</title>
+    <link>https://xiaotuanzijiang.github.io/tags/springboot/</link>
+    <description>Recent content in SpringBoot on XiaoTuanZiJiang</description>
+    <image>
+      <url>https://xiaotuanzijiang.github.io/papermod-cover.png</url>
+      <link>https://xiaotuanzijiang.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 19 Jun 2022 22:29:57 +0800</lastBuildDate><atom:link href="https://xiaotuanzijiang.github.io/tags/springboot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SpringBoot &#43; SpringData Jpa</title>
+      <link>https://xiaotuanzijiang.github.io/posts/springboot/</link>
+      <pubDate>Sun, 19 Jun 2022 22:29:57 +0800</pubDate>
+      
+      <guid>https://xiaotuanzijiang.github.io/posts/springboot/</guid>
+      <description>application.yml spring:datasource:driver-class-name:com.mysql.cj.jdbc.Driverurl:jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2b8username:rootpassword:rootjpa:database:mysqldatabase-platform:org.hibernate.dialect.MySQL5InnoDBDialectshow-sql:truehibernate:ddl-auto:updateUser.java </description>
+    </item>
+    
+  </channel>
+</rss>
