@@ -25,7 +25,7 @@
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 6-21-1108. IP 地址无效化 难度：简单
+      <description>LeetCode 6-21-1108. IP 地址无效化 难度：简单
  模拟
  func defangIPaddr(address string) string { return strings.ReplaceAll(address, &amp;#34;.&amp;#34;, &amp;#34;[.]&amp;#34;) } func defangIPaddr(address string) string { var s strings.Builder for i := range address { if address[i] == &amp;#39;.&amp;#39; { s.WriteString(&amp;#34;[.]&amp;#34;) } else { s.WriteByte(address[i]) } } return s.String() } 6.13-1051. 高度检查器 难度：简单
  模拟
