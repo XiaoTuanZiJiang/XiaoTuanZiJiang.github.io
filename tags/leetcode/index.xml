@@ -16,11 +16,11 @@
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode_每日一题 6.13-1051. 高度检查器 难度：简单
+      <description>LeetCode_每日一题 6-21-1108. IP 地址无效化 难度：简单
  模拟
- func heightChecker(heights []int) int { n := len(heights) cnt := 0 ars := make([]int, n) copy(ars, heights) sort.Ints(ars) for i:= 0; i &amp;lt; n; i++ { if ars[i] != heights[i] { cnt++ } } return cnt } 6.2-450. 删除二叉搜索树中的节点 难度：中等
- 递归
- /** * Definition for a binary tree node. * type TreeNode struct { * Val int * Left *TreeNode * Right *TreeNode * } */ func deleteNode(root *TreeNode, key int) *TreeNode { if root !</description>
+ func defangIPaddr(address string) string { return strings.ReplaceAll(address, &amp;#34;.&amp;#34;, &amp;#34;[.]&amp;#34;) } func defangIPaddr(address string) string { var s strings.Builder for i := range address { if address[i] == &amp;#39;.&amp;#39; { s.WriteString(&amp;#34;[.]&amp;#34;) } else { s.WriteByte(address[i]) } } return s.String() } 6.13-1051. 高度检查器 难度：简单
+ 模拟
+ func heightChecker(heights []int) int { n := len(heights) cnt := 0 ars := make([]int, n) copy(ars, heights) sort.</description>
     </item>
     
   </channel>
