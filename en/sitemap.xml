@@ -3,16 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://xiaotuanzijiang.github.io/posts/</loc>
-    <lastmod>2022-06-19T22:29:57+08:00</lastmod>
-  </url><url>
-    <loc>https://xiaotuanzijiang.github.io/tags/springboot/</loc>
-    <lastmod>2022-06-19T22:29:57+08:00</lastmod>
-  </url><url>
-    <loc>https://xiaotuanzijiang.github.io/posts/springboot/</loc>
-    <lastmod>2022-06-19T22:29:57+08:00</lastmod>
+    <lastmod>2022-07-09T14:50:50+08:00</lastmod>
   </url><url>
     <loc>https://xiaotuanzijiang.github.io/tags/</loc>
-    <lastmod>2022-06-19T22:29:57+08:00</lastmod>
+    <lastmod>2022-07-09T14:50:50+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
@@ -29,8 +23,14 @@
                 href="https://xiaotuanzijiang.github.io/tags/"
                 />
   </url><url>
+    <loc>https://xiaotuanzijiang.github.io/tags/vue/</loc>
+    <lastmod>2022-07-09T14:50:50+08:00</lastmod>
+  </url><url>
+    <loc>https://xiaotuanzijiang.github.io/posts/vue-dplayer/</loc>
+    <lastmod>2022-07-09T14:50:50+08:00</lastmod>
+  </url><url>
     <loc>https://xiaotuanzijiang.github.io/</loc>
-    <lastmod>2022-06-19T22:29:57+08:00</lastmod>
+    <lastmod>2022-07-09T14:50:50+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
@@ -46,6 +46,12 @@
                 hreflang="en"
                 href="https://xiaotuanzijiang.github.io/"
                 />
+  </url><url>
+    <loc>https://xiaotuanzijiang.github.io/tags/springboot/</loc>
+    <lastmod>2022-06-19T22:29:57+08:00</lastmod>
+  </url><url>
+    <loc>https://xiaotuanzijiang.github.io/posts/springboot/</loc>
+    <lastmod>2022-06-19T22:29:57+08:00</lastmod>
   </url><url>
     <loc>https://xiaotuanzijiang.github.io/tags/leetcode/</loc>
     <lastmod>2022-05-30T00:00:00+00:00</lastmod>
