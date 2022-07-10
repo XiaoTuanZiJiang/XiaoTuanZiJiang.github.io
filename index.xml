@@ -9,7 +9,16 @@
       <link>https://xiaotuanzijiang.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 09 Jul 2022 14:50:50 +0800</lastBuildDate><atom:link href="https://xiaotuanzijiang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Jul 2022 22:07:12 +0800</lastBuildDate><atom:link href="https://xiaotuanzijiang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JAVA</title>
+      <link>https://xiaotuanzijiang.github.io/posts/java/</link>
+      <pubDate>Sun, 10 Jul 2022 22:07:12 +0800</pubDate>
+      
+      <guid>https://xiaotuanzijiang.github.io/posts/java/</guid>
+      <description>一、七种遍历Map的方法 1、forEach+Map.EntrySet for (Map.Entry&amp;lt;Integer, String&amp;gt; entry : map.entrySet()) { System.out.println(entry.getKey() + entry.getValue()); } 2、iterator+Map.Entry Iterator&amp;lt;Map.Entry&amp;lt;Integer, String&amp;gt;&amp;gt; iterator = map.entrySet().iterator(); while (iterator.hasNext()) { Map.Entry&amp;lt;Integer, String&amp;gt; next = iterator.next(); System.out.println(next.getKey() + next.getValue()); } 3、keySet+forEach for (Integer key : map.keySet()) { System.out.println(key + map.get(key)); } 4、keySet+iterator Iterator&amp;lt;Integer&amp;gt; iterator = map.keySet().iterator(); while (iterator.hasNext()) { Integer next = iterator.next(); System.out.println(next + map.get(next)); } 5、entry+stream map.entrySet().stream().forEach(entry -&amp;gt; System.out.println(entry.getKey() + entry.getValue())); 6、stream并行 map.entrySet().stream().parallel().forEach(entry -&amp;gt; System.out.println(entry.getKey() + entry.getValue())); 7、forEach+lambda map.</description>
+    </item>
+    
     <item>
       <title>Vue-Dplayer</title>
       <link>https://xiaotuanzijiang.github.io/posts/vue-dplayer/</link>
