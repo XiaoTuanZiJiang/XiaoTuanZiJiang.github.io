@@ -16,11 +16,9 @@
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://xiaotuanzijiang.github.io/posts/leetcode/</guid>
-      <description>LeetCode 7-28-1331. 数组序号转换 难度：简单
- HashMap
- func arrayRankTransform(arr []int) []int { arrcopy := make([]int, len(arr)) copy(arrcopy, arr) sort.Ints(arrcopy) arrmap := make(map[int]int, len(arrcopy)) i := 0 for _, n := range arrcopy{ i++ if _, ok := arrmap[n]; ok { i-- continue } arrmap[n] = i } for i, n := range arr { arr[i] = arrmap[n] } return arr } 7-24-1184. 公交站间的距离 难度：简单
- 模拟
- func distanceBetweenBusStops(distance []int, start int, destination int) int { if start &amp;gt; destination { return distanceBetweenBusStops(distance, destination, start) } aSum := 0 bSum := 0 for i := 0; i &amp;lt; len(distance); i++ { if i &amp;gt;= start &amp;amp;&amp;amp; i &amp;lt; destination { aSum += distance[i] } else { bSum += distance[i] } } return int(math.</description>
+      <description>LeetCode 7-31-1161. 最大层内元素和 难度：中等
+ 二叉树层序遍历
+ /** * Definition for a binary tree node. * type TreeNode struct { * Val int * Left *TreeNode * Right *TreeNode * } */ func maxLevelSum(root *TreeNode) int { ans, num, level, queue := 1, -int(1E9), 1, []*TreeNode{root} for len(queue) &amp;gt; 0 { size, sum := len(queue), 0 for i := 0; i &amp;lt; size; i++ { sum += queue[i].Val if queue[i].Left !</description>
     </item>
     
   </channel>
